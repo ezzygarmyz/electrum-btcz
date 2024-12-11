@@ -57,7 +57,7 @@ if sys.platform == 'win32':
     ]
 elif sys.platform == 'linux':
     binaries = [
-        ('/usr/lib/x86_64-linux-gnu/libusb-1.0.so', '.')
+        ('/usr/lib/x86_64-linux-gnu/libusb-1.0.so.0.4.0', '.')
     ]
 
 sys.modules['FixTk'] = None

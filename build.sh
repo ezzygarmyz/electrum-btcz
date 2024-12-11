@@ -4,7 +4,10 @@ echo "Installing system dependencies..."
 
 # Update package list and install system dependencies
 sudo apt update
-sudo apt install -y build-essential python3-setuptools python3 python3-pip python3-venv python3-PyQt6 protobuf-compiler
+sudo apt install -y software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install -y build-essential python3-setuptools python3.8 python3.8-venv python3.8-dev python3-pyqt5 protobuf-compiler
 
 echo "Checking if Python is installed..."
 if ! command -v python3 &>/dev/null; then
@@ -16,7 +19,7 @@ fi
 
 
 echo "Creating virtual environment..."
-python3 -m venv env
+python3.8 -m venv env
 if [ $? -ne 0 ]; then
     echo "ERROR: Failed to create virtual environment."
     exit 1
@@ -33,7 +36,7 @@ fi
 echo "Installing required dependencies..."
 pip install PyQt5
 if [ $? -ne 0 ]; then
-    echo "ERROR: Failed to install PyQt6."
+    echo "ERROR: Failed to install PyQt5."
     exit 1
 fi
 
