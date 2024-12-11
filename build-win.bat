@@ -1,5 +1,6 @@
 @echo off
-REM -- Check if Python is installed --
+
+REM 
 
 echo Checking if Python is installed...
 python --version >nul 2>&1
@@ -10,7 +11,7 @@ IF %ERRORLEVEL% NEQ 0 (
     echo Python is installed.
 )
 
-REM -- Create and activate virtual environment --
+REM 
 
 echo Creating virtual environment...
 python -m venv env
@@ -26,7 +27,7 @@ IF %ERRORLEVEL% NEQ 0 (
     exit /b 1
 )
 
-REM -- Install dependencies --
+REM 
 
 echo Installing required dependencies...
 pip install pyqt5
@@ -49,7 +50,7 @@ IF %ERRORLEVEL% NEQ 0 (
     exit /b 1
 )
 
-REM -- Run PyInstaller to package the app --
+REM 
 
 echo Running PyInstaller to package the app...
 pyinstaller deterministic.spec
@@ -58,12 +59,12 @@ IF %ERRORLEVEL% NEQ 0 (
     exit /b 1
 )
 
-REM -- Deactivate virtual environment --
+REM 
 
 echo Deactivating virtual environment...
 call .\env\Scripts\deactivate.bat
 
-REM -- Check if NSIS is installed and compile NSIS script --
+REM 
 
 set NSIS_DIR="C:\Program Files (x86)\NSIS\Bin"
 if EXIST %NSIS_DIR%\makensis.exe (

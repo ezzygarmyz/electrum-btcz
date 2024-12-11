@@ -1,7 +1,7 @@
-# -*- mode: python -*-
-import sys
-from PyInstaller.utils.hooks import collect_data_files, collect_submodules
 
+import sys
+import os
+from PyInstaller.utils.hooks import collect_data_files, collect_submodules
 
 cmdline_name = 'electrum-btcz'
 
@@ -11,7 +11,8 @@ hiddenimports += collect_submodules('trezorlib')
 hiddenimports += collect_submodules('btchip')
 hiddenimports += collect_submodules('keepkeylib')
 hiddenimports += collect_submodules('websocket')
-hiddenimports += collect_submodules('pyzbar')
+hiddenimports += collect_submodules('cv2')
+hiddenimports += collect_submodules('PIL')
 hiddenimports += [
     'lib',
     'lib.base_wizard',
@@ -21,11 +22,8 @@ hiddenimports += [
     'gui.qt',
     'PyQt5.sip',
     'PyQt5.QtPrintSupport',
-
     'plugins',
-
     'plugins.hw_wallet.qt',
-
     'plugins.audio_modem.qt',
     'plugins.cosigner_pool.qt',
     'plugins.digitalbitbox.qt',
@@ -53,13 +51,14 @@ datas += collect_data_files('pyzbar')
 
 if sys.platform == 'win32':
     binaries = [
-        ('env/Lib/site-packages/usb1/libusb-1.0.dll', '.')
+        ('env/Lib/site-packages/usb1/libusb-1.0.dll', '.'),
     ]
 elif sys.platform == 'linux':
     binaries = [
-        ('/usr/lib/x86_64-linux-gnu/libusb-1.0.so.0.4.0', '.')
+        ('/usr/lib/x86_64-linux-gnu/libusb-1.0.so', '.'),
     ]
 
+# Avoid unwanted modules being bundled
 sys.modules['FixTk'] = None
 excludes = ['FixTk', 'tcl', 'tk', '_tkinter', 'tkinter', 'Tkinter']
 excludes += [
@@ -95,6 +94,7 @@ excludes += [
     'PyQt5.QtWinExtras',
 ]
 
+# Build the analysis object
 a = Analysis(['electrum-btcz'],
              pathex=['plugins'],
              hiddenimports=hiddenimports,
@@ -112,11 +112,11 @@ for d in a.datas:
 # Add TOC to electrum_zcash, electrum_zcash_gui, electrum_zcash_plugins
 for p in sorted(a.pure):
     if p[0].startswith('lib') and p[2] == 'PYMODULE':
-        a.pure += [('electrum_zcash%s' % p[0][3:] , p[1], p[2])]
+        a.pure += [('electrum_zcash%s' % p[0][3:], p[1], p[2])]
     if p[0].startswith('gui') and p[2] == 'PYMODULE':
-        a.pure += [('electrum_zcash_gui%s' % p[0][3:] , p[1], p[2])]
+        a.pure += [('electrum_zcash_gui%s' % p[0][3:], p[1], p[2])]
     if p[0].startswith('plugins') and p[2] == 'PYMODULE':
-        a.pure += [('electrum_zcash_plugins%s' % p[0][7:] , p[1], p[2])]
+        a.pure += [('electrum_zcash_plugins%s' % p[0][7:], p[1], p[2])]
 
 pyz = PYZ(a.pure)
 
@@ -128,24 +128,31 @@ exe = EXE(pyz,
           upx=False,
           console=False,
           icon='icons/electrum-btcz.ico',
-          name=os.path.join('build\\pyi.win32\\electrum', cmdline_name))
+          name=os.path.join('dist', cmdline_name))
 
-# exe with console output
-conexe = EXE(pyz,
-          a.scripts,
-          exclude_binaries=True,
-          debug=False,
-          strip=False,
-          upx=False,
-          console=True,
-          icon='icons/electrum-btcz.ico',
-          name=os.path.join('build\\pyi.win32\\electrum',
-                            'console-%s' % cmdline_name))
-                  
+if sys.platform == 'win32':
+    conexe = EXE(pyz,
+                 a.scripts,
+                 exclude_binaries=True,
+                 debug=False,
+                 strip=False,
+                 upx=False,
+                 console=True,
+                 icon='icons/electrum-btcz.ico',
+                 name=os.path.join('dist', 'console-%s' % cmdline_name))
+    
+    coll = COLLECT(exe, conexe,
+                   a.binaries,
+                   a.datas,
+                   strip=False,
+                   upx=False,
+                   name=os.path.join('dist', cmdline_name))
+                   
+elif sys.platform == 'linux':
+    coll = COLLECT(exe,
+                   a.binaries,
+                   a.datas,
+                   strip=False,
+                   upx=False,
+                   name=os.path.join('dist', cmdline_name))
 
-coll = COLLECT(exe, conexe,
-               a.binaries,
-               a.datas,
-               strip=False,
-               upx=False,
-               name=os.path.join('dist', cmdline_name))

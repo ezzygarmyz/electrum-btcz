@@ -10,3 +10,5 @@ PySocks
 pyblake2
 pyinstaller
 pyzbar
+opencv-python
+Pillow

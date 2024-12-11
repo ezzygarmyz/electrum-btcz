@@ -15,9 +15,6 @@ if [ -d "$DIST_DIR" ]; then
     sudo rm -rf "$DIST_DIR"
 fi
 
-echo "Creating new dist directory..."
-mkdir -p "$DIST_DIR"
-
 
 echo "Building Docker image..."
 sudo docker build -t $IMAGE_NAME .

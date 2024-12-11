@@ -26,53 +26,56 @@
 import os
 import sys
 import time
-import ctypes
-
-if sys.platform == 'darwin':
-    name = 'libzbar.dylib'
-elif sys.platform in ('windows', 'win32'):
-    name = 'libzbar-0.dll'
-else:
-    name = 'libzbar.so.0'
-
-try:
-    libzbar = ctypes.cdll.LoadLibrary(name)
-except BaseException:
-    libzbar = None
-
+from pyzbar.pyzbar import decode
+from PIL import Image
 
 def scan_barcode(device='', timeout=-1, display=True, threaded=False, try_cnt=10):
-    if libzbar is None:
-        raise RuntimeError("Cannot start QR scanner; zbar not available.")
-    libzbar.zbar_symbol_get_data.restype = ctypes.c_char_p
-    libzbar.zbar_processor_create.restype = ctypes.POINTER(ctypes.c_int)
-    libzbar.zbar_processor_get_results.restype = ctypes.POINTER(ctypes.c_int)
-    libzbar.zbar_symbol_set_first_symbol.restype = ctypes.POINTER(ctypes.c_int)
-    proc = libzbar.zbar_processor_create(threaded)
-    libzbar.zbar_processor_request_size(proc, 640, 480)
-    if libzbar.zbar_processor_init(proc, device.encode('utf-8'), display) != 0:
-        if try_cnt > 0:
-            try_cnt -= 1
-            time.sleep(0.1)
-            # workaround for a bug in "ZBar for Windows"
-            # libzbar.zbar_processor_init always seem to fail the first time around
-            return scan_barcode(device, timeout, display, threaded, try_cnt)
-        raise RuntimeError("Can not start QR scanner; initialization failed.")
-    libzbar.zbar_processor_set_visible(proc)
-    if libzbar.zbar_process_one(proc, timeout):
-        symbols = libzbar.zbar_processor_get_results(proc)
-    else:
-        symbols = None
-    libzbar.zbar_processor_destroy(proc)
-    if symbols is None:
-        return
-    if not libzbar.zbar_symbol_set_get_size(symbols):
-        return
-    symbol = libzbar.zbar_symbol_set_first_symbol(symbols)
-    data = libzbar.zbar_symbol_get_data(symbol)
-    return data.decode('utf8')
+    if not device:
+        device = 0  # Default to first camera
+    try:
+        from cv2 import VideoCapture
+    except ImportError:
+        raise RuntimeError("OpenCV is required for capturing video.")
+    
+    # Open the video capture device
+    cap = VideoCapture(device)
+    if not cap.isOpened():
+        raise RuntimeError(f"Cannot open device {device}")
+    
+    cap.set(3, 640)  # Set frame width
+    cap.set(4, 480)  # Set frame height
+    
+    start_time = time.time()
+    
+    while True:
+        ret, frame = cap.read()
+        if not ret:
+            continue
+        
+        # Decode the barcode from the frame using pyzbar
+        decoded_objects = decode(frame)
+        if decoded_objects:
+            # Return the data of the first decoded object
+            return decoded_objects[0].data.decode('utf-8')
+        
+        # Check timeout
+        if timeout > 0 and time.time() - start_time > timeout:
+            break
+
+        # Display the frame if required
+        if display:
+            from cv2 import imshow
+            from cv2 import waitKey
+            imshow('Scanning...', frame)
+            if waitKey(1) & 0xFF == ord('q'):
+                break
+    
+    cap.release()
+    return None
+
 
 def _find_system_cameras():
+    # Function to list available cameras (not necessary for pyzbar)
     device_root = "/sys/class/video4linux"
     devices = {} # Name -> device
     if os.path.exists(device_root):

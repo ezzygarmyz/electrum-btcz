@@ -7,7 +7,7 @@
 ;--------------------------------
 ;Variables
 
-  !define PRODUCT_VERSION "3.1.4b1"
+  !define PRODUCT_VERSION "1.0.1"
   !define PRODUCT_NAME "Electrum-BTCZ"
   !define PRODUCT_WEB_SITE "https://github.com/btcz/electrum-btcz"
   !define PRODUCT_PUBLISHER "Electrum Technologies GmbH"
