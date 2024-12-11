@@ -66,6 +66,10 @@ call .\env\Scripts\deactivate.bat
 
 REM 
 
+del /f /q "dist\electrum-btcz\electrum-btcz-portable.exe"
+
+REM 
+
 set NSIS_DIR="C:\Program Files (x86)\NSIS\Bin"
 if EXIST %NSIS_DIR%\makensis.exe (
     echo NSIS is installed. Compiling installer...
