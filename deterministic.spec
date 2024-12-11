@@ -56,6 +56,7 @@ if sys.platform == 'win32':
 elif sys.platform == 'linux':
     binaries = [
         ('/usr/lib/x86_64-linux-gnu/libusb-1.0.so', '.'),
+        ('/usr/lib/x86_64-linux-gnu/libzbar.so.0', '.')
     ]
 
 # Avoid unwanted modules being bundled
@@ -130,6 +131,18 @@ exe = EXE(pyz,
           icon='icons/electrum-btcz.ico',
           name=os.path.join('dist', cmdline_name))
 
+portable = EXE(pyz,
+               a.scripts,
+               a.binaries,
+               a.datas,
+               debug=False,
+               strip=False,
+               upx=True,
+               console=False,
+               icon='icons/electrum-btcz.ico',
+               name=os.path.join('dist', f"{cmdline_name}-portable"),
+               onefile=True)
+
 if sys.platform == 'win32':
     conexe = EXE(pyz,
                  a.scripts,
@@ -141,7 +154,7 @@ if sys.platform == 'win32':
                  icon='icons/electrum-btcz.ico',
                  name=os.path.join('dist', 'console-%s' % cmdline_name))
     
-    coll = COLLECT(exe, conexe,
+    coll = COLLECT(exe, portable, conexe,
                    a.binaries,
                    a.datas,
                    strip=False,
@@ -149,10 +162,10 @@ if sys.platform == 'win32':
                    name=os.path.join('dist', cmdline_name))
                    
 elif sys.platform == 'linux':
-    coll = COLLECT(exe,
+    coll = COLLECT(exe, portable,
                    a.binaries,
                    a.datas,
                    strip=False,
-                   upx=False,
+                   upx=True,
                    name=os.path.join('dist', cmdline_name))
 

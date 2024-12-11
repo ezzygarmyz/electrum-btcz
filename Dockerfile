@@ -12,6 +12,7 @@ RUN apt-get update && \
     protobuf-compiler \
     python3-setuptools \
     libusb-1.0-0-dev \
+    libzbar0 \
     git && \
     add-apt-repository ppa:deadsnakes/ppa && \
     apt-get update && \
@@ -31,9 +32,5 @@ RUN protoc --proto_path=lib/ --python_out=lib/ lib/paymentrequest.proto
 
 RUN pyrcc5 icons.qrc -o gui/qt/icons_rc.py
 
-RUN . ./env/bin/activate && pip install .[full]
-
-RUN . ./env/bin/activate && pyinstaller deterministic.spec
-
-RUN deactivate
+RUN . ./env/bin/activate && pip install .[full] && pyinstaller deterministic.spec
 

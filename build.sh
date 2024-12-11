@@ -1,13 +1,10 @@
 #!/bin/bash
 
-echo "Installing system dependencies..."
-
-# Update package list and install system dependencies
 sudo apt update
 sudo apt install -y software-properties-common
-sudo add-apt-repository ppa:deadsnakes/ppa
+add-apt-repository ppa:deadsnakes/ppa
 sudo apt update
-sudo apt install -y build-essential python3-setuptools python3.8 python3.8-venv python3.8-dev python3-pyqt5 protobuf-compiler libusb-1.0-0-dev
+sudo apt install -y build-essential python3-setuptools python3.9 python3.9-venv python3.9-dev python3-pyqt5 protobuf-compiler libusb-1.0-0-dev libzbar0
 
 echo "Checking if Python is installed..."
 if ! command -v python3 &>/dev/null; then
@@ -19,7 +16,7 @@ fi
 
 
 echo "Creating virtual environment..."
-python3.8 -m venv env
+python3.9 -m venv env
 if [ $? -ne 0 ]; then
     echo "ERROR: Failed to create virtual environment."
     exit 1
