@@ -64,12 +64,17 @@ def check_imports():
 if not is_android:
     check_imports()
 
-# load local module as electrum
 if is_local or is_android:
-    import imp
-    imp.load_module('electrum_zcash', *imp.find_module('lib'))
-    imp.load_module('electrum_zcash_gui', *imp.find_module('gui'))
-    imp.load_module('electrum_zcash_plugins', *imp.find_module('plugins'))
+    import importlib.util
+    def load_module(name, path):
+        spec = importlib.util.spec_from_file_location(name, path)
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        return module
+
+    electrum_btcz = load_module('electrum_zcash', os.path.join(script_dir, 'lib', '__init__.py'))
+    electrum_btcz_gui = load_module('electrum_zcash_gui', os.path.join(script_dir, 'gui', '__init__.py'))
+    electrum_btcz_plugins = load_module('electrum_zcash_plugins', os.path.join(script_dir, 'plugins', '__init__.py'))
 
 
 

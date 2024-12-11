@@ -10,5 +10,17 @@
         "s": "50002",
         "t": "50001",
         "version": "1.2"
+    },
+    "electrum3.btcz.rocks": {
+        "pruning": "-",
+        "s": "50002",
+        "t": "50001",
+        "version": "1.2"
+    },
+    "electrum5.btcz.rocks": {
+        "pruning": "-",
+        "s": "50002",
+        "t": "50001",
+        "version": "1.2"
     }
 }

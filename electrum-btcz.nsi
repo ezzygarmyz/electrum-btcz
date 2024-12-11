@@ -7,11 +7,12 @@
 ;--------------------------------
 ;Variables
 
+  !define PRODUCT_VERSION "3.1.4b1"
   !define PRODUCT_NAME "Electrum-BTCZ"
-  !define PRODUCT_WEB_SITE "https://github.com/zebra-lucky/electrum-zcash"
+  !define PRODUCT_WEB_SITE "https://github.com/btcz/electrum-btcz"
   !define PRODUCT_PUBLISHER "Electrum Technologies GmbH"
   !define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\${PRODUCT_NAME}"
-  !define BUILD_ARCH "${WINEARCH}"
+  !define BUILD_ARCH "x64"
 
 ;--------------------------------
 ;General
@@ -60,7 +61,7 @@
   VIAddVersionKey ProductName "${PRODUCT_NAME} Installer"
   VIAddVersionKey Comments "The installer for ${PRODUCT_NAME}"
   VIAddVersionKey CompanyName "${PRODUCT_NAME}"
-  VIAddVersionKey LegalCopyright "2013-2016 ${PRODUCT_PUBLISHER}"
+  VIAddVersionKey LegalCopyright "2013-2024 ${PRODUCT_PUBLISHER}"
   VIAddVersionKey FileDescription "${PRODUCT_NAME} Installer"
   VIAddVersionKey FileVersion ${PRODUCT_VERSION}
   VIAddVersionKey ProductVersion ${PRODUCT_VERSION}
@@ -134,21 +135,21 @@ Section
 
   ;Create desktop shortcut
   DetailPrint "Creating desktop shortcut..."
-  CreateShortCut "$DESKTOP\${PRODUCT_NAME}.lnk" "$INSTDIR\electrum-btcz-${PRODUCT_VERSION}.exe" ""
+  CreateShortCut "$DESKTOP\${PRODUCT_NAME}.lnk" "$INSTDIR\electrum-btcz.exe" ""
 
   ;Create start-menu items
   DetailPrint "Creating start-menu items..."
   CreateDirectory "$SMPROGRAMS\${PRODUCT_NAME}"
   CreateShortCut "$SMPROGRAMS\${PRODUCT_NAME}\Uninstall.lnk" "$INSTDIR\Uninstall.exe" "" "$INSTDIR\Uninstall.exe" 0
-  CreateShortCut "$SMPROGRAMS\${PRODUCT_NAME}\${PRODUCT_NAME}.lnk" "$INSTDIR\electrum-btcz-${PRODUCT_VERSION}.exe" "" "$INSTDIR\electrum-btcz-${PRODUCT_VERSION}.exe" 0
-  CreateShortCut "$SMPROGRAMS\${PRODUCT_NAME}\${PRODUCT_NAME} Testnet.lnk" "$INSTDIR\electrum-btcz-${PRODUCT_VERSION}.exe" "--testnet" "$INSTDIR\electrum-btcz-${PRODUCT_VERSION}.exe" 0
+  CreateShortCut "$SMPROGRAMS\${PRODUCT_NAME}\${PRODUCT_NAME}.lnk" "$INSTDIR\electrum-btcz.exe" "" "$INSTDIR\electrum-btcz.exe" 0
+  CreateShortCut "$SMPROGRAMS\${PRODUCT_NAME}\${PRODUCT_NAME} Testnet.lnk" "$INSTDIR\electrum-btcz.exe" "--testnet" "$INSTDIR\electrum-btcz.exe" 0
 
 
   ;Links bitcoinz: URI's to Electrum
   WriteRegStr HKCU "Software\Classes\btcz" "" "URL:bitcoinz Protocol"
   WriteRegStr HKCU "Software\Classes\btcz" "URL Protocol" ""
   WriteRegStr HKCU "Software\Classes\btcz" "DefaultIcon" "$\"$INSTDIR\electrum-btcz.ico, 0$\""
-  WriteRegStr HKCU "Software\Classes\btcz\shell\open\command" "" "$\"$INSTDIR\electrum-btcz-${PRODUCT_VERSION}.exe$\" $\"%1$\""
+  WriteRegStr HKCU "Software\Classes\btcz\shell\open\command" "" "$\"$INSTDIR\electrum-btcz.exe$\" $\"%1$\""
 
   ;Adds an uninstaller possibility to Windows Uninstall or change a program section
   WriteRegStr HKCU "${PRODUCT_UNINST_KEY}" "DisplayName" "$(^Name)"

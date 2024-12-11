@@ -3,17 +3,15 @@ import sys
 from PyInstaller.utils.hooks import collect_data_files, collect_submodules
 
 
-for i, x in enumerate(sys.argv):
-    if x == '--name':
-        cmdline_name = sys.argv[i+1]
-        break
-else:
-    raise Exception('no name')
+cmdline_name = 'electrum-btcz'
 
-hiddenimports = collect_submodules('trezorlib')
+hiddenimports = []
+hiddenimports += collect_submodules('pkg_resources')
+hiddenimports += collect_submodules('trezorlib')
 hiddenimports += collect_submodules('btchip')
 hiddenimports += collect_submodules('keepkeylib')
 hiddenimports += collect_submodules('websocket')
+hiddenimports += collect_submodules('pyzbar')
 hiddenimports += [
     'lib',
     'lib.base_wizard',
@@ -21,6 +19,8 @@ hiddenimports += [
     'lib.qrscanner',
     'lib.websockets',
     'gui.qt',
+    'PyQt5.sip',
+    'PyQt5.QtPrintSupport',
 
     'plugins',
 
@@ -43,17 +43,23 @@ datas = [
     ('lib/servers_testnet.json', 'electrum_zcash'),
     ('lib/servers_regtest.json', 'electrum_zcash'),
     ('lib/currencies.json', 'electrum_zcash'),
-    ('lib/locale', 'electrum_zcash/locale'),
     ('lib/wordlist', 'electrum_zcash/wordlist'),
-    ('C:\\zbarw', '.'),
+    ('lib/locale', 'electrum_zcash/locale')
 ]
 datas += collect_data_files('trezorlib')
 datas += collect_data_files('btchip')
 datas += collect_data_files('keepkeylib')
+datas += collect_data_files('pyzbar')
 
-binaries = [('C:/Python36/libusb-1.0.dll', '.')]
+if sys.platform == 'win32':
+    binaries = [
+        ('env/Lib/site-packages/usb1/libusb-1.0.dll', '.')
+    ]
+elif sys.platform == 'linux':
+    binaries = [
+        ('/usr/lib/x86_64-linux-gnu/libusb-1.0.so', '.')
+    ]
 
-# https://github.com/pyinstaller/pyinstaller/wiki/Recipe-remove-tkinter-tcl
 sys.modules['FixTk'] = None
 excludes = ['FixTk', 'tcl', 'tk', '_tkinter', 'tkinter', 'Tkinter']
 excludes += [
@@ -135,27 +141,11 @@ conexe = EXE(pyz,
           icon='icons/electrum-btcz.ico',
           name=os.path.join('build\\pyi.win32\\electrum',
                             'console-%s' % cmdline_name))
+                  
 
-# trezorctl separate executable
-tctl_a = Analysis(['C:/Python36/Scripts/trezorctl'],
-                  hiddenimports=['pkgutil'],
-                  excludes=excludes,
-                  runtime_hooks=['pyi_tctl_runtimehook.py'])
-
-tctl_pyz = PYZ(tctl_a.pure)
-
-tctl_exe = EXE(tctl_pyz,
-           tctl_a.scripts,
-           exclude_binaries=True,
-           debug=False,
-           strip=False,
-           upx=False,
-           console=True,
-           name=os.path.join('build\\pyi.win32\\electrum', 'trezorctl.exe'))
-
-coll = COLLECT(exe, conexe, tctl_exe,
+coll = COLLECT(exe, conexe,
                a.binaries,
                a.datas,
                strip=False,
                upx=False,
-               name=os.path.join('dist', 'electrum-btcz'))
+               name=os.path.join('dist', cmdline_name))

@@ -506,8 +506,8 @@ def time_difference(distance_in_time, include_seconds):
         return "over %d years" % (round(distance_in_minutes / 525600))
 
 mainnet_block_explorers = {
-    'blockexplorer.com': ('https://explorer.btcz.rocks/',
-                        {'tx': 'tx/', 'addr': 'addresses/'}),
+    'explorer.btcz.rocks': ('https://explorer.btcz.rocks/',
+                        {'tx': 'tx/', 'addr': 'address/'}),
     'system default': ('blockchain:/',
                         {'tx': 'tx/', 'addr': 'address/'}),
 }
@@ -524,7 +524,7 @@ def block_explorer_info():
     return testnet_block_explorers if constants.net.TESTNET else mainnet_block_explorers
 
 def block_explorer(config):
-    return config.get('block_explorer', 'blockexplorer.com')
+    return config.get('block_explorer', 'explorer.btcz.rocks')
 
 def block_explorer_tuple(config):
     return block_explorer_info().get(block_explorer(config))

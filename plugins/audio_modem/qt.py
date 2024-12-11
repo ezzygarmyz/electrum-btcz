@@ -32,9 +32,12 @@ class Plugin(BasePlugin):
         BasePlugin.__init__(self, parent, config, name)
         if self.is_available():
             self.modem_config = amodem.config.slowest()
+            
             self.library_name = {
-                'Linux': 'libportaudio.so'
-            }[platform.system()]
+                'Linux': 'libportaudio.so',
+                'Darwin': 'libportaudio.dylib',
+                'Windows': 'portaudio.dll'
+            }.get(platform.system(), None)
 
     def is_available(self):
         return amodem is not None

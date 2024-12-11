@@ -1,0 +1,7171 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# Leon White <leon.white@dash.org>, 2018
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Dash Electrum 3.3.8.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-30 22:57+0300\n"
+"PO-Revision-Date: 2018-12-09 13:08+0000\n"
+"Last-Translator: Leon White <leon.white@dash.org>, 2018\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/dash/teams/37570/"
+"zh_CN/)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: electrum_zcash/exchange_rate.py:425
+msgid "  (No FX rate available)"
+msgstr "  (无可用汇率)"
+
+#: electrum_zcash/gui/qt/history_list.py:331
+#, fuzzy
+msgid " confirmation"
+msgstr "{} 确认"
+
+#: electrum_zcash/gui/qt/main_window.py:753
+msgid "&About"
+msgstr "关于(&A)"
+
+#: electrum_zcash/gui/qt/main_window.py:228
+#: electrum_zcash/gui/qt/main_window.py:687
+msgid "&Addresses"
+msgstr "地址"
+
+#: electrum_zcash/gui/qt/main_window.py:758
+msgid "&Automated Crash Reports"
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:763
+msgid "&Bitcoin Paper"
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:754
+msgid "&Check for updates"
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:689
+msgid "&Coins"
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:757
+msgid "&Documentation"
+msgstr "帮助文档(&D)"
+
+#: electrum_zcash/gui/qt/main_window.py:766
+msgid "&Donate to server"
+msgstr "贊助服务器"
+
+#: electrum_zcash/gui/qt/main_window.py:739
+msgid "&Encrypt/decrypt message"
+msgstr "加密/解密消息(&E)"
+
+#: electrum_zcash/gui/qt/main_window.py:683
+#: electrum_zcash/gui/qt/main_window.py:693
+#: electrum_zcash/gui/qt/main_window.py:698
+msgid "&Export"
+msgstr "导出(&E)"
+
+#: electrum_zcash/gui/qt/main_window.py:666
+msgid "&File"
+msgstr "文件(&F)"
+
+#: electrum_zcash/gui/qt/main_window.py:688
+#: electrum_zcash/gui/qt/main_window.py:690
+#: electrum_zcash/gui/qt/main_window.py:695
+msgid "&Filter"
+msgstr "过滤器(&F)"
+
+#: electrum_zcash/gui/qt/main_window.py:748
+msgid "&From QR code"
+msgstr "从二维码(&F)"
+
+#: electrum_zcash/gui/qt/main_window.py:745
+msgid "&From file"
+msgstr "从文件(&F)"
+
+#: electrum_zcash/gui/qt/main_window.py:746
+msgid "&From text"
+msgstr "从文本(&F)"
+
+#: electrum_zcash/gui/qt/main_window.py:747
+msgid "&From the blockchain"
+msgstr "从 Blockchain (&F)"
+
+#: electrum_zcash/gui/qt/main_window.py:752
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#: electrum_zcash/gui/qt/main_window.py:694
+msgid "&History"
+msgstr "历史记录"
+
+#: electrum_zcash/gui/qt/main_window.py:682
+#: electrum_zcash/gui/qt/main_window.py:692
+msgid "&Import"
+msgstr "导入(&I)"
+
+#: electrum_zcash/gui/qt/main_window.py:676
+msgid "&Information"
+msgstr "消息（&I）"
+
+#: electrum_zcash/gui/qt/main_window.py:691
+msgid "&Labels"
+msgstr "&标签"
+
+#: electrum_zcash/gui/qt/main_window.py:744
+msgid "&Load transaction"
+msgstr "加载交易(&L)"
+
+#: electrum_zcash/gui/qt/main_window.py:735
+msgid "&Network"
+msgstr "&网络"
+
+#: electrum_zcash/gui/qt/main_window.py:700
+msgid "&New"
+msgstr "新建"
+
+#: electrum_zcash/gui/qt/main_window.py:669
+msgid "&New/Restore"
+msgstr "新建/恢复(&N)"
+
+#: electrum_zcash/gui/qt/main_window.py:755
+msgid "&Official website"
+msgstr "官方网站(&O)"
+
+#: electrum_zcash/gui/qt/main_window.py:668
+msgid "&Open"
+msgstr "打开(&O)"
+
+#: electrum_zcash/gui/qt/main_window.py:678
+msgid "&Password"
+msgstr "密码(&P)"
+
+#: electrum_zcash/gui/qt/main_window.py:742
+msgid "&Pay to many"
+msgstr "&支付到多人"
+
+#: electrum_zcash/gui/qt/main_window.py:697
+msgid "&Plot"
+msgstr "绘图 (&P)"
+
+#: electrum_zcash/gui/qt/main_window.py:736
+msgid "&Plugins"
+msgstr "插件(&P)"
+
+#: electrum_zcash/gui/qt/main_window.py:680
+msgid "&Private keys"
+msgstr "私钥(&P)"
+
+#: electrum_zcash/gui/qt/main_window.py:673
+msgid "&Quit"
+msgstr "退出(&Q)"
+
+#: electrum_zcash/gui/qt/main_window.py:667
+msgid "&Recently open"
+msgstr "最近开啟"
+
+#: electrum_zcash/gui/qt/main_window.py:764
+msgid "&Report Bug"
+msgstr "报告问题(&R)"
+
+#: electrum_zcash/gui/qt/main_window.py:670
+#, fuzzy
+msgid "&Save backup"
+msgstr "保存副本(&S)"
+
+#: electrum_zcash/gui/qt/main_window.py:679
+msgid "&Seed"
+msgstr "种子(&S)"
+
+#: electrum_zcash/gui/qt/main_window.py:738
+msgid "&Sign/verify message"
+msgstr "签名/验证消息(&S)"
+
+#: electrum_zcash/gui/qt/main_window.py:696
+msgid "&Summary"
+msgstr "概要(&S)"
+
+#: electrum_zcash/gui/qt/main_window.py:681
+msgid "&Sweep"
+msgstr "扫描(&S)"
+
+#: electrum_zcash/gui/qt/main_window.py:724
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#: electrum_zcash/gui/qt/main_window.py:718
+msgid "&View"
+msgstr "视图"
+
+#: electrum_zcash/gui/qt/main_window.py:675
+msgid "&Wallet"
+msgstr "钱包(&W)"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:606
+msgid "(Touch {} of {})"
+msgstr "(点击 {} 的 {})"
+
+#: electrum_zcash/plugins/virtualkeyboard/qt.py:15
+msgid "+"
+msgstr "+"
+
+#: electrum_zcash/invoices.py:59
+msgid "1 day"
+msgstr "1天"
+
+#: electrum_zcash/invoices.py:58
+msgid "1 hour"
+msgstr "1 小时"
+
+#: electrum_zcash/invoices.py:60
+msgid "1 week"
+msgstr "1 周"
+
+#: electrum_zcash/plugins/revealer/qt.py:458
+msgid "1. Place this paper on a flat and well iluminated surface."
+msgstr "1.将这张纸放在平坦且照明良好的表面上。"
+
+#: electrum_zcash/invoices.py:57
+#, fuzzy
+msgid "10 minutes"
+msgstr " %2d 分钟"
+
+#: electrum_zcash/plugins/revealer/qt.py:459
+msgid ""
+"2. Align your Revealer borderlines to the dashed lines on the top and left."
+msgstr "2.将你的提词器边界线与顶部及左侧的虚线对齐。"
+
+#: electrum_zcash/plugins/revealer/qt.py:460
+msgid ""
+"3. Press slightly the Revealer against the paper and read the numbers that "
+"best match on the opposite sides. "
+msgstr "3.轻轻将提词器按向纸张，并读取与对边最接近的数字。"
+
+#: electrum_zcash/plugins/revealer/qt.py:462
+msgid "4. Type the numbers in the software"
+msgstr "4.在软件中输入该数字"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:185
+msgid "A backup is saved automatically when generating a new wallet."
+msgstr "生成一个新钱包的时候备份会自动保存。"
+
+#: electrum_zcash/gui/qt/main_window.py:626
+msgid "A copy of your wallet file was created in"
+msgstr "您钱包的副本文件已经保存在"
+
+#: electrum_zcash/gui/qt/installwizard.py:49
+msgid "A few examples"
+msgstr "几个例子"
+
+#: electrum_zcash/plugin.py:518
+msgid "A library is probably missing."
+msgstr "一个库可能遗失。"
+
+#: electrum_zcash/gui/qt/confirm_tx_dialog.py:143
+msgid ""
+"A suggested fee is automatically added to this field. You may override it. "
+"The suggested fee increases with the size of the transaction."
+msgstr ""
+"一个建议的手续费将自动添加到这个选项。你可以将其废除。建议大小的交易都增加手"
+"续费。"
+
+#: electrum_zcash/gui/kivy/main.kv:473
+msgid "About"
+msgstr "关于"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/about.kv:4
+#, fuzzy
+msgid "About Zcash Electrum"
+msgstr "关于 Dash Electrum"
+
+#: electrum_zcash/plugins/keepkey/qt.py:75
+msgid "Accept Word"
+msgstr "接受单词"
+
+#: electrum_zcash/gui/qt/history_list.py:642
+#: electrum_zcash/gui/qt/history_list.py:818
+msgid "Acquisition price"
+msgstr "采集费用"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1273
+#: electrum_zcash/gui/qt/installwizard.py:495
+msgid "Add Cosigner"
+msgstr "加联合签名"
+
+#: electrum_zcash/base_wizard.py:219
+msgid "Add a cosigner to your multi-sig wallet"
+msgstr "向您的电子钱包中加入签名"
+
+#: electrum_zcash/plugins/virtualkeyboard/__init__.py:4
+msgid "Add an optional virtual keyboard to the password dialog."
+msgstr "在密码对话框中添加一个可选的虚拟键盘。"
+
+#: electrum_zcash/base_wizard.py:207
+msgid "Add cosigner"
+msgstr "加联合签名"
+
+#: electrum_zcash/plugins/scan_over_gap/scan_over_gap.py:98
+#, fuzzy
+msgid "Add found coins to wallet"
+msgstr "地址不在钱包里。"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:237
+msgid "Adding info to tx, from wallet and network..."
+msgstr ""
+
+#: electrum_zcash/gui/qt/confirm_tx_dialog.py:148
+msgid "Additional fees"
+msgstr "附加费用："
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:841
+msgid "Additional {} satoshis are going to be added."
+msgstr ""
+
+#: electrum_zcash/gui/qt/address_dialog.py:51
+#: electrum_zcash/gui/qt/address_dialog.py:63
+#: electrum_zcash/gui/qt/main_window.py:1129
+#: electrum_zcash/gui/qt/main_window.py:1208
+#: electrum_zcash/gui/qt/main_window.py:1971
+#: electrum_zcash/gui/qt/main_window.py:2186
+#: electrum_zcash/gui/qt/main_window.py:2348
+#: electrum_zcash/gui/qt/main_window.py:2424
+#: electrum_zcash/gui/qt/contact_list.py:48
+#: electrum_zcash/gui/qt/address_list.py:124 electrum_zcash/gui/qt/util.py:442
+#: electrum_zcash/gui/qt/utxo_list.py:60
+msgid "Address"
+msgstr "地址"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/addresses.py:209
+#, fuzzy
+msgid "Address Details"
+msgstr "地址"
+
+#: electrum_zcash/gui/kivy/main.kv:138
+msgid "Address copied to clipboard"
+msgstr "地址已复制到剪贴板"
+
+#: electrum_zcash/gui/qt/utxo_list.py:158
+#: electrum_zcash/gui/qt/utxo_list.py:459
+#, fuzzy
+msgid "Address is frozen"
+msgstr "被冻结"
+
+#: electrum_zcash/gui/qt/main_window.py:2375 electrum_zcash/wallet.py:485
+#: electrum_zcash/wallet.py:1701 electrum_zcash/plugins/hw_wallet/plugin.py:132
+msgid "Address not in wallet."
+msgstr "地址不在钱包里。"
+
+#: electrum_zcash/gui/text.py:104 electrum_zcash/gui/kivy/main.kv:482
+#: electrum_zcash/plugins/scan_over_gap/scan_over_gap.py:109
+msgid "Addresses"
+msgstr "地址"
+
+#: electrum_zcash/gui/qt/confirm_tx_dialog.py:167
+#: electrum_zcash/plugins/trezor/qt.py:764
+#: electrum_zcash/plugins/safe_t/qt.py:498
+#: electrum_zcash/plugins/keepkey/qt.py:568
+msgid "Advanced"
+msgstr "高级设置"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:203
+#, fuzzy
+msgid "Advanced preview"
+msgstr "高级设置"
+
+#: electrum_zcash/plugins/trezor/qt.py:528
+#: electrum_zcash/plugins/safe_t/qt.py:262
+#: electrum_zcash/plugins/keepkey/qt.py:386
+#, fuzzy
+msgid ""
+"After disabling passphrases, you can only pair this Zcash Electrum wallet if "
+"it had an empty passphrase.  If its passphrase was not empty, you will need "
+"to create a new wallet with the install wizard.  You can use this wallet "
+"again at any time by re-enabling passphrases and entering its passphrase."
+msgstr ""
+"禁用密码短语后，如果密码为空，您只能配对该电子钱包。 如果密码不为空，则需要使"
+"用安装向导创建新的钱包。 您可以随时通过重新启用密码并输入密码来再次使用该钱"
+"包。"
+
+#: electrum_zcash/gui/qt/history_list.py:705
+#: electrum_zcash/gui/qt/history_list.py:729
+#: electrum_zcash/gui/qt/address_list.py:54
+#: electrum_zcash/gui/qt/address_list.py:68
+msgid "All"
+msgstr "所有"
+
+#: electrum_zcash/gui/qt/update_checker.py:90
+msgid "Already up to date"
+msgstr ""
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:784
+msgid "Also, dust is not kept as change, but added to the fee."
+msgstr "同时，尘土（非常小数额的比特币）将不会被保留为零钱，而会计入交易费"
+
+#: electrum_zcash/gui/qt/installwizard.py:238
+#, fuzzy
+msgid "Alternatively"
+msgstr "或者，另外的："
+
+#: electrum_zcash/plugins/revealer/qt.py:181
+#, fuzzy
+msgid "Always check your backups."
+msgstr "请检查你的{}设备"
+
+#: electrum_zcash/gui/stdio.py:147 electrum_zcash/gui/text.py:147
+#: electrum_zcash/gui/text.py:233
+#: electrum_zcash/gui/kivy/uix/ui_screens/receive.kv:112
+#: electrum_zcash/gui/kivy/uix/ui_screens/receive.kv:113
+#: electrum_zcash/gui/kivy/uix/ui_screens/send.kv:112
+#: electrum_zcash/gui/kivy/uix/ui_screens/send.kv:113
+#: electrum_zcash/gui/qt/invoice_list.py:60
+#: electrum_zcash/gui/qt/main_window.py:1328
+#: electrum_zcash/gui/qt/main_window.py:1968
+#: electrum_zcash/gui/qt/history_list.py:648
+#: electrum_zcash/gui/qt/request_list.py:61
+#: electrum_zcash/gui/qt/utxo_list.py:62
+msgid "Amount"
+msgstr "金额"
+
+#: electrum_zcash/plugins/hw_wallet/plugin.py:350
+msgid "Amount for OP_RETURN output must be zero."
+msgstr "OP_RETURN输出的数量必须为零。"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:475
+msgid "Amount received:"
+msgstr "收到的金额:"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:477
+msgid "Amount sent:"
+msgstr "发送的金额:"
+
+#: electrum_zcash/gui/qt/confirm_tx_dialog.py:138
+msgid "Amount to be sent"
+msgstr "需要发送的金额。"
+
+#: electrum_zcash/gui/qt/main_window.py:1324
+msgid "Amount to be sent."
+msgstr "需要发送的金额。"
+
+#: electrum_zcash/gui/qt/exception_window.py:55
+msgid "An Error Occurred"
+msgstr "出现一个错误"
+
+#: electrum_zcash/plugins/cosigner_pool/qt.py:224
+#: electrum_zcash/plugins/cosigner_pool/qt.py:229
+#: electrum_zcash/plugins/cosigner_pool/qt.py:235
+msgid "An encrypted transaction was retrieved from cosigning pool."
+msgstr "从多重签名池中取回了一笔加密交易。"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:181
+msgid "An uninitialized Digital Bitbox is detected."
+msgstr "检测到硬件钱包未被初始化。"
+
+#: electrum_zcash/plugin.py:671 electrum_zcash/base_wizard.py:355
+msgid "An unnamed {}"
+msgstr "未命名的{}"
+
+#: electrum_zcash/plugins/trezor/qt.py:645
+#: electrum_zcash/plugins/safe_t/qt.py:379
+#: electrum_zcash/plugins/keepkey/qt.py:472
+msgid "Apply"
+msgstr "应用"
+
+#: electrum_zcash/i18n.py:51
+msgid "Arabic"
+msgstr "阿拉伯语"
+
+#: electrum_zcash/plugins/trezor/qt.py:588
+#: electrum_zcash/plugins/safe_t/qt.py:322
+#: electrum_zcash/plugins/keepkey/qt.py:412
+msgid ""
+"Are you SURE you want to wipe the device?\n"
+"Your wallet still has Zcash coins in it!"
+msgstr ""
+
+#: electrum_zcash/gui/kivy/main_window.py:1268
+#, fuzzy
+msgid "Are you sure you want to delete wallet {}?"
+msgstr "您确定要继续吗?"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:314
+msgid "Are you sure you want to erase the Digital Bitbox?"
+msgstr "您确定要擦除硬件钱包?"
+
+#: electrum_zcash/plugins/trezor/qt.py:539
+#: electrum_zcash/plugins/safe_t/qt.py:273
+#: electrum_zcash/plugins/keepkey/qt.py:397
+msgid "Are you sure you want to proceed?"
+msgstr "您确定要继续吗?"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/tx_dialog.py:282
+#: electrum_zcash/gui/qt/history_list.py:1022
+msgid ""
+"Are you sure you want to remove this transaction and {} child transactions?"
+msgstr "您确定要删除此交易和 {} 子交易吗？"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/tx_dialog.py:280
+#: electrum_zcash/gui/qt/history_list.py:1020
+msgid "Are you sure you want to remove this transaction?"
+msgstr "确定要删除这项交易吗？"
+
+#: electrum_zcash/i18n.py:64
+msgid "Armenian"
+msgstr "亚美尼亚语"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:464
+msgid "At block height: {}"
+msgstr ""
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:782
+msgid "At most 100 satoshis might be lost due to this rounding."
+msgstr ""
+
+#: electrum_zcash/util.py:121
+msgid "At most one output can be set to spend max"
+msgstr ""
+
+#: electrum_zcash/plugins/audio_modem/__init__.py:3
+msgid "Audio MODEM"
+msgstr "音频调制解调器"
+
+#: electrum_zcash/plugins/audio_modem/qt.py:55
+msgid "Audio Modem Settings"
+msgstr "音频选项"
+
+#: electrum_zcash/gui/qt/installwizard.py:840
+msgid "Auto connect"
+msgstr "自动连接"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/network.kv:44
+msgid "Auto-connect"
+msgstr "自动连接"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:180
+msgid "Automatically check for software updates"
+msgstr ""
+
+#: electrum_zcash/gui/qt/bip39_recovery_dialog.py:23
+#, fuzzy
+msgid "BIP39 Recovery"
+msgstr "BIP39 种苗"
+
+#: electrum_zcash/gui/qt/seed_dialog.py:87
+msgid "BIP39 seed"
+msgstr "BIP39 种苗"
+
+#: electrum_zcash/gui/qt/seed_dialog.py:79
+#, fuzzy
+msgid ""
+"BIP39 seeds can be imported in Zcash Electrum, so that users can access "
+"funds locked in other wallets."
+msgstr ""
+"可以在Dash Electrum中导入BIP39种子，以便用户可以使用锁定在其他钱包的资金。"
+
+#: electrum_zcash/gui/qt/seed_dialog.py:81
+msgid ""
+"BIP39 seeds do not include a version number, which compromises compatibility "
+"with future software."
+msgstr "BIP39种子不包含版本号，这会影响与未来软件的兼容性。"
+
+#: electrum_zcash/gui/qt/main_window.py:2003
+#, fuzzy
+msgid "BIP70 invoice saved as {}"
+msgstr "发票存为 "
+
+#: electrum_zcash/gui/qt/installwizard.py:103
+#: electrum_zcash/gui/qt/installwizard.py:169
+#: electrum_zcash/gui/qt/installwizard.py:170
+msgid "Back"
+msgstr "返回"
+
+#: electrum_zcash/gui/kivy/main_window.py:1374
+msgid "Backup NOT saved. Backup directory not configured."
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:606
+msgid "Backup directory"
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:619
+#, fuzzy
+msgid "Backup not configured"
+msgstr "钱包备份已创建"
+
+#: electrum_zcash/gui/kivy/main_window.py:1395
+msgid "Backup saved:"
+msgstr ""
+
+#: electrum_zcash/gui/stdio.py:148 electrum_zcash/gui/stdio.py:159
+#: electrum_zcash/gui/text.py:147 electrum_zcash/gui/text.py:191
+#: electrum_zcash/gui/kivy/uix/ui_screens/status.kv:33
+#: electrum_zcash/gui/qt/main_window.py:966
+#: electrum_zcash/gui/qt/history_list.py:649
+#: electrum_zcash/gui/qt/address_list.py:126
+#: electrum_zcash/gui/qt/address_list.py:127
+msgid "Balance"
+msgstr "余额"
+
+#: electrum_zcash/gui/text.py:104
+msgid "Banner"
+msgstr "横幅"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:125
+msgid "Base unit"
+msgstr "基本单位"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:122
+msgid "Base unit of your wallet."
+msgstr "您的钱包使用的基本单位。"
+
+#: electrum_zcash/gui/qt/invoice_list.py:136
+#, fuzzy
+msgid "Batch pay invoices"
+msgstr "收据"
+
+#: electrum_zcash/gui/qt/main_window.py:811
+#, fuzzy
+msgid ""
+"Before reporting a bug, upgrade to the most recent version of Zcash Electrum "
+"(latest release or git HEAD), and include the version number in your report."
+msgstr ""
+"在报告Bug之前，请把Dash Electrum升级到最新版，并把版本号写在错误报告里。"
+
+#: electrum_zcash/gui/qt/history_list.py:799
+msgid "Begin"
+msgstr ""
+
+#: electrum_zcash/plugins/audio_modem/qt.py:58
+msgid "Bit rate [kbps]: "
+msgstr "比特率 [kbps]: "
+
+#: electrum_zcash/gui/qt/locktimeedit.py:36
+#, fuzzy
+msgid "Block height"
+msgstr "Blockchain"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/network.kv:58
+#: electrum_zcash/gui/qt/network_dialog.py:315
+msgid "Blockchain"
+msgstr "Blockchain"
+
+#: electrum_zcash/plugins/trezor/qt.py:622
+#: electrum_zcash/plugins/safe_t/qt.py:356
+#: electrum_zcash/plugins/keepkey/qt.py:448
+msgid "Bootloader Hash"
+msgstr "引导程序的哈希值"
+
+#: electrum_zcash/plugins/revealer/qt.py:744
+msgid "Bottom"
+msgstr "底部"
+
+#: electrum_zcash/i18n.py:73
+msgid "Brasilian"
+msgstr "巴西"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/tx_dialog.py:203
+#: electrum_zcash/gui/qt/transaction_dialog.py:159
+msgid "Broadcast"
+msgstr "广播"
+
+#: electrum_zcash/gui/qt/main_window.py:1739
+msgid "Broadcasting transaction..."
+msgstr "交易播报"
+
+#: electrum_zcash/i18n.py:52
+msgid "Bulgarian"
+msgstr "保加利亚语"
+
+#: electrum_zcash/network.py:259
+msgid "Bypass Tor proxy for Fiat rates loading"
+msgstr ""
+
+#: electrum_zcash/gui/qt/util.py:455
+msgid "CSV"
+msgstr "CSV"
+
+#: electrum_zcash/plugins/revealer/qt.py:452
+msgid "Calibration sheet"
+msgstr "校准表"
+
+#: electrum_zcash/plugins/revealer/qt.py:736
+msgid "Calibration values:"
+msgstr "校准值："
+
+#: electrum_zcash/gui/qt/history_list.py:848
+msgid "Can't plot history."
+msgstr "不能绘出历史。"
+
+#: electrum_zcash/gui/kivy/main_window.py:1256
+#: electrum_zcash/gui/qt/installwizard.py:103
+#: electrum_zcash/gui/qt/installwizard.py:170
+#: electrum_zcash/gui/qt/installwizard.py:843 electrum_zcash/gui/qt/util.py:203
+#: electrum_zcash/plugins/trezor/qt.py:71
+#: electrum_zcash/plugins/keepkey/qt.py:83
+msgid "Cancel"
+msgstr "取消"
+
+#: electrum_zcash/plugins/ledger/ledger.py:311
+#: electrum_zcash/plugins/ledger/ledger.py:324
+#: electrum_zcash/plugins/ledger/ledger.py:541
+msgid "Cancelled by user"
+msgstr "已被用户取消"
+
+#: electrum_zcash/base_wizard.py:622
+msgid "Cannot add this cosigner:"
+msgstr "不能添加此操作。"
+
+#: electrum_zcash/gui/kivy/main_window.py:1187
+msgid "Cannot broadcast transaction"
+msgstr "无法广播交易"
+
+#: electrum_zcash/gui/qt/__init__.py:318
+msgid "Cannot create window for wallet"
+msgstr "不能创建钱包窗口"
+
+#: electrum_zcash/gui/qt/__init__.py:291 electrum_zcash/gui/qt/__init__.py:303
+msgid "Cannot load wallet"
+msgstr "不能加载钱包"
+
+#: electrum_zcash/gui/qt/installwizard.py:271
+#: electrum_zcash/gui/qt/installwizard.py:274
+#: electrum_zcash/gui/qt/installwizard.py:297
+msgid "Cannot read file"
+msgstr "无法读取文件"
+
+#: electrum_zcash/gui/kivy/main_window.py:1381
+msgid "Cannot save backup without STORAGE permission"
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:2379
+msgid "Cannot sign messages with this type of address:"
+msgstr "不能为这种类型的地址签署信息："
+
+#: electrum_zcash/qrscanner.py:75
+msgid "Cannot start QR scanner: initialization failed."
+msgstr ""
+
+#: electrum_zcash/gui/qt/history_list.py:643
+msgid "Capital Gains"
+msgstr "资本收益"
+
+#: electrum_zcash/gui/qt/history_list.py:839
+msgid "Cash flow"
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:3020
+msgid "Certificate mismatch"
+msgstr ""
+
+#: electrum_zcash/gui/qt/network_dialog.py:374
+#, python-brace-format
+msgid "Chain split detected at block {0}"
+msgstr "在区块%d探测到链分裂"
+
+#: electrum_zcash/gui/qt/address_list.py:70
+#: electrum_zcash/plugins/scan_over_gap/scan_over_gap.py:73
+msgid "Change"
+msgstr "找零"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:142
+#, fuzzy
+msgid "Change Address"
+msgstr "地址"
+
+#: electrum_zcash/plugins/trezor/qt.py:497
+#: electrum_zcash/plugins/safe_t/qt.py:231
+#: electrum_zcash/plugins/keepkey/qt.py:353
+msgid "Change PIN"
+msgstr "更改PIN码"
+
+#: electrum_zcash/gui/qt/password_dialog.py:63
+msgid "Change Password"
+msgstr "更改密码："
+
+#: electrum_zcash/plugins/trezor/qt.py:669
+#: electrum_zcash/plugins/safe_t/qt.py:403
+msgid "Change..."
+msgstr "改变..."
+
+#: electrum_zcash/plugins/trezor/clientbase.py:38
+#: electrum_zcash/plugins/safe_t/clientbase.py:30
+#: electrum_zcash/plugins/keepkey/clientbase.py:28
+msgid "Check your {} device to continue"
+msgstr "查看你的 {} 设备然后继续"
+
+#: electrum_zcash/gui/qt/update_checker.py:93
+msgid "Checking for updates..."
+msgstr ""
+
+#: electrum_zcash/i18n.py:85
+msgid "Chinese Simplified"
+msgstr "简体中文"
+
+#: electrum_zcash/i18n.py:86
+msgid "Chinese Traditional"
+msgstr "繁体中文"
+
+#: electrum_zcash/plugins/trezor/qt.py:547
+#: electrum_zcash/plugins/safe_t/qt.py:281
+msgid "Choose Homescreen"
+msgstr "选择主屏幕"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:330
+msgid "Choose a backup file:"
+msgstr "选择备份文件:"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1316
+#, fuzzy
+msgid "Choose a password"
+msgstr "选择服务器"
+
+#: electrum_zcash/gui/qt/installwizard.py:42
+msgid "Choose a password to encrypt your wallet keys."
+msgstr "输入用来加密您的钱包的密码"
+
+#: electrum_zcash/gui/kivy/main_window.py:167
+msgid "Choose a server"
+msgstr "选择服务器"
+
+#: electrum_zcash/gui/qt/bip39_recovery_dialog.py:57
+msgid "Choose an account to restore."
+msgstr ""
+
+#: electrum_zcash/gui/qt/settings_dialog.py:248
+msgid ""
+"Choose coin (UTXO) selection method.  The following are available:\n"
+"\n"
+msgstr ""
+"选择币(UTXO) 选择方法。有以下选择:\n"
+"\n"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/server.kv:30
+msgid "Choose from peers"
+msgstr "从节点选择"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:245
+msgid "Choose how to initialize your Digital Bitbox:"
+msgstr "选择如何初始化您的硬件钱包："
+
+#: electrum_zcash/plugins/trezor/trezor.py:213
+#, fuzzy
+msgid "Choose how you want to initialize your {}."
+msgstr "选择如何初始化您的硬件钱包："
+
+#: electrum_zcash/plugins/safe_t/safe_t.py:164
+#: electrum_zcash/plugins/keepkey/keepkey.py:206
+msgid ""
+"Choose how you want to initialize your {}.\n"
+"\n"
+"The first two methods are secure as no secret information is entered into "
+"your computer.\n"
+"\n"
+"For the last two methods you input secrets on your keyboard and upload them "
+"to your {}, and so you should only do those on a computer you know to be "
+"trustworthy and free of malware."
+msgstr ""
+"选择如何初始化您的{}。\n"
+"\n"
+"前两种方法是安全的，因为没有私密信息输入到您的计算机中。\n"
+"\n"
+"对于最后两种方法，您在键盘上输入的私密信息将会上传到您的{}，所以你应该只在你"
+"认为值得信赖且没有恶意软件的计算机上执行这些操作。"
+
+#: electrum_zcash/plugins/trezor/clientbase.py:35
+#: electrum_zcash/plugins/safe_t/clientbase.py:29
+msgid "Choose on your {} device where to enter your passphrase"
+msgstr "在您的{}设备上选择输入密码的地方"
+
+#: electrum_zcash/gui/qt/installwizard.py:886
+msgid "Choose the number of signatures needed to unlock funds in your wallet:"
+msgstr "选择解锁钱包资金所需要的签名数目："
+
+#: electrum_zcash/base_wizard.py:413
+msgid "Choose the type of addresses in your wallet."
+msgstr "选择钱包中的地址类型。"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:287
+msgid ""
+"Choose which online block explorer to use for functions that open a web "
+"browser"
+msgstr "打开网页浏览器，选择使用在线区块查询功能。"
+
+#: electrum_zcash/gui/kivy/main_window.py:192
+msgid "Choose your chain"
+msgstr "选择你的链"
+
+#: electrum_zcash/gui/qt/installwizard.py:221
+msgid "Choose..."
+msgstr "选择..."
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/receive.kv:142
+#: electrum_zcash/gui/qt/main_window.py:1089
+#: electrum_zcash/gui/qt/main_window.py:1345
+msgid "Clear"
+msgstr "清除"
+
+#: electrum_zcash/plugins/trezor/qt.py:700
+#: electrum_zcash/plugins/safe_t/qt.py:434
+#: electrum_zcash/plugins/keepkey/qt.py:504
+msgid ""
+"Clear the session after the specified period of inactivity.  Once a session "
+"has timed out, your PIN and passphrase (if enabled) must be re-entered to "
+"use the device."
+msgstr ""
+"在指定的非活动时段后清除会话。 一旦会话超时，必须重新输入您的PIN和密码 (如果"
+"已启用) 以使用设备。"
+
+#: electrum_zcash/gui/qt/confirm_tx_dialog.py:181
+#, fuzzy
+msgid "Click Send to proceed"
+msgstr "发送给发言人"
+
+#: electrum_zcash/gui/qt/console.py:110
+msgid "Click here to hide this message."
+msgstr "单击此处隐藏此消息。"
+
+#: electrum_zcash/gui/kivy/uix/screens.py:439
+msgid "Clipboard is empty"
+msgstr "剪贴板无内容"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/about.kv:54
+#: electrum_zcash/gui/kivy/uix/dialogs/qr_dialog.py:83
+#: electrum_zcash/gui/qt/main_window.py:2443
+#: electrum_zcash/gui/qt/main_window.py:2512
+#: electrum_zcash/gui/qt/__init__.py:170
+#: electrum_zcash/gui/qt/update_checker.py:62
+#: electrum_zcash/gui/qt/transaction_dialog.py:165
+#: electrum_zcash/gui/qt/qrcodewidget.py:162 electrum_zcash/gui/qt/util.py:179
+msgid "Close"
+msgstr "关闭"
+
+#: electrum_zcash/gui/qt/zcash_qt.py:71
+#, fuzzy
+msgid "Close wallet"
+msgstr "删除钱包？"
+
+#: electrum_zcash/gui/qt/main_window.py:229
+msgid "Co&ins"
+msgstr "币 Co&ins"
+
+#: electrum_zcash/gui/qt/utxo_list.py:381
+msgid "Coin control active"
+msgstr ""
+
+#: electrum_zcash/gui/qt/utxo_list.py:447
+msgid "Coin is frozen"
+msgstr ""
+
+#: electrum_zcash/gui/qt/utxo_list.py:46
+#, fuzzy
+msgid "Coin selected to be spent"
+msgstr "选择钱币"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/settings.py:158
+#: electrum_zcash/gui/qt/settings_dialog.py:250
+msgid "Coin selection"
+msgstr "选择钱币"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:545
+msgid "Coin selection active ({} UTXOs selected)"
+msgstr ""
+
+#: electrum_zcash/gui/kivy/main.kv:485
+msgid "Coins"
+msgstr ""
+
+#: electrum_zcash/gui/qt/history_list.py:968
+#: electrum_zcash/gui/qt/history_list.py:972
+msgid "Collapse Tx Group"
+msgstr ""
+
+#: electrum_zcash/gui/qt/settings_dialog.py:164
+msgid "Color theme"
+msgstr "颜色主题"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:194
+msgid "Combine"
+msgstr ""
+
+#: electrum_zcash/plugins/trezor/clientbase.py:23
+#, fuzzy
+msgid "Complete the initialization process on your {} device"
+msgstr "确认您的 {} 设备上的支付交易"
+
+#: electrum_zcash/invoices.py:50
+msgid "Computing route..."
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:231
+msgid "Con&sole"
+msgstr "控制台 Con&sole"
+
+#: electrum_zcash/gui/qt/main_window.py:230
+msgid "Con&tacts"
+msgstr "联系 Con&tacts"
+
+#: electrum_zcash/plugins/trezor/qt.py:587
+#: electrum_zcash/plugins/safe_t/qt.py:321
+#: electrum_zcash/plugins/keepkey/qt.py:411
+msgid "Confirm Device Wipe"
+msgstr "确认擦除设备数据"
+
+#: electrum_zcash/gui/qt/password_dialog.py:90
+#: electrum_zcash/plugins/trezor/qt.py:194
+msgid "Confirm Passphrase:"
+msgstr "确认密语"
+
+#: electrum_zcash/gui/qt/password_dialog.py:105
+msgid "Confirm Password:"
+msgstr "确认密码"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1242
+#: electrum_zcash/gui/qt/installwizard.py:516
+msgid "Confirm Seed"
+msgstr "确认种子"
+
+#: electrum_zcash/base_wizard.py:788
+msgid "Confirm Seed Extension"
+msgstr "确认扩大种子"
+
+#: electrum_zcash/plugins/trezor/qt.py:525
+#: electrum_zcash/plugins/safe_t/qt.py:259
+#: electrum_zcash/plugins/keepkey/qt.py:383
+msgid "Confirm Toggle Passphrase Protection"
+msgstr "确认切换密码保护"
+
+#: electrum_zcash/gui/qt/confirm_tx_dialog.py:132
+#, fuzzy
+msgid "Confirm Transaction"
+msgstr "交易"
+
+#: electrum_zcash/plugins/ledger/ledger.py:446
+msgid "Confirm Transaction on your Ledger device..."
+msgstr "确认您的Ledger设备上的交易..."
+
+#: electrum_zcash/gui/kivy/main_window.py:1257
+#, fuzzy
+msgid "Confirm action"
+msgstr "{} 确认"
+
+#: electrum_zcash/plugins/safe_t/clientbase.py:22
+#: electrum_zcash/plugins/keepkey/clientbase.py:21
+msgid "Confirm internal entropy on your {} device to begin"
+msgstr "在您的{}设备上确认内部熵值来开始"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/password_dialog.py:300
+msgid "Confirm new PIN"
+msgstr "确认新PIN"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/password_dialog.py:269
+#, fuzzy
+msgid "Confirm new password"
+msgstr "确认密码"
+
+#: electrum_zcash/plugins/trezor/clientbase.py:29
+#: electrum_zcash/plugins/safe_t/clientbase.py:25
+#: electrum_zcash/plugins/keepkey/clientbase.py:24
+msgid "Confirm on your {} device the message to sign"
+msgstr "在您的 {} 设备上确认要签名的消息"
+
+#: electrum_zcash/plugins/trezor/clientbase.py:175
+#: electrum_zcash/plugins/safe_t/clientbase.py:205
+#: electrum_zcash/plugins/keepkey/clientbase.py:203
+msgid "Confirm on your {} device to change your PIN"
+msgstr "在您的 {} 设备上确认更改您的PIN"
+
+#: electrum_zcash/plugins/trezor/clientbase.py:167
+#: electrum_zcash/plugins/safe_t/clientbase.py:197
+#: electrum_zcash/plugins/keepkey/clientbase.py:195
+msgid "Confirm on your {} device to change your home screen"
+msgstr "在您的 {} 设备上确认更改您的主屏幕"
+
+#: electrum_zcash/plugins/trezor/clientbase.py:173
+#: electrum_zcash/plugins/safe_t/clientbase.py:203
+#: electrum_zcash/plugins/keepkey/clientbase.py:201
+msgid "Confirm on your {} device to disable PIN protection"
+msgstr "在您的 {} 设备上确认禁用PIN码保护"
+
+#: electrum_zcash/plugins/trezor/clientbase.py:153
+#: electrum_zcash/plugins/safe_t/clientbase.py:184
+#: electrum_zcash/plugins/keepkey/clientbase.py:182
+msgid "Confirm on your {} device to disable passphrases"
+msgstr "在您的 {} 设备上确认禁用密码保护"
+
+#: electrum_zcash/plugins/trezor/clientbase.py:155
+#: electrum_zcash/plugins/safe_t/clientbase.py:186
+#: electrum_zcash/plugins/keepkey/clientbase.py:184
+msgid "Confirm on your {} device to enable passphrases"
+msgstr "在您的 {} 设备上确认启用密码保护"
+
+#: electrum_zcash/plugins/trezor/clientbase.py:177
+#: electrum_zcash/plugins/safe_t/clientbase.py:207
+#: electrum_zcash/plugins/keepkey/clientbase.py:205
+msgid "Confirm on your {} device to set a PIN"
+msgstr "在您的 {} 设备上确认设置您的PIN"
+
+#: electrum_zcash/plugins/trezor/clientbase.py:27
+#: electrum_zcash/plugins/safe_t/clientbase.py:24
+#: electrum_zcash/plugins/keepkey/clientbase.py:23
+msgid "Confirm on your {} that you want to wipe it clean"
+msgstr "在您的 {} 上确认要清除所有数据"
+
+#: electrum_zcash/plugins/trezor/clientbase.py:162
+#: electrum_zcash/plugins/safe_t/clientbase.py:192
+#: electrum_zcash/plugins/keepkey/clientbase.py:190
+msgid "Confirm the new label on your {} device"
+msgstr "确认您的 {} 设备上的新标签"
+
+#: electrum_zcash/plugins/trezor/clientbase.py:31
+#: electrum_zcash/plugins/safe_t/clientbase.py:26
+#: electrum_zcash/plugins/keepkey/clientbase.py:25
+msgid ""
+"Confirm the total amount spent and the transaction fee on your {} device"
+msgstr "在你的 {} 设备上确认总支出金额和交易费用"
+
+#: electrum_zcash/plugins/trezor/clientbase.py:21
+#: electrum_zcash/plugins/safe_t/clientbase.py:21
+#: electrum_zcash/plugins/keepkey/clientbase.py:20
+msgid "Confirm the transaction output on your {} device"
+msgstr "确认您的 {} 设备上的支付交易"
+
+#: electrum_zcash/plugins/trezor/clientbase.py:33
+#: electrum_zcash/plugins/safe_t/clientbase.py:28
+#: electrum_zcash/plugins/keepkey/clientbase.py:27
+msgid "Confirm wallet address on your {} device"
+msgstr "确认钱包地址在你的 {} 设备"
+
+#: electrum_zcash/gui/qt/installwizard.py:619
+#, fuzzy
+msgid "Confirm wallet password"
+msgstr "确认密码"
+
+#: electrum_zcash/plugins/ledger/ledger.py:498
+#: electrum_zcash/plugins/ledger/ledger.py:529
+msgid "Confirmed. Signing Transaction..."
+msgstr "已确认。 正在签署交易记录..."
+
+#: electrum_zcash/gui/qt/network_dialog.py:146
+#, fuzzy
+msgid "Connected nodes"
+msgstr "已连接节点"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/network.kv:65
+msgid "Connected nodes are on the same chain"
+msgstr "已连接的节点位于同一链上"
+
+#: electrum_zcash/gui/qt/network_dialog.py:367
+#, fuzzy, python-brace-format
+msgid "Connected to {0} node."
+msgstr "已连接到{0} 个节点。"
+
+#: electrum_zcash/gui/qt/network_dialog.py:367
+#, python-brace-format
+msgid "Connected to {0} nodes."
+msgstr "已连接到{0} 个节点。"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/network.kv:16
+#, fuzzy
+msgid "Connections with Zcash Electrum servers"
+msgstr "Dash Electrum服务器连接"
+
+#: electrum_zcash/network.py:202 electrum_zcash/network.py:210
+#: electrum_zcash/network.py:218
+msgid ""
+"Consider trying to connect to a different server, or updating Zcash Electrum."
+msgstr ""
+
+#: electrum_zcash/gui/text.py:104 electrum_zcash/gui/qt/main_window.py:699
+msgid "Contacts"
+msgstr "联系人"
+
+#: electrum_zcash/gui/qt/installwizard.py:603
+msgid "Continue multisig wallet setup"
+msgstr ""
+
+#: electrum_zcash/gui/qt/zcash_qt.py:63
+msgid "Continue without Tor"
+msgstr ""
+
+#: electrum_zcash/gui/qt/history_list.py:929
+#: electrum_zcash/gui/qt/address_list.py:376 electrum_zcash/gui/qt/util.py:185
+#: electrum_zcash/gui/qt/util.py:749 electrum_zcash/gui/qt/utxo_list.py:388
+msgid "Copy"
+msgstr "复制"
+
+#: electrum_zcash/gui/qt/invoice_list.py:150
+#: electrum_zcash/gui/qt/request_list.py:203
+#, fuzzy
+msgid "Copy Address"
+msgstr "地址"
+
+#: electrum_zcash/gui/qt/qrcodewidget.py:149
+#, fuzzy
+msgid "Copy Image"
+msgstr "复制 URI"
+
+#: electrum_zcash/gui/qt/request_list.py:202
+#, fuzzy
+msgid "Copy Request"
+msgstr "请求"
+
+#: electrum_zcash/gui/qt/qrcodewidget.py:154
+#, fuzzy
+msgid "Copy Text"
+msgstr "复制{}"
+
+#: electrum_zcash/gui/qt/util.py:190
+msgid "Copy and Close"
+msgstr "复制并关闭"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/send.kv:96
+msgid ""
+"Copy and paste the recipient address using the Paste button, or use the "
+"camera to scan a QR code."
+msgstr "用复制粘贴键复制并粘贴收件人地址，或者扫描二维码"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:271
+#: electrum_zcash/gui/qt/util.py:832
+msgid "Copy to clipboard"
+msgstr "复制到剪切板"
+
+#: electrum_zcash/gui/qt/contact_list.py:82
+msgid "Copy {}"
+msgstr "复制{}"
+
+#: electrum_zcash/base_wizard.py:225
+msgid "Cosign with hardware device"
+msgstr "硬件设备联合签名"
+
+#: electrum_zcash/plugins/cosigner_pool/__init__.py:2
+msgid "Cosigner Pool"
+msgstr "联合签名池"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1123
+#: electrum_zcash/gui/qt/installwizard.py:595
+#, fuzzy
+msgid "Cosigner {}"
+msgstr "联合签名池"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:497
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:510
+msgid "Could not sign message"
+msgstr "不能签名信息"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:474
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:487
+msgid "Could not sign message."
+msgstr "不能签名信息。"
+
+#: electrum_zcash/plugins/scan_over_gap/scan_over_gap.py:94
+#, fuzzy
+msgid "Count to scan:"
+msgstr "需要发送的金额。"
+
+#: electrum_zcash/gui/qt/exception_window.py:111
+msgid "Crash report"
+msgstr "崩溃报告"
+
+#: electrum_zcash/gui/qt/installwizard.py:239
+#, fuzzy
+msgid "Create New Wallet"
+msgstr "创建新种子"
+
+#: electrum_zcash/plugins/revealer/qt.py:115
+#, fuzzy
+msgid "Create a new Revealer"
+msgstr "创建新种子"
+
+#: electrum_zcash/base_wizard.py:212
+msgid "Create a new seed"
+msgstr "创建新种子"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:225
+msgid "Create a wallet using the current seed"
+msgstr "使用当前种子创建钱包"
+
+#: electrum_zcash/base_wizard.py:261
+msgid "Create keystore from a master key"
+msgstr "从主键创建密钥库"
+
+#: electrum_zcash/base_wizard.py:150
+#, fuzzy
+msgid "Create new wallet"
+msgstr "创建新种子"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:676
+#, fuzzy
+msgid "Create transaction"
+msgstr "载入交易"
+
+#: electrum_zcash/gui/qt/main_window.py:1219
+msgid ""
+"Creating a new payment request will reuse one of your addresses and "
+"overwrite an existing request. Continue anyway?"
+msgstr ""
+
+#: electrum_zcash/gui/qt/util.py:243
+msgid "Critical Error"
+msgstr "重大错误"
+
+#: electrum_zcash/gui/qt/password_dialog.py:107
+msgid "Current Password:"
+msgstr "当前密码"
+
+#: electrum_zcash/gui/qt/fee_slider.py:58
+msgid "Current rate"
+msgstr "当前利率"
+
+#: electrum_zcash/gui/qt/update_checker.py:50
+#, fuzzy
+msgid "Current version: {}"
+msgstr "当前密码"
+
+#: electrum_zcash/gui/qt/history_list.py:702
+#: electrum_zcash/gui/qt/history_list.py:729
+msgid "Custom"
+msgstr "自定义"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:283
+#, fuzzy
+msgid "Custom URL"
+msgstr "自定义"
+
+#: electrum_zcash/plugins/revealer/qt.py:389
+msgid "Custom secret"
+msgstr "客户密钥"
+
+#: electrum_zcash/i18n.py:53
+msgid "Czech"
+msgstr "捷克语"
+
+#: electrum_zcash/i18n.py:54
+msgid "Danish"
+msgstr "丹麦语"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:161
+msgid "Dark"
+msgstr "暗色调"
+
+#: electrum_zcash/gui/qt/__init__.py:171
+msgid "Dark/Light"
+msgstr "暗/亮"
+
+#: electrum_zcash/gui/stdio.py:146 electrum_zcash/gui/text.py:146
+#: electrum_zcash/gui/kivy/uix/dialogs/tx_dialog.py:161
+#: electrum_zcash/gui/qt/invoice_list.py:58
+#: electrum_zcash/gui/qt/locktimeedit.py:36
+#: electrum_zcash/gui/qt/history_list.py:646
+#: electrum_zcash/gui/qt/history_list.py:802
+#: electrum_zcash/gui/qt/request_list.py:59
+#: electrum_zcash/gui/qt/utxo_list.py:59
+msgid "Date"
+msgstr "日期"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:445
+msgid "Date: {}"
+msgstr "日期: {}"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:200
+msgid ""
+"Debug logs can be persisted to disk. These are useful for troubleshooting."
+msgstr ""
+
+#: electrum_zcash/base_wizard.py:346
+msgid "Debug message"
+msgstr "修复信息"
+
+#: electrum_zcash/gui/qt/main_window.py:2508
+msgid "Decrypt"
+msgstr "解密"
+
+#: electrum_zcash/gui/kivy/main_window.py:1412
+#, fuzzy
+msgid "Decrypt your private key?"
+msgstr "导出私钥"
+
+#: electrum_zcash/i18n.py:50
+msgid "Default"
+msgstr "默认"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/status.kv:62
+#: electrum_zcash/gui/qt/invoice_list.py:157
+#: electrum_zcash/gui/qt/main_window.py:671
+#: electrum_zcash/gui/qt/contact_list.py:90
+#: electrum_zcash/gui/qt/request_list.py:206
+msgid "Delete"
+msgstr "删除"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/invoice_dialog.py:137
+msgid "Delete invoice?"
+msgstr "删除发票？"
+
+#: electrum_zcash/gui/qt/invoice_list.py:137
+#, fuzzy
+msgid "Delete invoices"
+msgstr "删除发票？"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/request_dialog.py:135
+#, fuzzy
+msgid "Delete request?"
+msgstr "删除请求"
+
+#: electrum_zcash/gui/qt/request_list.py:186
+#, fuzzy
+msgid "Delete requests"
+msgstr "删除请求"
+
+#: electrum_zcash/gui/qt/main_window.py:2288
+msgid "Delete wallet file?"
+msgstr "删除钱包文件？"
+
+#: electrum_zcash/gui/kivy/main_window.py:1262
+msgid "Delete wallet?"
+msgstr "删除钱包？"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/settings.py:144
+msgid "Denomination"
+msgstr "面额"
+
+#: electrum_zcash/gui/qt/address_dialog.py:92
+#: electrum_zcash/gui/qt/main_window.py:2263
+#, fuzzy
+msgid "Derivation path"
+msgstr "脚本类型和派生路径"
+
+#: electrum_zcash/gui/stdio.py:147 electrum_zcash/gui/text.py:146
+#: electrum_zcash/gui/text.py:232
+#: electrum_zcash/gui/kivy/uix/ui_screens/receive.kv:131
+#: electrum_zcash/gui/kivy/uix/ui_screens/send.kv:130
+#: electrum_zcash/gui/qt/invoice_list.py:59
+#: electrum_zcash/gui/qt/main_window.py:1041
+#: electrum_zcash/gui/qt/main_window.py:1318
+#: electrum_zcash/gui/qt/main_window.py:1977
+#: electrum_zcash/gui/qt/transaction_dialog.py:437
+#: electrum_zcash/gui/qt/history_list.py:647
+#: electrum_zcash/gui/qt/request_list.py:60
+msgid "Description"
+msgstr "说明"
+
+#: electrum_zcash/gui/qt/main_window.py:1316
+msgid "Description of the transaction (not mandatory)."
+msgstr "交易说明(非强制)。"
+
+#: electrum_zcash/gui/qt/invoice_list.py:151
+#: electrum_zcash/gui/qt/address_list.py:420
+#: electrum_zcash/gui/qt/utxo_list.py:434
+msgid "Details"
+msgstr "详细"
+
+#: electrum_zcash/gui/qt/installwizard.py:743
+msgid "Detect Existing Accounts"
+msgstr ""
+
+#: electrum_zcash/gui/qt/zcash_qt.py:67
+#, fuzzy
+msgid "Detect Tor again"
+msgstr "请重试。"
+
+#: electrum_zcash/network.py:258
+msgid "Detect Tor proxy on wallet startup"
+msgstr ""
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/about.kv:35
+msgid "Developers"
+msgstr "开发者"
+
+#: electrum_zcash/plugins/trezor/qt.py:621
+#: electrum_zcash/plugins/safe_t/qt.py:355
+#: electrum_zcash/plugins/keepkey/qt.py:447
+msgid "Device ID"
+msgstr "设备ID"
+
+#: electrum_zcash/plugins/trezor/qt.py:617
+#: electrum_zcash/plugins/trezor/qt.py:641
+#: electrum_zcash/plugins/safe_t/qt.py:351
+#: electrum_zcash/plugins/safe_t/qt.py:375
+#: electrum_zcash/plugins/keepkey/qt.py:443
+#: electrum_zcash/plugins/keepkey/qt.py:468
+msgid "Device Label"
+msgstr "设备标签"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:128
+msgid ""
+"Device communication error. Please unplug and replug your Digital Bitbox."
+msgstr "设备通讯错误。请拔出并重新插入你的硬件钱包。"
+
+#: electrum_zcash/plugins/ledger/ledger.py:233
+msgid "Device not in Zcash mode"
+msgstr ""
+
+#: electrum_zcash/plugins/digitalbitbox/__init__.py:5
+msgid "Digital Bitbox wallet"
+msgstr "硬件钱包"
+
+#: electrum_zcash/plugins/revealer/qt.py:194
+msgid "Digital Revealer ({}_{}) saved as PNG and PDF at:"
+msgstr "数字提词器({}_{})保存为PNG和PDF格式："
+
+#: electrum_zcash/plugins/trezor/qt.py:722
+#: electrum_zcash/plugins/safe_t/qt.py:456
+#: electrum_zcash/plugins/keepkey/qt.py:526
+msgid "Disable PIN"
+msgstr "禁用PIN码"
+
+#: electrum_zcash/plugins/trezor/qt.py:495
+#: electrum_zcash/plugins/safe_t/qt.py:229
+#: electrum_zcash/plugins/keepkey/qt.py:351
+msgid "Disable Passphrases"
+msgstr "取消密码"
+
+#: electrum_zcash/plugins/trezor/qt.py:496
+#: electrum_zcash/plugins/safe_t/qt.py:230
+#: electrum_zcash/plugins/keepkey/qt.py:352
+msgid "Disabled"
+msgstr "已禁用 "
+
+#: electrum_zcash/gui/kivy/main_window.py:921
+msgid "Disconnected"
+msgstr "已断开"
+
+#: electrum_zcash/gui/kivy/main_window.py:1287
+#, fuzzy
+msgid "Display your seed?"
+msgstr "请妥善保存您的种子"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/about.kv:41
+msgid "Distributed by Electrum Technologies GmbH"
+msgstr ""
+
+#: electrum_zcash/gui/qt/exception_window.py:80
+msgid ""
+"Do not enter sensitive/private information here. The report will be visible "
+"on the public issue tracker."
+msgstr ""
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:287
+msgid "Do not pair"
+msgstr "无法配对"
+
+#: electrum_zcash/gui/qt/console.py:108
+msgid ""
+"Do not paste code here that you don't understand. Executing the wrong code "
+"could lead to your coins being irreversibly lost."
+msgstr ""
+"不要在此处粘贴您不理解的代码。执行错误的代码可能会导致您的币丢失，并且不能被"
+"找回。"
+
+#: electrum_zcash/gui/qt/seed_dialog.py:57
+msgid "Do not store it electronically."
+msgstr "不要存储电子版"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/network.kv:39
+msgid "Do not use Tor proxy for Fiat rates network calls"
+msgstr ""
+
+#: electrum_zcash/plugins/revealer/__init__.py:5
+msgid "Do you have something to hide ?"
+msgstr "你有什么需要隐瞒的东西吗？"
+
+#: electrum_zcash/base_wizard.py:210
+msgid ""
+"Do you want to create a new seed, or to restore a wallet using an existing "
+"seed?"
+msgstr "想要创建一个新种子，或者用已存在的种子去恢复一个钱包？"
+
+#: electrum_zcash/gui/qt/installwizard.py:397
+msgid "Do you want to delete '{}'?"
+msgstr "确认删除'{}'?"
+
+#: electrum_zcash/gui/qt/installwizard.py:382
+msgid "Do you want to delete the old file"
+msgstr "确认删除旧文件吗？"
+
+#: electrum_zcash/plugins/cosigner_pool/qt.py:236
+msgid "Do you want to open it now?"
+msgstr "你希望现在打开吗？"
+
+#: electrum_zcash/gui/qt/main_window.py:1909
+msgid "Do you want to remove {} from your wallet?"
+msgstr "你想从你的钱包中删除{}吗？"
+
+#: electrum_zcash/base_crash_reporter.py:57
+msgid "Do you want to send this report?"
+msgstr "您想要发送这个报告吗？"
+
+#: electrum_zcash/gui/qt/main_window.py:1490
+msgid "Do you wish to continue?"
+msgstr "确认继续吗？"
+
+#: electrum_zcash/gui/qt/main_window.py:550
+#: electrum_zcash/gui/qt/main_window.py:572
+msgid "Don't show this again."
+msgstr ""
+
+#: electrum_zcash/gui/qt/installwizard.py:56
+msgid ""
+"Due to a bug, old versions of Zcash Electrum will NOT be creating the same "
+"wallet as newer versions or other software."
+msgstr ""
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/network.kv:33
+#: electrum_zcash/gui/qt/network_dialog.py:279
+msgid "During wallet startup try to detect and use Tor Proxy."
+msgstr ""
+
+#: electrum_zcash/i18n.py:71
+msgid "Dutch"
+msgstr "荷兰语"
+
+#: electrum_zcash/util.py:116
+msgid "Dynamic fee estimates not available"
+msgstr "动态费用评估不可用"
+
+#: electrum_zcash/gui/qt/fee_slider.py:15
+msgid "ETA"
+msgstr "预计完成时间"
+
+#: electrum_zcash/gui/qt/fee_slider.py:20
+#, fuzzy
+msgid "ETA: fee rate is based on average confirmation time estimates"
+msgstr "基于时间：费率基于平均确认时间估计"
+
+#: electrum_zcash/plugins/revealer/qt.py:133
+#, fuzzy
+msgid "Each revealer should be used only once."
+msgstr "Revealer是一次性键盘，应该只使用一次。"
+
+#: electrum_zcash/gui/qt/contact_list.py:88
+#: electrum_zcash/gui/qt/history_list.py:986
+#: electrum_zcash/gui/qt/address_list.py:424
+msgid "Edit {}"
+msgstr "编辑 {}"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/network.kv:3
+#: electrum_zcash/gui/kivy/main.kv:479
+#: electrum_zcash/gui/qt/main_window.py:2084
+#: electrum_zcash/gui/qt/network_dialog.py:59
+#, fuzzy
+msgid "Electrum Network"
+msgstr "Dash Electrum钱包"
+
+#: electrum_zcash/gui/kivy/main_window.py:1188
+#: electrum_zcash/gui/qt/main_window.py:980
+msgid "Electrum network not connected"
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:785
+msgid ""
+"Electrum's focus is speed, with low resource usage and simplifying Zcash."
+msgstr ""
+
+#: electrum_zcash/plugins/email_requests/__init__.py:3
+msgid "Email"
+msgstr "电子邮件"
+
+#: electrum_zcash/plugins/email_requests/qt.py:217
+msgid "Email settings"
+msgstr "邮件设置"
+
+#: electrum_zcash/plugins/trezor/qt.py:363
+#: electrum_zcash/plugins/safe_t/qt.py:124
+#: electrum_zcash/plugins/keepkey/qt.py:250
+msgid "Enable PIN protection"
+msgstr "启用PIN码保护"
+
+#: electrum_zcash/plugins/trezor/qt.py:495
+#: electrum_zcash/plugins/safe_t/qt.py:229
+#: electrum_zcash/plugins/keepkey/qt.py:351
+msgid "Enable Passphrases"
+msgstr "启用密码"
+
+#: electrum_zcash/gui/qt/history_list.py:775
+#, fuzzy
+msgid "Enable fiat exchange rate with history."
+msgstr "无法导出历史记录"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:273
+msgid "Enable output value rounding"
+msgstr "进行输出值取整"
+
+#: electrum_zcash/plugins/trezor/qt.py:386
+#: electrum_zcash/plugins/safe_t/qt.py:158
+#: electrum_zcash/plugins/keepkey/qt.py:284
+msgid "Enable passphrases"
+msgstr "启用密码"
+
+#: electrum_zcash/gui/qt/main_window.py:292
+msgid "Enable update check"
+msgstr ""
+
+#: electrum_zcash/plugins/trezor/qt.py:496
+#: electrum_zcash/plugins/safe_t/qt.py:230
+#: electrum_zcash/plugins/keepkey/qt.py:352
+msgid "Enabled"
+msgstr "启用"
+
+#: electrum_zcash/gui/qt/main_window.py:2504
+msgid "Encrypt"
+msgstr "加密"
+
+#: electrum_zcash/plugins/revealer/qt.py:269
+#, fuzzy
+msgid "Encrypt custom secret"
+msgstr "客户密钥"
+
+#: electrum_zcash/gui/qt/password_dialog.py:128
+#: electrum_zcash/gui/qt/password_dialog.py:218
+msgid "Encrypt wallet file"
+msgstr "加密钱包文件"
+
+#: electrum_zcash/plugins/revealer/qt.py:250
+#, fuzzy
+msgid "Encrypt {}'s seed"
+msgstr "已加密"
+
+#: electrum_zcash/gui/qt/main_window.py:2479
+msgid "Encrypt/decrypt Message"
+msgstr "加密/解密信息"
+
+#: electrum_zcash/gui/qt/address_list.py:435
+msgid "Encrypt/decrypt message"
+msgstr "加密/解密信息"
+
+#: electrum_zcash/gui/qt/main_window.py:2499
+msgid "Encrypted"
+msgstr "已加密"
+
+#: electrum_zcash/plugins/ledger/ledger.py:291
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:455
+msgid "Encryption and decryption are currently not supported for {}"
+msgstr "目前不支持{}的编码和解码"
+
+#: electrum_zcash/plugins/trezor/trezor.py:77
+#: electrum_zcash/plugins/safe_t/safe_t.py:36
+#: electrum_zcash/plugins/keepkey/keepkey.py:38
+msgid "Encryption and decryption are not implemented by {}"
+msgstr "编码和解码无法被{}应用"
+
+#: electrum_zcash/gui/qt/history_list.py:800
+msgid "End"
+msgstr "结束"
+
+#: electrum_zcash/i18n.py:58
+msgid "English"
+msgstr "英语"
+
+#: electrum_zcash/plugins/trezor/qt.py:150
+#: electrum_zcash/plugins/safe_t/qt.py:57
+#: electrum_zcash/plugins/keepkey/qt.py:174
+msgid "Enter PIN"
+msgstr "输入PIN码"
+
+#: electrum_zcash/plugins/ledger/auth2fa.py:91
+#: electrum_zcash/plugins/ledger/auth2fa.py:128
+msgid "Enter PIN:"
+msgstr "输入PIN码："
+
+#: electrum_zcash/gui/qt/password_dialog.py:63
+#: electrum_zcash/plugins/trezor/qt.py:170
+#: electrum_zcash/plugins/trezor/qt.py:172
+#: electrum_zcash/plugins/hw_wallet/qt.py:136
+msgid "Enter Passphrase"
+msgstr "输入密语"
+
+#: electrum_zcash/plugins/trezor/qt.py:173
+#, fuzzy
+msgid "Enter Passphrase on Device"
+msgstr "输入密语"
+
+#: electrum_zcash/gui/qt/console.py:29
+#: electrum_zcash/gui/qt/password_dialog.py:63
+#: electrum_zcash/gui/qt/password_dialog.py:306
+msgid "Enter Password"
+msgstr "输入密码"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:943
+#: electrum_zcash/gui/qt/installwizard.py:509
+msgid "Enter Seed"
+msgstr "输入种子"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/tx_dialog.py:302
+msgid "Enter Transaction Label"
+msgstr "输入交易标签"
+
+#: electrum_zcash/plugins/trezor/qt.py:272
+#: electrum_zcash/plugins/safe_t/qt.py:98
+#: electrum_zcash/plugins/keepkey/qt.py:222
+msgid "Enter a label to name your device:"
+msgstr "输入一个标签来命名你的设备："
+
+#: electrum_zcash/base_wizard.py:233
+msgid ""
+"Enter a list of Zcash addresses (this will create a watching-only wallet), "
+"or a list of private keys."
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:1923
+msgid "Enter a list of outputs in the 'Pay to' field."
+msgstr "在'付给'域填写输出列表"
+
+#: electrum_zcash/plugins/trezor/clientbase.py:278
+#: electrum_zcash/plugins/safe_t/clientbase.py:55
+#: electrum_zcash/plugins/keepkey/clientbase.py:53
+msgid "Enter a new PIN for your {}:"
+msgstr "输入你的 {} 新PIN码:"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:182
+msgid "Enter a new password below."
+msgstr "请在下面输入您的新密码。"
+
+#: electrum_zcash/plugins/trezor/clientbase.py:295
+#: electrum_zcash/plugins/safe_t/clientbase.py:75
+#: electrum_zcash/plugins/keepkey/clientbase.py:70
+msgid ""
+"Enter a passphrase to generate this wallet.  Each time you use this wallet "
+"your {} will prompt you for the passphrase.  If you forget the passphrase "
+"you cannot access the Zcash coins in the wallet."
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:2853
+msgid "Enter addresses"
+msgstr "输入地址"
+
+#: electrum_zcash/base_wizard.py:221
+msgid "Enter cosigner key"
+msgstr "输入联合签名键"
+
+#: electrum_zcash/base_wizard.py:222
+msgid "Enter cosigner seed"
+msgstr "输入联合签名种子"
+
+#: electrum_zcash/gui/kivy/main_window.py:1195
+msgid "Enter description"
+msgstr "输入描述"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/password_dialog.py:299
+msgid "Enter new PIN"
+msgstr "输入新的 PIN 码"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/password_dialog.py:268
+#, fuzzy
+msgid "Enter new password"
+msgstr "输入密码:"
+
+#: electrum_zcash/plugins/trezor/cmdline.py:15
+#, fuzzy
+msgid "Enter passphrase on device?"
+msgstr "输入密语"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:146
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:149
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:161
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:164
+msgid "Enter password:"
+msgstr "输入密码:"
+
+#: electrum_zcash/gui/qt/main_window.py:2862
+msgid "Enter private keys"
+msgstr "输入私钥"
+
+#: electrum_zcash/gui/qt/main_window.py:2757
+msgid "Enter private keys:"
+msgstr "输入私钥："
+
+#: electrum_zcash/plugins/safe_t/qt.py:132
+#: electrum_zcash/plugins/keepkey/qt.py:258
+msgid "Enter the master private key beginning with xprv:"
+msgstr "输入主要私钥来开始xprv"
+
+#: electrum_zcash/plugins/trezor/clientbase.py:300
+#: electrum_zcash/plugins/safe_t/clientbase.py:80
+#: electrum_zcash/plugins/keepkey/clientbase.py:75
+msgid "Enter the passphrase to unlock this wallet:"
+msgstr "输入密码解锁这个钱包："
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:139
+msgid "Enter the password used when the backup was created:"
+msgstr "当链接出现时输入密码："
+
+#: electrum_zcash/plugins/trezor/qt.py:38
+msgid ""
+"Enter the recovery words by pressing the buttons according to what the "
+"device shows on its display.  You can also use your NUMPAD.\n"
+"Press BACKSPACE to go back a choice or word.\n"
+msgstr ""
+"根据显示在设备屏幕上的内容按下按钮，以便输入恢复单词。您也可以使用数字小键"
+"盘。\n"
+"按下BACKSPACE键退回到上一个选项或者单词。\n"
+
+#: electrum_zcash/gui/qt/installwizard.py:498
+msgid ""
+"Enter their master private key (xprv) if you want to be able to sign for "
+"them."
+msgstr "如果你想为他们签名请输入主密钥(xprv)。"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/wallets.py:71
+msgid "Enter wallet name"
+msgstr "输入钱包的名称"
+
+#: electrum_zcash/plugins/safe_t/qt.py:130
+#: electrum_zcash/plugins/keepkey/qt.py:256
+msgid "Enter your BIP39 mnemonic:"
+msgstr "输入您的BIP39助记词"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:192
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:202
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:207
+msgid "Enter your Digital Bitbox password:"
+msgstr "输入你硬件钱包的密码："
+
+#: electrum_zcash/gui/kivy/uix/dialogs/password_dialog.py:298
+#, fuzzy
+msgid "Enter your PIN"
+msgstr "输入PIN码"
+
+#: electrum_zcash/plugins/safe_t/qt.py:145
+#: electrum_zcash/plugins/keepkey/qt.py:271
+msgid "Enter your PIN (digits 1-9):"
+msgstr "输入你的PIN（数字1-9）："
+
+#: electrum_zcash/gui/kivy/main_window.py:1242
+msgid "Enter your PIN code to proceed"
+msgstr "请输入您的PIN码以继续。"
+
+#: electrum_zcash/plugins/trezor/clientbase.py:283
+#: electrum_zcash/plugins/safe_t/clientbase.py:60
+#: electrum_zcash/plugins/keepkey/clientbase.py:58
+msgid "Enter your current {} PIN:"
+msgstr "请输入您当前的PIN码："
+
+#: electrum_zcash/gui/kivy/uix/dialogs/password_dialog.py:267
+#, fuzzy
+msgid "Enter your password"
+msgstr "输入密码:"
+
+#: electrum_zcash/gui/qt/installwizard.py:286
+msgid "Enter your password or choose another file."
+msgstr "请输入密码或选择另一个文件。"
+
+#: electrum_zcash/gui/qt/confirm_tx_dialog.py:181
+msgid "Enter your password to proceed"
+msgstr "请输入您的密码以继续。"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:227
+msgid "Erase the Digital Bitbox"
+msgstr "清除虚拟挖矿机"
+
+#: electrum_zcash/gui/qt/__init__.py:290 electrum_zcash/gui/qt/__init__.py:302
+#: electrum_zcash/gui/qt/__init__.py:317
+#: electrum_zcash/gui/qt/installwizard.py:335
+#: electrum_zcash/gui/qt/installwizard.py:339
+#: electrum_zcash/gui/qt/installwizard.py:345
+#: electrum_zcash/gui/qt/installwizard.py:354
+#: electrum_zcash/gui/qt/installwizard.py:630
+#: electrum_zcash/gui/qt/installwizard.py:634 electrum_zcash/gui/qt/util.py:239
+msgid "Error"
+msgstr "错误"
+
+#: electrum_zcash/gui/qt/main_window.py:1233
+msgid "Error adding payment request"
+msgstr "错误的付款请求"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:397
+#, fuzzy
+msgid "Error combining partial transactions"
+msgstr "输入您的PIN码来标记交易"
+
+#: electrum_zcash/plugins/labels/labels.py:25
+#, fuzzy
+msgid "Error connecting to {} server"
+msgstr "错误的扫描设备"
+
+#: electrum_zcash/plugins/cosigner_pool/qt.py:247
+msgid "Error decrypting message"
+msgstr "错误的解密信息"
+
+#: electrum_zcash/gui/qt/main_window.py:2615
+#: electrum_zcash/gui/qt/main_window.py:2618
+msgid "Error getting transaction from network"
+msgstr ""
+
+#: electrum_zcash/gui/qt/qrtextedit.py:69
+msgid "Error opening file"
+msgstr "文件打开出错"
+
+#: electrum_zcash/gui/kivy/uix/screens.py:369
+#: electrum_zcash/gui/qt/main_window.py:1819
+#, fuzzy
+msgid "Error parsing URI"
+msgstr "文件打开出错"
+
+#: electrum_zcash/base_wizard.py:305
+msgid "Error scanning devices"
+msgstr "错误的扫描设备"
+
+#: electrum_zcash/plugins/ledger/ledger.py:573
+msgid "Error showing address"
+msgstr "显示地址时出错"
+
+#: electrum_zcash/plugins/labels/qt.py:73
+msgid "Error synchronising labels"
+msgstr "同步标签失败"
+
+#: electrum_zcash/gui/qt/bip39_recovery_dialog.py:68
+msgid "Error: Account discovery failed."
+msgstr ""
+
+#: electrum_zcash/base_wizard.py:616
+msgid "Error: duplicate master public key"
+msgstr "错误: 使用多个父钥"
+
+#: electrum_zcash/i18n.py:57
+msgid "Esperanto"
+msgstr "世界语"
+
+#: electrum_zcash/gui/qt/fee_slider.py:60
+msgid "Estimate"
+msgstr "估计"
+
+#: electrum_zcash/gui/qt/__init__.py:173
+#, fuzzy
+msgid "Exit Zcash Electrum"
+msgstr "退出 Dash Electrum"
+
+#: electrum_zcash/gui/qt/history_list.py:975
+msgid "Expand Tx Group"
+msgstr ""
+
+#: electrum_zcash/gui/kivy/uix/screens.py:640
+#, fuzzy
+msgid "Expiration date"
+msgstr "过期"
+
+#: electrum_zcash/gui/qt/main_window.py:1074
+msgid "Expiration date of your request."
+msgstr "您的要求的截止日期。"
+
+#: electrum_zcash/invoices.py:47
+msgid "Expired"
+msgstr "已过期"
+
+#: electrum_zcash/invoices.py:87 electrum_zcash/gui/qt/main_window.py:1980
+msgid "Expires"
+msgstr "过期"
+
+#: electrum_zcash/gui/qt/main_window.py:1081
+#, fuzzy
+msgid "Expires after"
+msgstr "过期"
+
+#: electrum_zcash/gui/qt/main_window.py:702
+#: electrum_zcash/gui/qt/main_window.py:705
+#: electrum_zcash/gui/qt/main_window.py:708
+#: electrum_zcash/gui/qt/main_window.py:2004
+#: electrum_zcash/gui/qt/main_window.py:2650
+#: electrum_zcash/gui/qt/transaction_dialog.py:181
+#: electrum_zcash/gui/qt/history_list.py:1052
+msgid "Export"
+msgstr "导出"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/status.kv:69
+#, fuzzy
+msgid "Export Backup"
+msgstr "导出"
+
+#: electrum_zcash/gui/qt/history_list.py:1044
+msgid "Export History"
+msgstr "导出历史记录"
+
+#: electrum_zcash/gui/qt/contact_list.py:77
+msgid "Export file"
+msgstr "导出文件"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:280
+#, fuzzy
+msgid "Export to file"
+msgstr "导出文件"
+
+#: electrum_zcash/gui/qt/main_window.py:2637
+msgid "Exposing a single private key can compromise your entire wallet!"
+msgstr "泄漏一个私有密钥可能会危及整个钱包！"
+
+#: electrum_zcash/gui/qt/seed_dialog.py:68
+msgid "Extend this seed with custom words"
+msgstr "用自定义单词扩展这个种子"
+
+#: electrum_zcash/invoices.py:49
+msgid "Failed"
+msgstr ""
+
+#: electrum_zcash/plugins/hw_wallet/plugin.py:98
+msgid "Failed to create a client for this device."
+msgstr "无法为此设备创建客户端。"
+
+#: electrum_zcash/gui/qt/installwizard.py:346
+msgid "Failed to decrypt using this hardware device."
+msgstr "使用此硬件设备解密失败。"
+
+#: electrum_zcash/gui/kivy/main_window.py:529
+#: electrum_zcash/gui/qt/transaction_dialog.py:318
+#: electrum_zcash/gui/qt/transaction_dialog.py:321
+msgid "Failed to display QR code."
+msgstr "无法显示二维码。"
+
+#: electrum_zcash/util.py:151
+msgid "Failed to export to file."
+msgstr "导出文件失败。"
+
+#: electrum_zcash/util.py:143
+msgid "Failed to import from file."
+msgstr "导入文件失败。"
+
+#: electrum_zcash/gui/qt/main_window.py:1476
+#, fuzzy
+msgid "Failed to parse 'Pay to' line"
+msgstr "导出文件失败。"
+
+#: electrum_zcash/plugins/cosigner_pool/qt.py:189
+msgid "Failed to send transaction to cosigning pool"
+msgstr "未能将交易发送到多重签名池"
+
+#: electrum_zcash/gui/qt/main_window.py:2158
+msgid "Failed to update password"
+msgstr "无法更新密码"
+
+#: electrum_zcash/gui/qt/main_window.py:2202
+msgid "False"
+msgstr ""
+
+#: electrum_zcash/gui/text.py:234
+#: electrum_zcash/gui/qt/transaction_dialog.py:489
+#: electrum_zcash/gui/qt/transaction_dialog.py:491
+msgid "Fee"
+msgstr "费用"
+
+#: electrum_zcash/gui/qt/confirm_tx_dialog.py:157
+#, fuzzy
+msgid "Fee rate"
+msgstr "固定比率"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:785
+#, fuzzy
+msgid "Fee rounding"
+msgstr "等待处理"
+
+#: electrum_zcash/gui/qt/address_list.py:121
+#: electrum_zcash/gui/qt/settings_dialog.py:425
+msgid "Fiat"
+msgstr "法定货币"
+
+#: electrum_zcash/gui/qt/history_list.py:814
+#, fuzzy
+msgid "Fiat balance"
+msgstr "当前余额"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:416
+msgid "Fiat currency"
+msgstr "法定货币"
+
+#: electrum_zcash/gui/qt/history_list.py:829
+msgid "Fiat incoming"
+msgstr ""
+
+#: electrum_zcash/gui/qt/history_list.py:833
+msgid "Fiat outgoing"
+msgstr ""
+
+#: electrum_zcash/gui/qt/util.py:482
+msgid "File"
+msgstr "文件"
+
+#: electrum_zcash/gui/qt/main_window.py:601
+msgid "File Backup"
+msgstr ""
+
+#: electrum_zcash/i18n.py:61
+msgid "Filipino"
+msgstr ""
+
+#: electrum_zcash/gui/qt/address_list.py:345
+#, fuzzy
+msgid "Filter Type:"
+msgstr "过滤:"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:185
+#, fuzzy
+msgid "Finalize"
+msgstr "已初始化"
+
+#: electrum_zcash/gui/qt/main_window.py:711
+msgid "Find"
+msgstr "查找"
+
+#: electrum_zcash/plugins/trezor/qt.py:620
+#: electrum_zcash/plugins/safe_t/qt.py:354
+#: electrum_zcash/plugins/keepkey/qt.py:446
+msgid "Firmware Version"
+msgstr "固件版本"
+
+#: electrum_zcash/plugins/ledger/ledger.py:54
+#, fuzzy
+msgid ""
+"Firmware version too old for Overwinter/Sapling support. Please update at"
+msgstr "固件版本太低。请更新"
+
+#: electrum_zcash/plugins/trezor/qt.py:425
+#, fuzzy
+msgid "Firmware version too old."
+msgstr "固件版本太低。请更新"
+
+#: electrum_zcash/plugins/ledger/ledger.py:52
+msgid "Firmware version too old. Please update at"
+msgstr "固件版本太低。请更新"
+
+#: electrum_zcash/gui/qt/fee_slider.py:60
+msgid "Fixed rate"
+msgstr "固定比率"
+
+#: electrum_zcash/gui/qt/network_dialog.py:125
+msgid "Follow this branch"
+msgstr "关注这个分支"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:172
+msgid "For CoinJoin; strip privates"
+msgstr ""
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:175
+#, fuzzy
+msgid "For hardware device; include xpubs"
+msgstr "没有检测到硬件设备。"
+
+#: electrum_zcash/plugins/revealer/__init__.py:7
+msgid "For more information, visit"
+msgstr "更多信息，请参考"
+
+#: electrum_zcash/gui/qt/main_window.py:1077
+msgid ""
+"For on-chain requests, the address gets reserved until expiration. After "
+"that, it might get reused."
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:293
+msgid ""
+"For security reasons we advise that you always use the latest version of "
+"Zcash Electrum."
+msgstr ""
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/network.kv:63
+msgid "Fork detected at block {}"
+msgstr "在{}块检测到分叉"
+
+#: electrum_zcash/gui/qt/util.py:452
+msgid "Format"
+msgstr "格式"
+
+#: electrum_zcash/gui/qt/main_window.py:1925
+msgid "Format: address, amount"
+msgstr "格式：地址，总额"
+
+#: electrum_zcash/plugins/scan_over_gap/scan_over_gap.py:109
+msgid "Found"
+msgstr ""
+
+#: electrum_zcash/gui/qt/address_list.py:448
+msgid "Freeze"
+msgstr "冻结"
+
+#: electrum_zcash/gui/qt/utxo_list.py:455
+#, fuzzy
+msgid "Freeze Address"
+msgstr "地址"
+
+#: electrum_zcash/gui/qt/utxo_list.py:482
+#, fuzzy
+msgid "Freeze Addresses"
+msgstr "地址"
+
+#: electrum_zcash/gui/qt/utxo_list.py:443
+#, fuzzy
+msgid "Freeze Coin"
+msgstr "冻结"
+
+#: electrum_zcash/gui/qt/utxo_list.py:474
+#, fuzzy
+msgid "Freeze Coins"
+msgstr "冻结"
+
+#: electrum_zcash/i18n.py:62
+msgid "French"
+msgstr "法语"
+
+#: electrum_zcash/gui/qt/history_list.py:717
+msgid "From"
+msgstr "来自"
+
+#: electrum_zcash/gui/qt/installwizard.py:878
+#, python-brace-format
+msgid "From {0} cosigners"
+msgstr "来自{0}联署人"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:239
+msgid "Full 2FA enabled. This is not supported yet."
+msgstr "启用完整的2FA。目前尚不支持。"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/addresses.py:247
+#: electrum_zcash/gui/qt/address_list.py:56
+msgid "Funded"
+msgstr "提供资金"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:423
+msgid "General"
+msgstr ""
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:247
+msgid "Generate a new random wallet"
+msgstr "产生一个新的随机钱包"
+
+#: electrum_zcash/i18n.py:55
+msgid "German"
+msgstr "德语"
+
+#: electrum_zcash/i18n.py:56
+msgid "Greek"
+msgstr "希腊语"
+
+#: electrum_zcash/gui/kivy/uix/screens.py:311
+#: electrum_zcash/gui/qt/history_list.py:425
+msgid "Group of {} Txs"
+msgstr ""
+
+#: electrum_zcash/plugin.py:518
+msgid "Handler not found for"
+msgstr "未找到处理程序"
+
+#: electrum_zcash/base_wizard.py:285
+msgid "Hardware Keystore"
+msgstr "硬件密钥"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1080
+#: electrum_zcash/gui/qt/installwizard.py:814
+#, fuzzy
+msgid "Hardware Wallet Public Key"
+msgstr "主要公钥:"
+
+#: electrum_zcash/gui/qt/network_dialog.py:104
+#: electrum_zcash/gui/qt/utxo_list.py:63
+msgid "Height"
+msgstr "高度"
+
+#: electrum_zcash/gui/kivy/main_window.py:1064
+msgid "Hello World"
+msgstr "Hello World"
+
+#: electrum_zcash/gui/qt/util.py:120 electrum_zcash/gui/qt/util.py:148
+#, fuzzy
+msgid "Help"
+msgstr "帮助(&H)"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1147
+#: electrum_zcash/gui/qt/installwizard.py:583
+#, fuzzy
+msgid "Here is your cosigner {} public key."
+msgstr "这是你的主公钥"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1084
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1142
+#: electrum_zcash/gui/qt/installwizard.py:579
+#: electrum_zcash/gui/qt/installwizard.py:818
+msgid "Here is your master public key."
+msgstr "这是你的主公钥"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1083
+#: electrum_zcash/gui/qt/installwizard.py:817
+#, fuzzy
+msgid "Here is your {} public key."
+msgstr "这是你的主公钥"
+
+#: electrum_zcash/gui/qt/main_window.py:715
+msgid "Hide"
+msgstr "隐藏"
+
+#: electrum_zcash/gui/qt/main_window.py:351
+#, fuzzy
+msgid "Hide {}"
+msgstr "隐藏"
+
+#: electrum_zcash/gui/text.py:104 electrum_zcash/gui/kivy/main.kv:417
+#: electrum_zcash/gui/qt/address_dialog.py:98
+#: electrum_zcash/gui/qt/main_window.py:216
+msgid "History"
+msgstr "历史"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/about.kv:25
+msgid "Homepage"
+msgstr "主页"
+
+#: electrum_zcash/plugins/trezor/qt.py:668
+#: electrum_zcash/plugins/safe_t/qt.py:402
+msgid "Homescreen"
+msgstr "主屏"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/proxy.kv:19
+msgid "Host"
+msgstr "主机"
+
+#: electrum_zcash/gui/qt/installwizard.py:841
+msgid "How do you want to connect to a server? "
+msgstr "你想怎么连接服务器？"
+
+#: electrum_zcash/plugins/cosigner_pool/qt.py:225
+msgid ""
+"However, hardware wallets do not support message decryption, which makes "
+"them not compatible with the current design of cosigner pool."
+msgstr "然而，硬件钱包不支持消息解密，这使得它们与当前的联署池设计不兼容。"
+
+#: electrum_zcash/gui/qt/seed_dialog.py:80
+msgid ""
+"However, we do not generate BIP39 seeds, because they do not meet our safety "
+"standard."
+msgstr "然而，我们不生成BIP39种子，因为它不符合我们的安全标准。"
+
+#: electrum_zcash/i18n.py:63
+msgid "Hungarian"
+msgstr "匈牙利语"
+
+#: electrum_zcash/base_wizard.py:213
+msgid "I already have a seed"
+msgstr "我已经有一个种子"
+
+#: electrum_zcash/gui/qt/network_dialog.py:299
+#, fuzzy
+msgid ""
+"If auto-connect is enabled, Zcash Electrum will always use a server that is "
+"on the longest blockchain."
+msgstr ""
+"如果自动连接已启用，Dash Electrum 将总是使用拥有最长的数据区块链的服务器。"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:277
+msgid ""
+"If enabled, at most 100 satoshis might be lost due to this, per transaction."
+msgstr ""
+
+#: electrum_zcash/gui/qt/network_dialog.py:300
+#, fuzzy
+msgid ""
+"If it is disabled, you have to choose a server you want to use. Zcash "
+"Electrum will warn you if your server is lagging."
+msgstr ""
+"如果禁用，则必须选择要使用的服务器。 如果你的服务器滞后，Dash Electrum会警告"
+"你。"
+
+#: electrum_zcash/base_wizard.py:416
+msgid "If you are not sure what this is, leave this field unchanged."
+msgstr "如果您不确定这是什么，请保持此字段不变。"
+
+#: electrum_zcash/plugins/trezor/qt.py:725
+#: electrum_zcash/plugins/safe_t/qt.py:459
+#: electrum_zcash/plugins/keepkey/qt.py:529
+msgid ""
+"If you disable your PIN, anyone with physical access to your {} device can "
+"spend your Zcash coins."
+msgstr ""
+
+#: electrum_zcash/base_wizard.py:502
+msgid "If you do not know what this is, leave this field empty."
+msgstr "如果你不知道这是什么，请将此字段留空。"
+
+#: electrum_zcash/plugins/trezor/qt.py:34
+#: electrum_zcash/plugins/safe_t/qt.py:34
+#: electrum_zcash/plugins/keepkey/qt.py:34
+msgid ""
+"If you forget a passphrase you will be unable to access any Zcash coins in "
+"the wallet behind it.  A passphrase is not a PIN. Only change this if you "
+"are sure you understand it."
+msgstr ""
+
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:903
+msgid ""
+"If you forget your PIN or lose your device, your seed phrase will be the "
+"only way to recover your funds."
+msgstr ""
+"如果你忘记密码或者丢失你的设备，你的种子短语将是你回复你的财产的唯一渠道。"
+
+#: electrum_zcash/plugins/revealer/qt.py:727
+msgid "If you have an old printer, or want optimal precision"
+msgstr "如果你有一个旧的打印机，或者想要最佳的精度"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:750
+msgid ""
+"If you have lost your Google Authenticator account, you can request a new "
+"secret. You will need to retype your seed."
+msgstr ""
+"如果您遗失了Google身份验证帐户，则可以申请新的密码。你需要重新输入你的种子。"
+
+#: electrum_zcash/gui/qt/installwizard.py:519
+msgid "If you lose your seed, your money will be permanently lost."
+msgstr "如果你丢失你的种子，你的财产将会永远丢失。"
+
+#: electrum_zcash/gui/qt/installwizard.py:347
+msgid "If you use a passphrase, make sure it is correct."
+msgstr "如果您使用密码，请确保它是正确的。"
+
+#: electrum_zcash/gui/qt/main_window.py:1218
+msgid ""
+"If you want to create new addresses, use a deterministic wallet instead."
+msgstr "如果你想创建新地址，请使用一个确定钱包。"
+
+#: electrum_zcash/base_wizard.py:340
+msgid ""
+"If your device is not detected on Windows, go to \"Settings\", \"Devices\", "
+"\"Connected devices\", and do \"Remove device\". Then, plug your device "
+"again."
+msgstr ""
+"如果在Windows上未检测到您的设备，请转到“设置”，“设备”，“连接的设备”，执行“删"
+"除设备”。 然后，再次插入您的设备。"
+
+#: electrum_zcash/gui/qt/main_window.py:2290
+msgid "If your wallet contains funds, make sure you have saved its seed."
+msgstr "如果你的钱包包含资金，确保你已经保存了它的种子。"
+
+#: electrum_zcash/plugins/hw_wallet/plugin.py:392
+msgid "Ignore and continue?"
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:701
+#: electrum_zcash/gui/qt/main_window.py:704
+#: electrum_zcash/gui/qt/main_window.py:707
+#: electrum_zcash/gui/qt/main_window.py:2829
+msgid "Import"
+msgstr "导入"
+
+#: electrum_zcash/base_wizard.py:232
+#, fuzzy
+msgid "Import Zcash Addresses"
+msgstr "导入地址"
+
+#: electrum_zcash/base_wizard.py:157
+#, fuzzy
+msgid "Import Zcash addresses or private keys"
+msgstr "导入私钥"
+
+#: electrum_zcash/gui/qt/main_window.py:684
+#: electrum_zcash/gui/qt/main_window.py:2853
+msgid "Import addresses"
+msgstr "导入地址"
+
+#: electrum_zcash/gui/qt/contact_list.py:76
+msgid "Import file"
+msgstr "导入文件"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:288
+msgid "Import pairing from the Digital Bitbox desktop app"
+msgstr "从Digital Bitbox桌面应用导入配对"
+
+#: electrum_zcash/gui/qt/main_window.py:2860
+msgid "Import private keys"
+msgstr "导入私钥"
+
+#: electrum_zcash/gui/qt/main_window.py:2638
+msgid ""
+"In particular, DO NOT use 'redeem private key' services proposed by third "
+"parties."
+msgstr "特别是，不要使用由第三方服务提供的“赎回私钥”。"
+
+#: electrum_zcash/invoices.py:48
+msgid "In progress"
+msgstr ""
+
+#: electrum_zcash/plugins/trezor/qt.py:42
+msgid ""
+"In seedless mode, the mnemonic seed words are never shown to the user.\n"
+"There is no backup, and the user has a proof of this.\n"
+"This is an advanced feature, only suggested to be used in redundant multisig "
+"setups."
+msgstr ""
+
+#: electrum_zcash/gui/qt/settings_dialog.py:233
+msgid ""
+"In some cases, use up to 3 change addresses in order to break up large coin "
+"amounts and obfuscate the recipient address."
+msgstr "在某些情况下，可以使用最多3个更改地址来分割大额货币并混淆收件人地址。"
+
+#: electrum_zcash/simple_config.py:426
+msgid "In the next block"
+msgstr "在下一个区块"
+
+#: electrum_zcash/gui/qt/console.py:34
+msgid "Inactivity timeout in minutes"
+msgstr ""
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:462
+msgid "Included in block: {}"
+msgstr ""
+
+#: electrum_zcash/util.py:126
+msgid "Incorrect password"
+msgstr "密码错误"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:200
+msgid "Incorrect password entered."
+msgstr "密码不正确。"
+
+#: electrum_zcash/i18n.py:65
+msgid "Indonesian"
+msgstr "印度尼西亚语"
+
+#: electrum_zcash/gui/qt/util.py:163
+msgid "Info"
+msgstr ""
+
+#: electrum_zcash/gui/kivy/main_window.py:683
+#: electrum_zcash/gui/kivy/uix/dialogs/zcash_kivy.py:139
+#: electrum_zcash/gui/qt/main_window.py:313
+#: electrum_zcash/gui/qt/__init__.py:352 electrum_zcash/gui/qt/util.py:247
+#: electrum_zcash/gui/qt/zcash_qt.py:132
+#: electrum_zcash/plugins/trezor/qt.py:762
+#: electrum_zcash/plugins/safe_t/qt.py:496
+#: electrum_zcash/plugins/keepkey/qt.py:566
+msgid "Information"
+msgstr "消息"
+
+#: electrum_zcash/plugins/ledger/qt.py:83
+msgid "Initialization of Ledger HW devices is currently disabled."
+msgstr "Ledger硬件设备的初始化当前被禁用。"
+
+#: electrum_zcash/plugins/trezor/trezor.py:231
+#: electrum_zcash/plugins/safe_t/safe_t.py:191
+#: electrum_zcash/plugins/keepkey/keepkey.py:233
+msgid "Initialize Device"
+msgstr "初始化设备"
+
+#: electrum_zcash/plugins/trezor/qt.py:624
+#: electrum_zcash/plugins/safe_t/qt.py:358
+#: electrum_zcash/plugins/keepkey/qt.py:451
+msgid "Initialized"
+msgstr "已初始化"
+
+#: electrum_zcash/gui/qt/main_window.py:2579
+#: electrum_zcash/gui/qt/transaction_dialog.py:384
+msgid "Input raw transaction"
+msgstr "导入原始交易"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:541
+msgid "Inputs"
+msgstr "收入"
+
+#: electrum_zcash/gui/qt/installwizard.py:159
+msgid "Install Wizard"
+msgstr "安装向导"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:152
+msgid "Install the zbar package to enable this."
+msgstr "安装zbar包以启用此功能。"
+
+#: electrum_zcash/plugins/revealer/qt.py:455
+msgid "Instructions:"
+msgstr "说明："
+
+#: electrum_zcash/util.py:111
+msgid "Insufficient funds"
+msgstr "资金不足"
+
+#: electrum_zcash/gui/qt/main_window.py:1943
+msgid "Invalid Address"
+msgstr "地址无效"
+
+#: electrum_zcash/gui/stdio.py:219 electrum_zcash/gui/text.py:401
+#: electrum_zcash/gui/qt/main_window.py:1456
+msgid "Invalid Amount"
+msgstr "金额不对"
+
+#: electrum_zcash/gui/stdio.py:224 electrum_zcash/gui/text.py:406
+msgid "Invalid Fee"
+msgstr "费用不对"
+
+#: electrum_zcash/util.py:1036
+msgid "Invalid JSON code."
+msgstr "无效的JSON代码。"
+
+#: electrum_zcash/gui/qt/main_window.py:1480
+msgid "Invalid Lines found:"
+msgstr "发现无效的行:"
+
+#: electrum_zcash/gui/kivy/main_window.py:1134
+#: electrum_zcash/gui/kivy/uix/dialogs/tx_dialog.py:262
+msgid "Invalid PIN"
+msgstr "PIN 无效"
+
+#: electrum_zcash/gui/qt/main_window.py:2473
+msgid "Invalid Public key"
+msgstr "公钥无效"
+
+#: electrum_zcash/gui/kivy/uix/screens.py:474
+#: electrum_zcash/plugins/hw_wallet/plugin.py:129
+#, fuzzy
+msgid "Invalid Zcash Address"
+msgstr "地址无效"
+
+#: electrum_zcash/gui/stdio.py:214 electrum_zcash/gui/text.py:396
+#, fuzzy
+msgid "Invalid Zcash address"
+msgstr "地址无效"
+
+#: electrum_zcash/gui/qt/main_window.py:2369
+#: electrum_zcash/gui/qt/main_window.py:2397 electrum_zcash/wallet.py:1699
+#, fuzzy
+msgid "Invalid Zcash address."
+msgstr "地址无效"
+
+#: electrum_zcash/gui/kivy/uix/screens.py:467
+msgid "Invalid amount"
+msgstr "无效的金额"
+
+#: electrum_zcash/gui/kivy/main_window.py:175
+msgid "Invalid server details: {}"
+msgstr ""
+
+#: electrum_zcash/gui/kivy/main_window.py:1143
+#: electrum_zcash/gui/qt/main_window.py:1699
+#, fuzzy
+msgid "Invoice has expired"
+msgstr "收据已保存"
+
+#: electrum_zcash/gui/qt/main_window.py:703
+msgid "Invoices"
+msgstr "收据"
+
+#: electrum_zcash/gui/qt/installwizard.py:46
+msgid ""
+"It also contains your master public key that allows watching your addresses."
+msgstr "它还包含你的主公钥，该公钥允许查看你的地址。"
+
+#: electrum_zcash/gui/qt/main_window.py:2630
+msgid "It cannot be \"backed up\" by simply exporting these private keys."
+msgstr "不能通过简单地导出这些私钥来“备份”。"
+
+#: electrum_zcash/gui/qt/main_window.py:3001
+msgid "It conflicts with current history."
+msgstr "与当前的历史冲突。"
+
+#: electrum_zcash/plugins/cosigner_pool/__init__.py:5
+msgid ""
+"It sends and receives partially signed transactions from/to your cosigner "
+"wallet."
+msgstr "它发送和接收来自你的联署钱包的部分签名的交易。"
+
+#: electrum_zcash/i18n.py:66
+msgid "Italian"
+msgstr "意大利语"
+
+#: electrum_zcash/i18n.py:67
+msgid "Japanese"
+msgstr "日语"
+
+#: electrum_zcash/plugins/keepkey/qt.py:59
+msgid "KeepKey Seed Recovery"
+msgstr "KeepKey种子恢复"
+
+#: electrum_zcash/plugins/keepkey/__init__.py:6
+msgid "KeepKey wallet"
+msgstr "KeepKey钱包"
+
+#: electrum_zcash/gui/qt/main_window.py:1327
+msgid "Keyboard shortcut: type \"!\" to send all your coins."
+msgstr "键盘快捷键: 输入 \"!\" 发送你所有的币。"
+
+#: electrum_zcash/base_wizard.py:207
+msgid "Keystore"
+msgstr "密钥库"
+
+#: electrum_zcash/gui/qt/main_window.py:2220
+#, fuzzy
+msgid "Keystore type"
+msgstr "密钥库"
+
+#: electrum_zcash/i18n.py:68
+msgid "Kyrgyz"
+msgstr "吉尔吉斯坦语"
+
+#: electrum_zcash/gui/qt/address_list.py:125
+#: electrum_zcash/gui/qt/utxo_list.py:61
+msgid "Label"
+msgstr "标签"
+
+#: electrum_zcash/plugins/labels/qt.py:44
+msgid "Label Settings"
+msgstr "标签设置"
+
+#: electrum_zcash/plugins/labels/__init__.py:3
+msgid "LabelSync"
+msgstr "标签同步"
+
+#: electrum_zcash/plugins/labels/__init__.py:6
+msgid ""
+"Labels, transactions IDs and addresses are encrypted before they are sent to "
+"the remote server."
+msgstr "标签，交易ID和地址在发送到远程服务器之前被加密。"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/settings.py:136
+#: electrum_zcash/gui/qt/settings_dialog.py:71
+#: electrum_zcash/plugins/trezor/qt.py:623
+#: electrum_zcash/plugins/safe_t/qt.py:357
+#: electrum_zcash/plugins/keepkey/qt.py:450
+msgid "Language"
+msgstr "语言"
+
+#: electrum_zcash/gui/qt/update_checker.py:51
+#: electrum_zcash/gui/qt/update_checker.py:84
+msgid "Latest version: {}"
+msgstr ""
+
+#: electrum_zcash/i18n.py:69
+msgid "Latvian"
+msgstr "拉脱维亚语"
+
+#: electrum_zcash/gui/qt/installwizard.py:43
+msgid "Leave this field empty if you want to disable encryption."
+msgstr "若您想要停用加密功能，请将此栏留空。"
+
+#: electrum_zcash/plugins/ledger/qt.py:53
+msgid "Ledger Status"
+msgstr "分类账状态"
+
+#: electrum_zcash/plugins/ledger/auth2fa.py:43
+msgid "Ledger Wallet Authentication"
+msgstr "分类账钱包授权"
+
+#: electrum_zcash/plugins/ledger/__init__.py:6
+msgid "Ledger wallet"
+msgstr "分类账钱包"
+
+#: electrum_zcash/plugins/trezor/trezor.py:216
+#: electrum_zcash/plugins/safe_t/safe_t.py:174
+#: electrum_zcash/plugins/keepkey/keepkey.py:216
+msgid "Let the device generate a completely new seed randomly"
+msgstr "让设备随机生成一个全新的种子"
+
+#: electrum_zcash/plugins/hw_wallet/plugin.py:165
+#, fuzzy
+msgid "Library version for '{}' is incompatible."
+msgstr "“{}”的库版本太旧了。"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/about.kv:19
+msgid "Licence"
+msgstr "授权条款"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:160
+msgid "Light"
+msgstr "明亮色调"
+
+#: electrum_zcash/gui/qt/main_window.py:1481
+msgid "Line #"
+msgstr "行号 #"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:248
+msgid "Load a wallet from the micro SD card"
+msgstr "从微型存储卡加载钱包"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:226
+msgid "Load a wallet from the micro SD card (the current seed is overwritten)"
+msgstr "从微型存储卡加载钱包（覆盖当前种子）"
+
+#: electrum_zcash/gui/qt/main_window.py:2581
+#: electrum_zcash/gui/qt/transaction_dialog.py:386
+msgid "Load transaction"
+msgstr "载入交易"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:338
+msgid "Loading backup..."
+msgstr "加载备份..."
+
+#: electrum_zcash/wallet.py:97 electrum_zcash/wallet.py:539
+msgid "Local"
+msgstr "本地"
+
+#: electrum_zcash/gui/qt/main_window.py:2597
+msgid "Lookup transaction"
+msgstr "查询交易记录"
+
+#: electrum_zcash/simple_config.py:424
+msgid "Low fee"
+msgstr "低手续费"
+
+#: electrum_zcash/plugins/scan_over_gap/scan_over_gap.py:72
+#, fuzzy
+msgid "Main Account"
+msgstr "金额不对"
+
+#: electrum_zcash/plugins/hw_wallet/plugin.py:99
+msgid "Make sure it is in the correct state."
+msgstr "确保它处于正确的状态。"
+
+#: electrum_zcash/qrscanner.py:76
+msgid "Make sure you have a camera connected and enabled."
+msgstr ""
+
+#: electrum_zcash/plugins/hw_wallet/plugin.py:178
+msgid "Make sure you install it with python3"
+msgstr "确信在python3下安装"
+
+#: electrum_zcash/gui/qt/main_window.py:548
+msgid ""
+"Make sure you own the seed phrase or the private keys, before you request "
+"Zcash coins to be sent to this wallet."
+msgstr ""
+
+#: electrum_zcash/gui/kivy/main_window.py:788
+#: electrum_zcash/gui/kivy/main_window.py:790
+#: electrum_zcash/gui/kivy/uix/ui_screens/status.kv:43
+#: electrum_zcash/gui/kivy/uix/ui_screens/status.kv:46
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1081
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1094
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1098
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1111
+#: electrum_zcash/gui/qt/main_window.py:2269
+#: electrum_zcash/gui/qt/installwizard.py:588
+#: electrum_zcash/gui/qt/installwizard.py:815
+msgid "Master Public Key"
+msgstr "主要公钥:"
+
+#: electrum_zcash/plugins/trezor/qt.py:410
+msgid "Matrix"
+msgstr "矩阵"
+
+#: electrum_zcash/gui/qt/main_window.py:1339
+msgid "Max"
+msgstr "最大值"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/tx_dialog.py:165
+msgid "Mempool depth"
+msgstr "内存池深度"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:189
+#, fuzzy
+msgid "Merge signatures from"
+msgstr "签名错误"
+
+#: electrum_zcash/gui/qt/main_window.py:2418
+#: electrum_zcash/gui/qt/main_window.py:2486
+msgid "Message"
+msgstr "消息"
+
+#: electrum_zcash/plugins/ledger/auth2fa.py:70
+msgid "Method:"
+msgstr "方式:"
+
+#: electrum_zcash/gui/qt/confirm_tx_dialog.py:145
+msgid "Mining fee"
+msgstr "挖矿费用"
+
+#: electrum_zcash/plugins/hw_wallet/plugin.py:177
+msgid "Missing libraries for {}."
+msgstr "缺少{}用到的库。"
+
+#: electrum_zcash/plugins/ledger/ledger.py:384
+#: electrum_zcash/plugins/safe_t/safe_t.py:55
+#: electrum_zcash/plugins/keepkey/keepkey.py:57
+msgid "Missing previous tx for legacy input."
+msgstr ""
+
+#: electrum_zcash/plugins/trezor/trezor.py:93
+#, fuzzy
+msgid "Missing previous tx."
+msgstr "缺少报告网址。"
+
+#: electrum_zcash/base_crash_reporter.py:66
+msgid "Missing report URL."
+msgstr "缺少报告网址。"
+
+#: electrum_zcash/gui/kivy/uix/spinbox.py:70
+#, fuzzy
+msgid "Missing value"
+msgstr "挖矿费用"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:290
+msgid "Mobile pairing options"
+msgstr "手机配对设置"
+
+#: electrum_zcash/plugins/revealer/qt.py:221
+msgid "More info at: {}"
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:1615
+msgid "More than one output set to spend max"
+msgstr ""
+
+#: electrum_zcash/gui/qt/installwizard.py:895
+msgid "Multi-Signature Wallet"
+msgstr "多人签名钱包"
+
+#: electrum_zcash/base_wizard.py:156
+msgid "Multi-signature wallet"
+msgstr "多重签名钱包"
+
+#: electrum_zcash/plugins/ledger/auth2fa.py:93
+#: electrum_zcash/plugins/ledger/auth2fa.py:134
+msgid "NOT DEVICE PIN - see above"
+msgstr "不是设备PIN - 请参阅上文"
+
+#: electrum_zcash/gui/qt/main_window.py:2188
+#: electrum_zcash/gui/qt/contact_list.py:47
+msgid "Name"
+msgstr "名字"
+
+#: electrum_zcash/plugins/trezor/qt.py:637
+#: electrum_zcash/plugins/safe_t/qt.py:371
+#: electrum_zcash/plugins/keepkey/qt.py:464
+msgid ""
+"Name this {}.  If you have multiple devices their labels help distinguish "
+"them."
+msgstr "命名为{}。如果你有多个设备，标签有助于区分它们。"
+
+#: electrum_zcash/gui/text.py:204 electrum_zcash/gui/qt/__init__.py:165
+msgid "Network"
+msgstr "网络"
+
+#: electrum_zcash/interface.py:241
+msgid "Network request timed out."
+msgstr ""
+
+#: electrum_zcash/invoices.py:56 electrum_zcash/gui/qt/exception_window.py:93
+msgid "Never"
+msgstr "永远不会"
+
+#: electrum_zcash/gui/qt/seed_dialog.py:55
+msgid "Never disclose your seed."
+msgstr "请妥善保存您的种子"
+
+#: electrum_zcash/gui/qt/seed_dialog.py:56
+msgid "Never type it on a website."
+msgstr "请勿在任何网页中输入"
+
+#: electrum_zcash/gui/qt/main_window.py:1091
+#, fuzzy
+msgid "New Address"
+msgstr "地址"
+
+#: electrum_zcash/gui/qt/main_window.py:2178
+#: electrum_zcash/gui/qt/main_window.py:2180
+msgid "New Contact"
+msgstr "新建联系人"
+
+#: electrum_zcash/gui/qt/password_dialog.py:104
+msgid "New Password:"
+msgstr "新密码："
+
+#: electrum_zcash/gui/qt/contact_list.py:75
+msgid "New contact"
+msgstr "新建联系人"
+
+#: electrum_zcash/gui/qt/main_window.py:848
+#, fuzzy
+msgid "New transaction: {}"
+msgstr "新的交易已接收：{}"
+
+#: electrum_zcash/gui/qt/installwizard.py:171
+#: electrum_zcash/plugins/revealer/qt.py:127
+msgid "Next"
+msgstr "下一步"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/question.py:56
+#: electrum_zcash/plugins/trezor/qt.py:494
+#: electrum_zcash/plugins/safe_t/qt.py:228
+#: electrum_zcash/plugins/keepkey/qt.py:350
+msgid "No"
+msgstr "无"
+
+#: electrum_zcash/util.py:224 electrum_zcash/util.py:230
+msgid "No Data"
+msgstr "无数据"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/send.kv:130
+#: electrum_zcash/gui/kivy/uix/screens.py:414
+#: electrum_zcash/gui/kivy/uix/screens.py:608
+msgid "No Description"
+msgstr "无描述"
+
+#: electrum_zcash/gui/kivy/main_window.py:289
+msgid "No Wallet"
+msgstr "无钱包"
+
+#: electrum_zcash/gui/kivy/uix/screens.py:585
+msgid "No address available. Please remove some of your pending requests."
+msgstr ""
+
+#: electrum_zcash/exchange_rate.py:436
+msgid "No data"
+msgstr "无数据"
+
+#: electrum_zcash/gui/qt/main_window.py:780
+msgid "No donation address for this server"
+msgstr "服务器上无此捐赠地址"
+
+#: electrum_zcash/base_wizard.py:335
+msgid "No exceptions encountered."
+msgstr "没有遇到例外。"
+
+#: electrum_zcash/gui/qt/bip39_recovery_dialog.py:55
+#, fuzzy
+msgid "No existing accounts found."
+msgstr "没有遇到例外。"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/network.kv:63
+msgid "No fork detected"
+msgstr "没有检测到分叉"
+
+#: electrum_zcash/base_wizard.py:337
+msgid "No hardware device detected."
+msgstr "没有检测到硬件设备。"
+
+#: electrum_zcash/wallet.py:164
+msgid "No inputs found."
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:2221
+#, fuzzy
+msgid "No keystore"
+msgstr "密钥库"
+
+#: electrum_zcash/gui/qt/main_window.py:1216
+msgid "No more addresses in your wallet."
+msgstr "你的钱包中没有更多的地址。"
+
+#: electrum_zcash/gui/qt/main_window.py:1448
+msgid "No outputs"
+msgstr "无转出"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/status.kv:48
+#, fuzzy
+msgid "No seed stored for wallet"
+msgstr "不能创建钱包窗口"
+
+#: electrum_zcash/gui/kivy/main_window.py:417
+msgid "No wallet loaded."
+msgstr "没有加载钱包。"
+
+#: electrum_zcash/gui/kivy/main_window.py:154
+#: electrum_zcash/gui/kivy/uix/dialogs/fx_dialog.py:125
+#: electrum_zcash/gui/kivy/uix/dialogs/fx_dialog.py:126
+#: electrum_zcash/gui/kivy/uix/dialogs/fx_dialog.py:137
+#: electrum_zcash/gui/kivy/uix/dialogs/settings.py:164
+#: electrum_zcash/gui/kivy/uix/dialogs/settings.py:219
+#: electrum_zcash/gui/qt/history_list.py:698
+#: electrum_zcash/gui/qt/settings_dialog.py:334
+msgid "None"
+msgstr "无"
+
+#: electrum_zcash/i18n.py:70
+msgid "Norwegian Bokmal"
+msgstr "挪威书面语"
+
+#: electrum_zcash/gui/qt/exception_window.py:97
+msgid "Not Now"
+msgstr "现在不"
+
+#: electrum_zcash/wallet.py:96
+msgid "Not Verified"
+msgstr "未验证"
+
+#: electrum_zcash/gui/stdio.py:165 electrum_zcash/gui/text.py:197
+#: electrum_zcash/gui/kivy/uix/ui_screens/network.kv:14
+#: electrum_zcash/gui/qt/network_dialog.py:367
+msgid "Not connected"
+msgstr "无连接"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/confirm_tx_dialog.py:131
+#: electrum_zcash/gui/qt/main_window.py:1590
+msgid "Not enough funds"
+msgstr "余额不足"
+
+#: electrum_zcash/wallet.py:187 electrum_zcash/wallet.py:189
+msgid "Not enough funds on address."
+msgstr "地址没有足够的资金。"
+
+#: electrum_zcash/wallet.py:529
+msgid "Not verified"
+msgstr "未验证"
+
+#: electrum_zcash/gui/qt/main_window.py:1326
+msgid ""
+"Note that if you have frozen some of your addresses, the available funds "
+"will be lower than your total balance."
+msgstr "注意如果你冻结了一些自己的地址，可用资金将会低于你的总余额。"
+
+#: electrum_zcash/base_wizard.py:501
+msgid "Note that this is NOT your encryption password."
+msgstr "请注意，此处不是你的加密密码。"
+
+#: electrum_zcash/gui/qt/installwizard.py:47
+#: electrum_zcash/gui/qt/password_dialog.py:292
+msgid ""
+"Note: If you enable this setting, you will need your hardware device to open "
+"your wallet."
+msgstr "注意：如果你启用此设置，则需要使用硬件设备才能打开钱包。"
+
+#: electrum_zcash/gui/qt/main_window.py:3011
+msgid ""
+"Note: this is an offline transaction, if you want the network to see it, you "
+"need to broadcast it."
+msgstr "注意：这是一个离线交易，如果你想通知全网，你需要广播这个交易。"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/__init__.py:97
+msgid "Nothing set !"
+msgstr "未设置"
+
+#: electrum_zcash/plot.py:15
+msgid "Nothing to plot."
+msgstr "没有输出。"
+
+#: electrum_zcash/gui/qt/history_list.py:783
+msgid "Nothing to summarize."
+msgstr "无需总结。"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:91
+msgid ""
+"Number of zeros displayed after the decimal point. For example, if this is "
+"set to 2, \"1.\" will be displayed as \"1.00\""
+msgstr "小数点后的位数。例如，若此项设置为 2，则“1”将会显示未“1.00”"
+
+#: electrum_zcash/gui/kivy/main_window.py:1255
+#: electrum_zcash/gui/kivy/uix/ui_screens/proxy.kv:64
+#: electrum_zcash/gui/kivy/uix/ui_screens/server.kv:44
+#: electrum_zcash/gui/kivy/uix/dialogs/zcash_kivy.py:147
+#: electrum_zcash/gui/qt/util.py:197 electrum_zcash/gui/qt/zcash_qt.py:75
+#: electrum_zcash/plugins/audio_modem/qt.py:71
+msgid "OK"
+msgstr "确认"
+
+#: electrum_zcash/plugins/hw_wallet/plugin.py:347
+msgid "OP_RETURN payload too large.\n"
+msgstr ""
+
+#: electrum_zcash/plugins/revealer/qt.py:255
+msgid "OR"
+msgstr ""
+
+#: electrum_zcash/gui/text.py:185 electrum_zcash/gui/kivy/main_window.py:907
+#: electrum_zcash/gui/qt/main_window.py:946
+msgid "Offline"
+msgstr "离线"
+
+#: electrum_zcash/base_wizard.py:344
+msgid "On Linux, you might have to add a new permission to your udev rules."
+msgstr "在Linux系统中，您可能需要为您的udev规则添加新的权限。"
+
+#: electrum_zcash/gui/qt/main_window.py:1964
+#, fuzzy
+msgid "Onchain Invoice"
+msgstr "凭证"
+
+#: electrum_zcash/gui/qt/main_window.py:1924
+msgid "One output per line."
+msgstr "每列一条结果。"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/network.kv:50
+msgid "One-server mode"
+msgstr ""
+
+#: electrum_zcash/gui/qt/settings_dialog.py:288
+msgid "Online Block Explorer"
+msgstr "在线查看区块数据"
+
+#: electrum_zcash/plugins/hw_wallet/plugin.py:345
+#, fuzzy
+msgid "Only OP_RETURN scripts are supported."
+msgstr "仅支持具有一次常量推送的OP_RETURN脚本。"
+
+#: electrum_zcash/plugins/hw_wallet/plugin.py:338
+msgid "Only OP_RETURN scripts, with one constant push, are supported."
+msgstr "仅支持具有一次常量推送的OP_RETURN脚本。"
+
+#: electrum_zcash/plugins/ledger/ledger.py:417
+msgid "Only address outputs are supported by {}"
+msgstr ""
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/network.kv:51
+#, fuzzy
+msgid "Only connect to a single server"
+msgstr ""
+"无法连接到邮件服务器：\n"
+"{}"
+
+#: electrum_zcash/plugins/trezor/qt.py:750
+#: electrum_zcash/plugins/safe_t/qt.py:484
+#: electrum_zcash/plugins/keepkey/qt.py:554
+msgid ""
+"Only wipe a device if you have the recovery seed written down and the device "
+"wallet(s) are empty, otherwise the Zcash coins will be lost forever."
+msgstr ""
+
+#: electrum_zcash/gui/qt/settings_dialog.py:205
+msgid "Open advanced transaction preview dialog when 'Pay' is clicked."
+msgstr ""
+
+#: electrum_zcash/plugins/revealer/qt.py:732
+msgid "Open calibration pdf"
+msgstr "打开校准PDF"
+
+#: electrum_zcash/plugins/cosigner_pool/qt.py:184
+msgid "Open your cosigner wallet to retrieve it."
+msgstr "打开你的联署钱包来取回它。"
+
+#: electrum_zcash/gui/qt/util.py:1038
+msgid "Open {} file"
+msgstr "打开{}文件"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:113
+#: electrum_zcash/gui/qt/settings_dialog.py:426
+msgid "OpenAlias"
+msgstr "OpenAlias"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:109
+msgid "OpenAlias record, used to receive coins and to sign payment requests."
+msgstr "OpenAlias记录，用于接收货币并且签署付款请求。"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/tx_dialog.py:224
+#: electrum_zcash/gui/qt/seed_dialog.py:154
+msgid "Options"
+msgstr "选项"
+
+#: electrum_zcash/gui/qt/installwizard.py:754
+msgid "Or"
+msgstr ""
+
+#: electrum_zcash/gui/qt/network_dialog.py:171
+#, fuzzy
+msgid "Other known servers"
+msgstr "贊助服务器"
+
+#: electrum_zcash/base_wizard.py:378 electrum_zcash/plugins/hw_wallet/qt.py:266
+#, fuzzy
+msgid "Outdated device firmware"
+msgstr "设备固件版本太旧"
+
+#: electrum_zcash/plugins/trezor/trezor.py:299
+#: electrum_zcash/plugins/safe_t/safe_t.py:136
+#: electrum_zcash/plugins/keepkey/keepkey.py:178
+msgid ""
+"Outdated {} firmware for device labelled {}. Please download the updated "
+"firmware from {}"
+msgstr "过期的{}固件存在于标有{}的设备。请从{}下载最新的固件"
+
+#: electrum_zcash/gui/qt/utxo_list.py:64
+msgid "Output point"
+msgstr "输出点"
+
+#: electrum_zcash/gui/qt/main_window.py:1975
+#: electrum_zcash/gui/qt/transaction_dialog.py:585
+msgid "Outputs"
+msgstr "转出"
+
+#: electrum_zcash/gui/qt/network_dialog.py:215
+msgid "Overview"
+msgstr "总览"
+
+#: electrum_zcash/gui/kivy/main_window.py:1333
+#, fuzzy
+msgid "PIN Code"
+msgstr "显示二维码"
+
+#: electrum_zcash/plugins/trezor/qt.py:654
+#: electrum_zcash/plugins/safe_t/qt.py:388
+#: electrum_zcash/plugins/keepkey/qt.py:481
+msgid "PIN Protection"
+msgstr "PIN保护"
+
+#: electrum_zcash/gui/kivy/main_window.py:1354
+#, fuzzy
+msgid "PIN disabled"
+msgstr "已禁用 "
+
+#: electrum_zcash/gui/kivy/main_window.py:1357
+#, fuzzy
+msgid "PIN not updated"
+msgstr "您的PIN码已更新"
+
+#: electrum_zcash/plugins/trezor/qt.py:659
+#: electrum_zcash/plugins/safe_t/qt.py:393
+#: electrum_zcash/plugins/keepkey/qt.py:486
+msgid ""
+"PIN protection is strongly recommended.  A PIN is your only protection "
+"against someone stealing your Zcash coins if they obtain physical access to "
+"your {}."
+msgstr ""
+
+#: electrum_zcash/plugins/trezor/qt.py:618
+#: electrum_zcash/plugins/safe_t/qt.py:352
+#: electrum_zcash/plugins/keepkey/qt.py:444
+msgid "PIN set"
+msgstr "PIN码设置"
+
+#: electrum_zcash/gui/kivy/main_window.py:1354
+#, fuzzy
+msgid "PIN updated"
+msgstr "您的PIN码已更新"
+
+#: electrum_zcash/invoices.py:45
+msgid "Paid"
+msgstr "付款"
+
+#: electrum_zcash/wallet.py:547
+msgid "Partially signed"
+msgstr "部分成交"
+
+#: electrum_zcash/gui/kivy/main_window.py:1297
+msgid "Passphrase"
+msgstr "密语"
+
+#: electrum_zcash/gui/qt/password_dialog.py:90
+#: electrum_zcash/plugins/trezor/qt.py:190
+msgid "Passphrase:"
+msgstr "密語："
+
+#: electrum_zcash/plugins/trezor/qt.py:619
+#: electrum_zcash/plugins/safe_t/qt.py:353
+#: electrum_zcash/plugins/keepkey/qt.py:445
+msgid "Passphrases"
+msgstr "密语"
+
+#: electrum_zcash/plugins/trezor/qt.py:23
+#: electrum_zcash/plugins/safe_t/qt.py:23
+#: electrum_zcash/plugins/keepkey/qt.py:23
+msgid ""
+"Passphrases allow you to access new wallets, each hidden behind a particular "
+"case-sensitive passphrase."
+msgstr ""
+"密码短语允许您访问新的钱包，每个钱包都隐藏在特定的，区分大小写的密码后面。"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/proxy.kv:47
+#: electrum_zcash/gui/qt/main_window.py:2075
+#: electrum_zcash/gui/qt/installwizard.py:230
+#: electrum_zcash/gui/qt/installwizard.py:614
+#: electrum_zcash/gui/qt/confirm_tx_dialog.py:163
+#: electrum_zcash/gui/qt/console.py:43
+#: electrum_zcash/gui/qt/network_dialog.py:240
+#: electrum_zcash/gui/qt/password_dialog.py:312
+msgid "Password"
+msgstr "密码"
+
+#: electrum_zcash/gui/qt/password_dialog.py:159
+msgid "Password Strength"
+msgstr "密钥强度"
+
+#: electrum_zcash/gui/qt/main_window.py:2160
+msgid "Password is disabled, this wallet is not protected"
+msgstr "密码被禁用，此钱包没有被保护。"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/password_dialog.py:290
+#, fuzzy
+msgid "Password is too short (min {} characters)"
+msgstr "密码必须至少有4个字符。"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1307
+#, fuzzy
+msgid "Password mismatch"
+msgstr "PIN 错误"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:145
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:160
+msgid "Password must have at least 4 characters."
+msgstr "密码必须至少有4个字符。"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:148
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:163
+msgid "Password must have less than 64 characters."
+msgstr "密码必须少于64个字符。"
+
+#: electrum_zcash/gui/kivy/main_window.py:1320
+#, fuzzy
+msgid "Password not updated"
+msgstr "密码已成功更新"
+
+#: electrum_zcash/gui/qt/confirm_tx_dialog.py:195
+#, fuzzy
+msgid "Password required"
+msgstr "密钥强度"
+
+#: electrum_zcash/gui/kivy/main_window.py:1318
+#, fuzzy
+msgid "Password updated for {}"
+msgstr "密码已成功更新"
+
+#: electrum_zcash/gui/kivy/main_window.py:1315
+#, fuzzy
+msgid "Password updated successfully"
+msgstr "密码已成功更新"
+
+#: electrum_zcash/gui/qt/main_window.py:2160
+msgid "Password was updated successfully"
+msgstr "密码已成功更新"
+
+#: electrum_zcash/gui/qt/password_dialog.py:104
+msgid "Password:"
+msgstr "密码："
+
+#: electrum_zcash/gui/qt/util.py:840
+#, fuzzy
+msgid "Paste from clipboard"
+msgstr "复制到剪切板"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/send.kv:154
+#: electrum_zcash/gui/qt/invoice_list.py:154
+#: electrum_zcash/gui/qt/main_window.py:1344
+msgid "Pay"
+msgstr "支付"
+
+#: electrum_zcash/gui/text.py:231 electrum_zcash/gui/qt/main_window.py:1307
+#: electrum_zcash/gui/qt/contact_list.py:89
+msgid "Pay to"
+msgstr "支付给"
+
+#: electrum_zcash/gui/qt/main_window.py:1928
+msgid "Pay to many"
+msgstr "多方支付"
+
+#: electrum_zcash/gui/kivy/main_window.py:256
+#, fuzzy
+msgid "Payment Received"
+msgstr "收到付款"
+
+#: electrum_zcash/gui/qt/qrwindow.py:39
+msgid "Payment Request"
+msgstr "支付请求"
+
+#: electrum_zcash/gui/kivy/main_window.py:279
+#: electrum_zcash/gui/qt/main_window.py:1526
+#, fuzzy
+msgid "Payment failed"
+msgstr "收到付款"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/invoice_dialog.py:142
+#, fuzzy
+msgid "Payment log:"
+msgstr "已支付。"
+
+#: electrum_zcash/gui/kivy/uix/screens.py:560
+#: electrum_zcash/gui/qt/main_window.py:1503
+msgid "Payment received"
+msgstr "收到付款"
+
+#: electrum_zcash/gui/kivy/main_window.py:426
+#: electrum_zcash/gui/qt/main_window.py:1468
+msgid "Payment request has expired"
+msgstr "付款请求已超时"
+
+#: electrum_zcash/gui/stdio.py:261 electrum_zcash/gui/text.py:437
+#: electrum_zcash/gui/kivy/main_window.py:1176
+#: electrum_zcash/gui/qt/main_window.py:1733
+msgid "Payment sent."
+msgstr "已支付。"
+
+#: electrum_zcash/gui/kivy/main_window.py:275
+#: electrum_zcash/gui/qt/main_window.py:1522
+#, fuzzy
+msgid "Payment succeeded"
+msgstr "收到付款"
+
+#: electrum_zcash/gui/qt/history_list.py:849
+msgid "Perhaps some dependencies are missing..."
+msgstr "可能有一些依赖关系丢失..."
+
+#: electrum_zcash/i18n.py:60
+msgid "Persian"
+msgstr "波斯语"
+
+#: electrum_zcash/base_crash_reporter.py:56
+msgid "Please briefly describe what led to the error (optional):"
+msgstr "请简要描述导致错误的原因（可选）："
+
+#: electrum_zcash/plugins/email_requests/qt.py:260
+msgid "Please check your connection and credentials."
+msgstr "请检查你的连接和凭证。"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/crash_reporter.py:127
+msgid "Please check your network connection."
+msgstr "请检查您的网络连接。"
+
+#: electrum_zcash/plugins/hw_wallet/qt.py:173
+msgid "Please check your {} device"
+msgstr "请检查你的{}设备"
+
+#: electrum_zcash/gui/qt/history_list.py:1025
+msgid "Please confirm"
+msgstr "请确认"
+
+#: electrum_zcash/gui/kivy/uix/screens.py:459
+#, fuzzy
+msgid "Please enter an amount"
+msgstr "请输入您的密码"
+
+#: electrum_zcash/gui/qt/installwizard.py:497
+msgid "Please enter the master public key (xpub) of your cosigner."
+msgstr "请输入你的担保人的主公钥(xpub)"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1291
+#: electrum_zcash/gui/qt/installwizard.py:609
+#, fuzzy
+msgid "Please enter wallet password before continue"
+msgstr "请输入你的密码进行解密。"
+
+#: electrum_zcash/plugins/trezor/clientbase.py:37
+#, fuzzy
+msgid "Please enter your passphrase on the {} device"
+msgstr "请输入您的密码"
+
+#: electrum_zcash/gui/qt/main_window.py:1177
+#: electrum_zcash/gui/qt/console.py:28
+#: electrum_zcash/gui/qt/password_dialog.py:305
+msgid "Please enter your password"
+msgstr "请输入您的密码"
+
+#: electrum_zcash/plugins/cosigner_pool/qt.py:230
+msgid "Please enter your password to decrypt it."
+msgstr "请输入你的密码进行解密。"
+
+#: electrum_zcash/gui/qt/installwizard.py:510
+msgid "Please enter your seed phrase in order to restore your wallet."
+msgstr "请输入你的种子短语以恢复你的钱包。"
+
+#: electrum_zcash/plugin.py:633
+msgid "Please insert your {}"
+msgstr "请插入你的{}"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1274
+msgid ""
+"Please paste your cosigners master public key, or scan it using the camera "
+"button."
+msgstr "请粘贴你的担保人主公钥，或者用相机键扫描它。"
+
+#: electrum_zcash/gui/qt/main_window.py:809
+msgid "Please report any bugs as issues on github:<br/>"
+msgstr "请在github上报告任何错误与问题:<br/>"
+
+#: electrum_zcash/gui/qt/exception_window.py:121
+#, fuzzy
+msgid "Please report this issue manually"
+msgstr "请手动报告此问题。"
+
+#: electrum_zcash/gui/qt/exception_window.py:192
+#, fuzzy
+msgid "Please restart Zcash Electrum to activate new crash reporter settings"
+msgstr "请重启 Dash Electrum 以激活用户界面设置"
+
+#: electrum_zcash/gui/qt/main_window.py:2885
+#, fuzzy
+msgid "Please restart Zcash Electrum to activate the new GUI settings"
+msgstr "请重启 Dash Electrum 以激活用户界面设置"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1243
+msgid "Please retype your seed phrase, to confirm that you properly saved it"
+msgstr "请重新输入你的种子短语，以确认你正确地保存了它。"
+
+#: electrum_zcash/gui/qt/seed_dialog.py:49
+#, python-brace-format
+msgid "Please save these {0} words on paper (order is important). "
+msgstr "请将这些{0}单词写在纸上（顺序很重要）。"
+
+#: electrum_zcash/gui/kivy/uix/screens.py:456
+msgid "Please scan a Zcash address or a payment request"
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:607
+#, fuzzy
+msgid "Please select a backup directory"
+msgstr "请选择使用哪个{}设备："
+
+#: electrum_zcash/plugin.py:669
+msgid "Please select which {} device to use:"
+msgstr "请选择使用哪个{}设备："
+
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1085
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1143
+#: electrum_zcash/gui/qt/installwizard.py:580
+#: electrum_zcash/gui/qt/installwizard.py:819
+msgid "Please share it with your cosigners."
+msgstr "请与你的担保人分享。"
+
+#: electrum_zcash/base_wizard.py:374
+msgid "Please try again."
+msgstr "请重试。"
+
+#: electrum_zcash/base_wizard.py:791
+msgid "Please type it here."
+msgstr "请在这儿输入。"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:942
+msgid "Please type your seed phrase using the virtual keyboard."
+msgstr "请用虚拟键盘输入你的种子短语。"
+
+#: electrum_zcash/gui/qt/util.py:305 electrum_zcash/gui/qt/util.py:336
+msgid "Please wait"
+msgstr "请稍后"
+
+#: electrum_zcash/gui/qt/update_checker.py:94
+msgid "Please wait while Zcash Electrum checks for available updates."
+msgstr ""
+
+#: electrum_zcash/gui/stdio.py:250 electrum_zcash/gui/text.py:426
+#: electrum_zcash/gui/kivy/uix/dialogs/password_dialog.py:248
+#: electrum_zcash/gui/kivy/uix/dialogs/password_dialog.py:284
+#: electrum_zcash/gui/qt/installwizard.py:174
+#: electrum_zcash/gui/qt/installwizard.py:688
+msgid "Please wait..."
+msgstr "请稍候..."
+
+#: electrum_zcash/gui/kivy/main.kv:495
+#, fuzzy
+msgid "Plugins"
+msgstr "插件(&P)"
+
+#: electrum_zcash/i18n.py:72
+msgid "Polish"
+msgstr "波兰语"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/proxy.kv:28
+msgid "Port"
+msgstr "端口"
+
+#: electrum_zcash/i18n.py:74
+msgid "Portuguese"
+msgstr "葡萄牙语"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:449
+msgid "Position in mempool: {} from tip"
+msgstr "在内存池中的位置：{}来自提示"
+
+#: electrum_zcash/gui/qt/main_window.py:725
+#: electrum_zcash/gui/qt/main_window.py:2078
+#: electrum_zcash/gui/qt/transaction_dialog.py:783
+#: electrum_zcash/gui/qt/settings_dialog.py:55
+msgid "Preferences"
+msgstr "偏好设置"
+
+#: electrum_zcash/gui/qt/main_window.py:2819
+#, fuzzy
+msgid "Preparing sweep transaction..."
+msgstr "交易播报"
+
+#: electrum_zcash/gui/qt/confirm_tx_dialog.py:174
+#: electrum_zcash/gui/qt/transaction_dialog.py:747
+#, fuzzy
+msgid "Preparing transaction..."
+msgstr "交易播报"
+
+#: electrum_zcash/gui/qt/installwizard.py:290
+msgid "Press 'Next' to choose device to decrypt."
+msgstr "点击'下一步'选择要解密的设备。"
+
+#: electrum_zcash/gui/qt/installwizard.py:282
+msgid "Press 'Next' to create this wallet, or choose another file."
+msgstr "按'下一步'创建这个钱包，或者选择另一个文件。"
+
+#: electrum_zcash/gui/qt/installwizard.py:295
+msgid "Press 'Next' to create/focus window."
+msgstr "按“下一步”创建窗口，或使窗口拥有焦点。"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1118
+#: electrum_zcash/gui/qt/installwizard.py:560
+#, fuzzy
+msgid "Press 'Next' to finish creation of the wallet."
+msgstr "按'下一步'打开这个钱包"
+
+#: electrum_zcash/gui/qt/installwizard.py:292
+msgid "Press 'Next' to open this wallet."
+msgstr "按'下一步'打开这个钱包"
+
+#: electrum_zcash/plugins/ledger/auth2fa.py:124
+msgid "Press Enter"
+msgstr "按下回车键。"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/password_dialog.py:349
+#, fuzzy
+msgid "Press Next to create"
+msgstr "按“下一步”创建窗口，或使窗口拥有焦点。"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/password_dialog.py:357
+#, fuzzy
+msgid "Press Next to open"
+msgstr "按“下一步”创建窗口，或使窗口拥有焦点。"
+
+#: electrum_zcash/gui/kivy/main_window.py:747
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:682
+msgid "Press again to exit"
+msgstr "确认退出"
+
+#: electrum_zcash/plugins/revealer/qt.py:73
+msgid "Printer Calibration"
+msgstr "打印机校准"
+
+#: electrum_zcash/gui/qt/main_window.py:2345
+#: electrum_zcash/gui/qt/main_window.py:2350
+#: electrum_zcash/gui/qt/address_list.py:430
+msgid "Private key"
+msgstr "私钥"
+
+#: electrum_zcash/gui/qt/main_window.py:2632
+msgid "Private keys"
+msgstr "私钥"
+
+#: electrum_zcash/gui/qt/main_window.py:2712
+msgid "Private keys exported."
+msgstr "私钥已导出。"
+
+#: electrum_zcash/plugins/revealer/qt.py:222
+msgid "Proceed at your own risk."
+msgstr ""
+
+#: electrum_zcash/plugins/scan_over_gap/scan_over_gap.py:95
+msgid "Progress:"
+msgstr ""
+
+#: electrum_zcash/plugins/digitalbitbox/__init__.py:4
+msgid "Provides support for Digital Bitbox hardware wallet"
+msgstr "为Digital Bitbox硬件钱包提供支持"
+
+#: electrum_zcash/plugins/keepkey/__init__.py:4
+msgid "Provides support for KeepKey hardware wallet"
+msgstr "为KeepKey硬件钱包提供支持"
+
+#: electrum_zcash/plugins/safe_t/__init__.py:4
+msgid "Provides support for Safe-T mini hardware wallet"
+msgstr "为Safe-T mini硬件钱包提供支持"
+
+#: electrum_zcash/plugins/trezor/__init__.py:4
+#, fuzzy
+msgid "Provides support for Trezor hardware wallet"
+msgstr "为Trezor硬件钱包提供支持"
+
+#: electrum_zcash/plugins/audio_modem/__init__.py:4
+msgid "Provides support for air-gapped transaction signing."
+msgstr "为粉尘交易签名提供支持。"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/network.kv:26
+#: electrum_zcash/gui/kivy/uix/ui_screens/proxy.kv:3
+#: electrum_zcash/gui/qt/network_dialog.py:216
+msgid "Proxy"
+msgstr "代理"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/network.kv:27
+msgid "Proxy configuration"
+msgstr "代理配置"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/proxy.kv:11
+msgid "Proxy mode"
+msgstr "代理类型"
+
+#: electrum_zcash/gui/qt/network_dialog.py:272
+#, fuzzy
+msgid ""
+"Proxy settings apply to all connections: with Zcash Electrum servers, but "
+"also with third-party services."
+msgstr "代理设置适用于所有连接：使用Dash Electrum服务器，也适用于第三方服务。"
+
+#: electrum_zcash/gui/qt/network_dialog.py:238
+msgid "Proxy user"
+msgstr "代理用户"
+
+#: electrum_zcash/gui/qt/main_window.py:2494
+msgid "Public key"
+msgstr "公钥"
+
+#: electrum_zcash/gui/qt/address_dialog.py:76
+msgid "Public keys"
+msgstr "公钥"
+
+#: electrum_zcash/gui/qt/main_window.py:1131
+#, fuzzy
+msgid "QR Code"
+msgstr "显示二维码"
+
+#: electrum_zcash/gui/qt/main_window.py:2320
+msgid "QR code"
+msgstr "二维码"
+
+#: electrum_zcash/gui/qt/qrcodewidget.py:143
+msgid "QR code copied to clipboard"
+msgstr "二维码复制到剪贴板"
+
+#: electrum_zcash/gui/qt/qrcodewidget.py:138
+msgid "QR code saved to file"
+msgstr "二维码保存为文件"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/question.py:57
+msgid "Question"
+msgstr "问题"
+
+#: electrum_zcash/gui/text.py:204
+msgid "Quit"
+msgstr "退出"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:183
+msgid "REMEMBER THE PASSWORD!"
+msgstr "记住密码！"
+
+#: electrum_zcash/gui/qt/locktimeedit.py:36
+msgid "Raw"
+msgstr ""
+
+#: electrum_zcash/gui/kivy/uix/dialogs/tx_dialog.py:273
+msgid "Raw Transaction"
+msgstr "原始交易记录"
+
+#: electrum_zcash/plugins/trezor/clientbase.py:280
+#: electrum_zcash/plugins/safe_t/clientbase.py:57
+#: electrum_zcash/plugins/keepkey/clientbase.py:55
+msgid ""
+"Re-enter the new PIN for your {}.\n"
+"\n"
+"NOTE: the positions of the numbers have changed!"
+msgstr ""
+"为你的 {} 重输入新的PIN。\n"
+"\n"
+" 注意：数字的位置已经改变！"
+
+#: electrum_zcash/gui/qt/qrtextedit.py:49
+#: electrum_zcash/gui/qt/qrtextedit.py:94
+msgid "Read QR code"
+msgstr "扫描二维码"
+
+#: electrum_zcash/gui/qt/qrtextedit.py:47
+msgid "Read file"
+msgstr "读取文件"
+
+#: electrum_zcash/plugins/audio_modem/qt.py:91
+msgid "Read from microphone"
+msgstr "从麦克风读取"
+
+#: electrum_zcash/plugins/revealer/qt.py:243
+msgid "Ready to encrypt for revealer {}"
+msgstr ""
+
+#: electrum_zcash/gui/qt/history_list.py:836
+#, fuzzy
+msgid "Realized capital gains"
+msgstr "资本收益"
+
+#: electrum_zcash/gui/text.py:104 electrum_zcash/gui/kivy/main.kv:421
+#: electrum_zcash/gui/qt/main_window.py:218
+msgid "Receive"
+msgstr "接收"
+
+#: electrum_zcash/gui/qt/main_window.py:1123
+#, fuzzy
+msgid "Receive queue"
+msgstr "接收"
+
+#: electrum_zcash/gui/qt/address_list.py:69
+msgid "Receiving"
+msgstr "正在接收"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:140
+#, fuzzy
+msgid "Receiving Address"
+msgstr "接收地址"
+
+#: electrum_zcash/gui/qt/main_window.py:1119
+msgid "Receiving address"
+msgstr "接收地址"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/send.kv:94
+msgid "Recipient"
+msgstr "接收方"
+
+#: electrum_zcash/gui/kivy/uix/screens.py:456
+msgid "Recipient not specified."
+msgstr "无理由接受。"
+
+#: electrum_zcash/gui/qt/main_window.py:1305
+msgid "Recipient of the funds."
+msgstr "资金接收者。"
+
+#: electrum_zcash/plugins/trezor/trezor.py:217
+#: electrum_zcash/plugins/safe_t/safe_t.py:175
+#: electrum_zcash/plugins/keepkey/keepkey.py:217
+msgid "Recover from a seed you have previously written down"
+msgstr "覆盖你以前写下来的种子"
+
+#: electrum_zcash/gui/qt/address_dialog.py:85
+msgid "Redeem Script"
+msgstr "兑换脚本"
+
+#: electrum_zcash/gui/qt/history_list.py:993
+#, fuzzy
+msgid "Related invoices"
+msgstr "删除发票？"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/tx_dialog.py:204
+#: electrum_zcash/gui/qt/history_list.py:977
+msgid "Remove"
+msgstr "删除"
+
+#: electrum_zcash/gui/qt/address_list.py:438
+msgid "Remove from wallet"
+msgstr "从钱包删除"
+
+#: electrum_zcash/gui/qt/main_window.py:1953
+msgid "Remove {} from your list of contacts?"
+msgstr "从你的联系人名单删除 {} ？"
+
+#: electrum_zcash/gui/qt/exception_window.py:71
+msgid "Report contents"
+msgstr "报告内容"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/crash_reporter.py:129
+msgid "Report sent"
+msgstr "已发送报告"
+
+#: electrum_zcash/gui/qt/main_window.py:814
+msgid "Reporting Bugs"
+msgstr "报告错误"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/receive.kv:147
+#: electrum_zcash/gui/qt/main_window.py:1130
+msgid "Request"
+msgstr "请求"
+
+#: electrum_zcash/gui/kivy/uix/screens.py:574
+msgid "Request copied to clipboard"
+msgstr "请求已复制到剪贴板"
+
+#: electrum_zcash/plugins/email_requests/qt.py:208
+msgid "Request sent."
+msgstr "已发送请求。"
+
+#: electrum_zcash/gui/qt/main_window.py:1046
+msgid "Requested amount"
+msgstr "请求的金额"
+
+#: electrum_zcash/gui/qt/main_window.py:1985
+msgid "Requestor"
+msgstr "申请人"
+
+#: electrum_zcash/gui/qt/main_window.py:706
+msgid "Requests"
+msgstr "请求"
+
+#: electrum_zcash/gui/qt/installwizard.py:874
+#, python-brace-format
+msgid "Require {0} signatures"
+msgstr "需要 {0} 签名"
+
+#: electrum_zcash/plugins/trezor/qt.py:677
+msgid ""
+"Required package 'PIL' is not available - Please install it or use the "
+"Trezor website instead."
+msgstr "依赖包'PIL'不可用 - 请安装它或使用Trezor网站。"
+
+#: electrum_zcash/plugins/safe_t/qt.py:411
+msgid "Required package 'PIL' is not available - Please install it."
+msgstr "必需的包'PIL'不可用 - 请安装它。"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/plugins.py:154
+#: electrum_zcash/gui/qt/main_window.py:2988
+msgid "Requires"
+msgstr "需要"
+
+#: electrum_zcash/gui/qt/main_window.py:2102
+#: electrum_zcash/plugins/trezor/qt.py:670
+#: electrum_zcash/plugins/safe_t/qt.py:404
+msgid "Reset"
+msgstr "重置"
+
+#: electrum_zcash/plugins/scan_over_gap/scan_over_gap.py:97
+msgid "Reset all scans?"
+msgstr ""
+
+#: electrum_zcash/plugins/scan_over_gap/scan_over_gap.py:96
+#, fuzzy
+msgid "Reset scans"
+msgstr "重置"
+
+#: electrum_zcash/gui/qt/invoice_list.py:156
+msgid "Retry"
+msgstr ""
+
+#: electrum_zcash/plugins/revealer/qt.py:722
+msgid "Revealer - Printer calibration settings"
+msgstr "提词器 - 打印机校准设置"
+
+#: electrum_zcash/plugins/revealer/__init__.py:3
+#, fuzzy
+msgid "Revealer Backup Utility"
+msgstr "密钥备份工具"
+
+#: electrum_zcash/plugins/revealer/qt.py:112
+#: electrum_zcash/plugins/revealer/qt.py:242
+msgid "Revealer Secret Backup Plugin"
+msgstr ""
+
+#: electrum_zcash/plugins/revealer/qt.py:220
+#, fuzzy
+msgid "Revealers starting with 0 are not secure due to a vulnerability."
+msgstr "从0开始的Revealers有漏洞而且不受支持。"
+
+#: electrum_zcash/plugins/revealer/qt.py:739
+msgid "Right side"
+msgstr "右边"
+
+#: electrum_zcash/i18n.py:75
+msgid "Romanian"
+msgstr "罗马尼亚语"
+
+#: electrum_zcash/i18n.py:76
+msgid "Russian"
+msgstr "俄语"
+
+#: electrum_zcash/plugins/safe_t/__init__.py:6
+msgid "Safe-T mini wallet"
+msgstr "Safe-T迷你钱包"
+
+#: electrum_zcash/gui/qt/main_window.py:1343
+#: electrum_zcash/gui/qt/transaction_dialog.py:162
+#: electrum_zcash/gui/qt/qrcodewidget.py:158
+msgid "Save"
+msgstr "保存"
+
+#: electrum_zcash/gui/qt/installwizard.py:167
+msgid "Save and exit"
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:1994
+msgid "Save invoice to file"
+msgstr "发票保存为文件"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:531
+msgid "Save transaction offline"
+msgstr "离线保存交易"
+
+#: electrum_zcash/plugins/labels/__init__.py:5
+#, fuzzy
+msgid ""
+"Save your wallet labels on a remote server, and synchronize them across "
+"multiple devices where you use Zcash Electrum."
+msgstr ""
+"将您的钱包标签保存在远程服务器上，并在使用Dash Electrum的多个设备上同步它们。"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1215
+#: electrum_zcash/gui/qt/__init__.py:342 electrum_zcash/gui/qt/__init__.py:359
+#, fuzzy
+msgid "Saved unfinished multisig wallet"
+msgstr "Safe-T迷你钱包"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/send.kv:150
+#: electrum_zcash/plugins/scan_over_gap/kivy.py:473
+#: electrum_zcash/plugins/scan_over_gap/scan_over_gap.py:100
+msgid "Scan"
+msgstr ""
+
+#: electrum_zcash/plugins/scan_over_gap/__init__.py:5
+#: electrum_zcash/plugins/scan_over_gap/scan_over_gap.py:91
+msgid "Scan Over Gap"
+msgstr ""
+
+#: electrum_zcash/plugins/scan_over_gap/scan_over_gap.py:92
+msgid "Scan current wallet addresses beyond gap limits to search lost coins."
+msgstr ""
+
+#: electrum_zcash/plugins/scan_over_gap/scan_over_gap.py:99
+#, fuzzy
+msgid "Scan next {} addresses"
+msgstr "使用变更地址"
+
+#: electrum_zcash/plugins/scan_over_gap/scan_over_gap.py:109
+#, fuzzy
+msgid "Scanned"
+msgstr "横幅"
+
+#: electrum_zcash/gui/qt/bip39_recovery_dialog.py:27
+msgid "Scanning common paths for existing accounts..."
+msgstr ""
+
+#: electrum_zcash/base_wizard.py:302
+#, fuzzy
+msgid "Scanning devices..."
+msgstr "错误的扫描设备"
+
+#: electrum_zcash/plugins/trezor/qt.py:403
+msgid "Scrambled words"
+msgstr "扰乱字"
+
+#: electrum_zcash/gui/qt/main_window.py:2215
+#: electrum_zcash/gui/qt/main_window.py:2349
+msgid "Script type"
+msgstr "脚本类型"
+
+#: electrum_zcash/base_wizard.py:445
+msgid "Script type and Derivation path"
+msgstr "脚本类型和派生路径"
+
+#: electrum_zcash/plugins/ledger/auth2fa.py:147
+msgid "Security Card Challenge"
+msgstr "安全卡挑战"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/status.kv:48
+#: electrum_zcash/gui/kivy/uix/ui_screens/status.kv:53
+#: electrum_zcash/gui/qt/main_window.py:2079
+#: electrum_zcash/gui/qt/seed_dialog.py:260
+msgid "Seed"
+msgstr "种子"
+
+#: electrum_zcash/plugins/keepkey/qt.py:82
+msgid "Seed Entered"
+msgstr "种子已输入"
+
+#: electrum_zcash/gui/qt/seed_dialog.py:203
+msgid "Seed Type"
+msgstr "种子类型"
+
+#: electrum_zcash/gui/qt/main_window.py:2217
+msgid "Seed available"
+msgstr ""
+
+#: electrum_zcash/base_wizard.py:495
+msgid "Seed extension"
+msgstr "种子扩展"
+
+#: electrum_zcash/base_wizard.py:360
+msgid "Select a device"
+msgstr "选择设备"
+
+#: electrum_zcash/plugins/trezor/qt.py:285
+#, fuzzy
+msgid "Select backup type:"
+msgstr "选择恢复类型："
+
+#: electrum_zcash/gui/qt/history_list.py:752
+msgid "Select date"
+msgstr "选择日期"
+
+#: electrum_zcash/gui/qt/main_window.py:2646
+msgid "Select file to export your private keys to"
+msgstr "选择导出私钥的文件"
+
+#: electrum_zcash/gui/qt/history_list.py:1048
+msgid "Select file to export your wallet transactions to"
+msgstr "选择你钱包要导出的交易文件"
+
+#: electrum_zcash/gui/qt/util.py:1057
+msgid "Select file to save your {}"
+msgstr "选择文件来保存你的 {}"
+
+#: electrum_zcash/gui/qt/main_window.py:2246
+#, fuzzy
+msgid "Select keystore"
+msgstr "密钥库"
+
+#: electrum_zcash/plugins/trezor/qt.py:399
+msgid "Select recovery type:"
+msgstr "选择恢复类型："
+
+#: electrum_zcash/plugins/trezor/qt.py:342
+#, fuzzy
+msgid "Select seed length:"
+msgstr "选择你的种子长度："
+
+#: electrum_zcash/plugins/trezor/qt.py:318
+#, fuzzy
+msgid "Select seed/share length:"
+msgstr "选择你的种子长度："
+
+#: electrum_zcash/gui/qt/network_dialog.py:294
+msgid "Select server automatically"
+msgstr "自动选择服务器"
+
+#: electrum_zcash/gui/qt/installwizard.py:840
+msgid "Select server manually"
+msgstr "手动选择服务器"
+
+#: electrum_zcash/plugins/trezor/qt.py:346
+#, fuzzy
+msgid "Select share length:"
+msgstr "选择你的种子长度："
+
+#: electrum_zcash/gui/qt/qrcodewidget.py:130
+#, fuzzy
+msgid "Select where to save file"
+msgstr "选择存储你付款请求的位置"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:358
+#, fuzzy
+msgid "Select where to save your transaction"
+msgstr "选择将您已签署的交易保存在何处"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:70
+msgid "Select which language is used in the GUI (after restart)."
+msgstr "选择用户界面使用哪种语言 (重启后)."
+
+#: electrum_zcash/plugins/safe_t/qt.py:115
+#: electrum_zcash/plugins/keepkey/qt.py:241
+msgid "Select your seed length:"
+msgstr "选择你的种子长度："
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/network.kv:45
+msgid "Select your server automatically"
+msgstr "自动选择服务器"
+
+#: electrum_zcash/gui/qt/main_window.py:2561
+msgid "Select your transaction file"
+msgstr "选择您的交易文件"
+
+#: electrum_zcash/gui/text.py:104 electrum_zcash/gui/kivy/main.kv:413
+#: electrum_zcash/gui/qt/main_window.py:217
+#: electrum_zcash/gui/qt/confirm_tx_dialog.py:170
+msgid "Send"
+msgstr "发送"
+
+#: electrum_zcash/gui/qt/exception_window.py:88
+msgid "Send Bug Report"
+msgstr "发送错误报告"
+
+#: electrum_zcash/plugins/email_requests/__init__.py:4
+msgid "Send and receive payment request with an email account"
+msgstr "用电子邮件帐户发送和接收付款请求"
+
+#: electrum_zcash/plugins/email_requests/qt.py:142
+msgid "Send and receive payment requests via email"
+msgstr "通过电子邮件发送和接收付款请求"
+
+#: electrum_zcash/gui/kivy/uix/screens.py:509
+#, fuzzy
+msgid "Send payment?"
+msgstr "请求付款"
+
+#: electrum_zcash/gui/qt/main_window.py:1365
+msgid "Send queue"
+msgstr ""
+
+#: electrum_zcash/plugins/cosigner_pool/qt.py:158
+msgid "Send to cosigner"
+msgstr "发送给联合签名者"
+
+#: electrum_zcash/plugins/audio_modem/qt.py:98
+msgid "Send to speaker"
+msgstr "发送给发言人"
+
+#: electrum_zcash/plugins/email_requests/qt.py:180
+msgid "Send via e-mail"
+msgstr "通过电子邮件发送"
+
+#: electrum_zcash/gui/kivy/main_window.py:1184
+msgid "Sending"
+msgstr "正在发送"
+
+#: electrum_zcash/gui/qt/exception_window.py:127
+#, fuzzy
+msgid "Sending crash report..."
+msgstr "崩溃报告"
+
+#: electrum_zcash/plugins/cosigner_pool/qt.py:210
+msgid "Sending transaction to cosigning pool..."
+msgstr "将交易发送到cosigning池..."
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/network.kv:20
+#: electrum_zcash/gui/kivy/uix/ui_screens/server.kv:3
+#: electrum_zcash/gui/kivy/uix/ui_screens/server.kv:19
+#: electrum_zcash/gui/qt/network_dialog.py:104
+#: electrum_zcash/gui/qt/network_dialog.py:309
+msgid "Server"
+msgstr "服务器"
+
+#: electrum_zcash/plugins/email_requests/qt.py:221
+msgid "Server hosting your email account"
+msgstr "托管您的电子邮件帐户"
+
+#: electrum_zcash/gui/kivy/main_window.py:917
+#: electrum_zcash/gui/qt/main_window.py:962
+msgid "Server is lagging ({} blocks)"
+msgstr "服务器滞后 ( {} 个区块)"
+
+#: electrum_zcash/network.py:886
+msgid "Server returned unexpected transaction ID."
+msgstr ""
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/network.kv:21
+msgid "Server used to query your history."
+msgstr "服务器用于查询你的历史记录。"
+
+#: electrum_zcash/plugins/trezor/qt.py:691
+#: electrum_zcash/plugins/safe_t/qt.py:425
+#: electrum_zcash/plugins/keepkey/qt.py:495
+msgid "Session Timeout"
+msgstr "会话超时"
+
+#: electrum_zcash/plugins/trezor/qt.py:497
+#: electrum_zcash/plugins/safe_t/qt.py:231
+#: electrum_zcash/plugins/keepkey/qt.py:353
+msgid "Set a PIN"
+msgstr "设置 PIN 码"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:275
+msgid ""
+"Set the value of the change output so that it has similar precision to the "
+"other outputs."
+msgstr "设置更改输出的值，以便它具有与其他输出类似的精度。"
+
+#: electrum_zcash/gui/qt/installwizard.py:44
+msgid "Set wallet file encryption."
+msgstr "设置钱包文件加密。"
+
+#: electrum_zcash/gui/text.py:204 electrum_zcash/gui/kivy/main.kv:488
+#: electrum_zcash/plugins/trezor/qt.py:763
+#: electrum_zcash/plugins/audio_modem/qt.py:52
+#: electrum_zcash/plugins/safe_t/qt.py:497
+#: electrum_zcash/plugins/labels/qt.py:35
+#: electrum_zcash/plugins/keepkey/qt.py:567
+#: electrum_zcash/plugins/email_requests/qt.py:214
+msgid "Settings"
+msgstr "设置"
+
+#: electrum_zcash/plugins/trezor/qt.py:296
+msgid "Shamir"
+msgstr ""
+
+#: electrum_zcash/gui/kivy/uix/dialogs/invoice_dialog.py:122
+#, fuzzy
+msgid "Share Invoice"
+msgstr "凭证"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/request_dialog.py:125
+msgid "Share Zcash Request"
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:715
+msgid "Show"
+msgstr "显示"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:420
+msgid "Show Fiat balance for addresses"
+msgstr "显示地址的法币余额"
+
+#: electrum_zcash/gui/qt/address_dialog.py:67
+msgid "Show QR Code"
+msgstr "显示二维码"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:171
+msgid "Show UTXO timestamp/islock time"
+msgstr ""
+
+#: electrum_zcash/gui/qt/qrtextedit.py:18
+#: electrum_zcash/gui/qt/qrtextedit.py:36
+#: electrum_zcash/gui/qt/main_window.py:1121
+#: electrum_zcash/gui/qt/transaction_dialog.py:126
+#: electrum_zcash/gui/qt/transaction_dialog.py:276
+msgid "Show as QR code"
+msgstr "以二维码方式查看"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:419
+msgid "Show capital gains in history"
+msgstr "显示历史资本收益"
+
+#: electrum_zcash/plugins/trezor/qt.py:373
+#, fuzzy
+msgid "Show expert settings"
+msgstr "显示报告内容"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:418
+msgid "Show history rates"
+msgstr "显示历史费率"
+
+#: electrum_zcash/plugins/ledger/qt.py:32
+msgid "Show on Ledger"
+msgstr "在账本中显示"
+
+#: electrum_zcash/plugins/trezor/qt.py:247
+#: electrum_zcash/plugins/safe_t/qt.py:84
+#: electrum_zcash/plugins/digitalbitbox/qt.py:39
+#: electrum_zcash/plugins/hw_wallet/qt.py:309
+#: electrum_zcash/plugins/keepkey/qt.py:208
+msgid "Show on {}"
+msgstr "在{}上显示"
+
+#: electrum_zcash/gui/qt/exception_window.py:68
+msgid "Show report contents"
+msgstr "显示报告内容"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:187
+#, fuzzy
+msgid "Show warning for watching only wallets"
+msgstr "这是只能观看的钱包"
+
+#: electrum_zcash/gui/qt/main_window.py:351
+#, fuzzy
+msgid "Show {}"
+msgstr "在{}上显示"
+
+#: electrum_zcash/gui/qt/__init__.py:169
+msgid "Show/Hide"
+msgstr "显示/隐藏"
+
+#: electrum_zcash/plugins/ledger/ledger.py:563
+msgid "Showing address ..."
+msgstr "展示地址..."
+
+#: electrum_zcash/gui/kivy/uix/dialogs/tx_dialog.py:202
+#: electrum_zcash/gui/qt/main_window.py:2435
+#: electrum_zcash/gui/qt/transaction_dialog.py:156
+msgid "Sign"
+msgstr "签名"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/tx_dialog.py:252
+#, fuzzy
+msgid "Sign this transaction?"
+msgstr "签名交易"
+
+#: electrum_zcash/gui/qt/main_window.py:2411
+msgid "Sign/verify Message"
+msgstr "签名/验证信息"
+
+#: electrum_zcash/gui/qt/address_list.py:433
+msgid "Sign/verify message"
+msgstr "签名/验证消息"
+
+#: electrum_zcash/gui/qt/main_window.py:1987
+#: electrum_zcash/gui/qt/main_window.py:2429
+msgid "Signature"
+msgstr "签名"
+
+#: electrum_zcash/gui/qt/main_window.py:2406
+msgid "Signature verified"
+msgstr "验证签名"
+
+#: electrum_zcash/wallet.py:542
+msgid "Signed"
+msgstr "签名"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/tx_dialog.py:255
+msgid "Signing"
+msgstr "签名"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:604
+msgid "Signing large transaction. Please be patient ..."
+msgstr "签署大体积交易。请耐心等待..."
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:477
+msgid "Signing message ..."
+msgstr "签名信息。。。"
+
+#: electrum_zcash/gui/qt/main_window.py:1689
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:609
+msgid "Signing transaction..."
+msgstr "签名交易"
+
+#: electrum_zcash/gui/qt/main_window.py:2358
+msgid ""
+"Signing with an address actually means signing with the corresponding "
+"private key, and verifying with the corresponding public key. The address "
+"you have entered does not have a unique public key, so these operations "
+"cannot be performed."
+msgstr ""
+"用地址签名实际上是用相应的私钥签名，并用相应的公钥进行验证。你输入的地址公钥"
+"并不唯一，因此无法执行这些操作。"
+
+#: electrum_zcash/plugins/trezor/qt.py:289
+msgid "Single seed (BIP39)"
+msgstr ""
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:487
+msgid "Size:"
+msgstr "大小："
+
+#: electrum_zcash/i18n.py:77
+msgid "Slovak"
+msgstr "斯洛伐克语"
+
+#: electrum_zcash/i18n.py:78
+msgid "Slovenian"
+msgstr "斯洛文尼亚语"
+
+#: electrum_zcash/network.py:912
+msgid "Some of the outputs pay to a non-standard script."
+msgstr ""
+
+#: electrum_zcash/base_crash_reporter.py:52
+#, fuzzy
+msgid "Something went wrong while executing Zcash Electrum."
+msgstr "执行Dash Electrum时出现错误。很抱歉。"
+
+#: electrum_zcash/base_crash_reporter.py:53
+msgid "Sorry!"
+msgstr "抱歉！"
+
+#: electrum_zcash/gui/qt/update_checker.py:73
+msgid "Sorry, but we were unable to check for updates. Please try again later."
+msgstr ""
+
+#: electrum_zcash/gui/qt/settings_dialog.py:417
+msgid "Source"
+msgstr "源"
+
+#: electrum_zcash/i18n.py:59
+msgid "Spanish"
+msgstr "西班牙语"
+
+#: electrum_zcash/gui/qt/utxo_list.py:421
+msgid "Spend"
+msgstr "支付"
+
+#: electrum_zcash/gui/qt/utxo_list.py:418
+#, fuzzy
+msgid "Spend (select none)"
+msgstr "选择钱币"
+
+#: electrum_zcash/gui/qt/address_list.py:456
+msgid "Spend from"
+msgstr "支付启于"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:264
+msgid "Spend only confirmed coins"
+msgstr "只花费确认的货币"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:265
+msgid "Spend only confirmed inputs."
+msgstr "只花费确认的输入。"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/tx_dialog.py:149
+#: electrum_zcash/gui/qt/transaction_dialog.py:535
+msgid "Standard"
+msgstr ""
+
+#: electrum_zcash/base_wizard.py:155
+msgid "Standard wallet"
+msgstr "标准钱包"
+
+#: electrum_zcash/gui/qt/main_window.py:788
+msgid ""
+"Startup times are instant because it operates in conjunction with high-"
+"performance servers that handle the most complicated parts of the Zcash "
+"system."
+msgstr ""
+
+#: electrum_zcash/gui/qt/fee_slider.py:15
+msgid "Static"
+msgstr "静态"
+
+#: electrum_zcash/gui/qt/fee_slider.py:19
+msgid "Static: the fee slider uses static values"
+msgstr ""
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/network.kv:15
+#: electrum_zcash/gui/qt/invoice_list.py:61
+#: electrum_zcash/gui/qt/network_dialog.py:290
+#: electrum_zcash/gui/qt/request_list.py:62
+msgid "Status"
+msgstr "状态"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:439
+msgid "Status:"
+msgstr "状态:"
+
+#: electrum_zcash/plugins/trezor/clientbase.py:333
+#: electrum_zcash/plugins/safe_t/clientbase.py:98
+#: electrum_zcash/plugins/keepkey/clientbase.py:90
+msgid "Step {}/24.  Enter seed word as explained on your {}:"
+msgstr "步骤{}/24。按照{}中的说明输入种子词："
+
+#: electrum_zcash/gui/qt/main_window.py:2161
+#: electrum_zcash/gui/qt/main_window.py:2885
+#: electrum_zcash/gui/qt/main_window.py:3013
+#: electrum_zcash/gui/qt/exception_window.py:194
+msgid "Success"
+msgstr "成功"
+
+#: electrum_zcash/gui/qt/history_list.py:793
+msgid "Summary"
+msgstr "概要"
+
+#: electrum_zcash/plugins/ledger/auth2fa.py:145
+msgid "Summary Text PIN (requires dongle replugging)"
+msgstr "摘要文本PIN（需要加密狗重新插入）"
+
+#: electrum_zcash/plugins/ledger/auth2fa.py:145
+msgid "Summary Text PIN is Disabled"
+msgstr "摘要文本PIN被禁用"
+
+#: electrum_zcash/plugins/trezor/qt.py:304
+msgid "Super Shamir"
+msgstr ""
+
+#: electrum_zcash/plugins/keepkey/qt.py:449
+msgid "Supported Coins"
+msgstr "已支持的数字货币"
+
+#: electrum_zcash/i18n.py:79
+msgid "Swedish"
+msgstr "瑞典语"
+
+#: electrum_zcash/gui/qt/main_window.py:2774
+msgid "Sweep"
+msgstr "扫描"
+
+#: electrum_zcash/gui/qt/main_window.py:2753
+msgid "Sweep private keys"
+msgstr "扫描私钥"
+
+#: electrum_zcash/gui/stdio.py:156 electrum_zcash/gui/text.py:188
+#: electrum_zcash/gui/kivy/main_window.py:915
+#: electrum_zcash/gui/qt/main_window.py:959
+msgid "Synchronizing..."
+msgstr "同步中..."
+
+#: electrum_zcash/i18n.py:80
+msgid "Tamil"
+msgstr "泰米尔语"
+
+#: electrum_zcash/gui/kivy/main.kv:176
+msgid "Tap to show"
+msgstr ""
+
+#: electrum_zcash/gui/qt/fee_slider.py:58
+msgid "Target"
+msgstr "目标"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:797
+#, fuzzy
+msgid "Target fee:"
+msgstr "目标"
+
+#: electrum_zcash/gui/qt/main_window.py:578
+msgid "Testnet"
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:569
+msgid "Testnet coins are worthless."
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:570
+msgid ""
+"Testnet is separate from the main Zcash network. It is used for testing."
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:1241
+#: electrum_zcash/gui/qt/qrcodewidget.py:147 electrum_zcash/gui/qt/util.py:836
+msgid "Text copied to clipboard"
+msgstr "复制文本到剪贴板"
+
+#: electrum_zcash/gui/kivy/main_window.py:531
+#: electrum_zcash/gui/kivy/uix/dialogs/qr_dialog.py:91
+#: electrum_zcash/gui/kivy/uix/dialogs/invoice_dialog.py:118
+#: electrum_zcash/gui/kivy/uix/dialogs/request_dialog.py:121
+msgid "Text copied to clipboard."
+msgstr "文本已复制到剪贴板。"
+
+#: electrum_zcash/i18n.py:81
+msgid "Thai"
+msgstr "泰语"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:223
+msgid "The Digital Bitbox is already seeded. Choose an option:"
+msgstr "这个硬件钱包已经有种子。选择一种设置："
+
+#: electrum_zcash/plugins/trezor/clientbase.py:289
+#: electrum_zcash/plugins/safe_t/clientbase.py:64
+#: electrum_zcash/plugins/keepkey/clientbase.py:62
+msgid "The PIN cannot be longer than 9 characters."
+msgstr "该PIN不能超过9个字符。"
+
+#: electrum_zcash/gui/qt/main_window.py:3021
+msgid ""
+"The SSL certificate provided by the main server did not match the "
+"fingerprint passed in with the --serverfingerprint option."
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:1078
+msgid ""
+"The Zcash address never expires and will always be part of this electrum "
+"wallet."
+msgstr ""
+
+#: electrum_zcash/gui/qt/confirm_tx_dialog.py:142
+msgid ""
+"The amount of fee can be decided freely by the sender. However, transactions "
+"with low fees take more time to be processed."
+msgstr "手续费的多少由付款人决定。然而，越低的手续费交易时间就会越长。"
+
+#: electrum_zcash/gui/qt/main_window.py:1325
+msgid ""
+"The amount will be displayed in red if you do not have enough funds in your "
+"wallet."
+msgstr "若你的钱包中资金不足，将会以红色标示。"
+
+#: electrum_zcash/gui/qt/main_window.py:1317
+msgid ""
+"The description is not sent to the recipient of the funds. It is stored in "
+"your wallet file, and displayed in the 'History' tab."
+msgstr ""
+"这个标签描述不会发送给接收者，它只会保存在你的钱包里，并且显示在“历史记录”选"
+"项。"
+
+#: electrum_zcash/plugins/trezor/qt.py:265
+#: electrum_zcash/plugins/trezor/trezor.py:260
+#: electrum_zcash/plugins/safe_t/safe_t.py:223
+#: electrum_zcash/plugins/keepkey/keepkey.py:256
+#, fuzzy
+msgid "The device was disconnected."
+msgstr "没有检测到硬件设备。"
+
+#: electrum_zcash/wallet.py:1956
+msgid ""
+"The fee could not be verified. Signing is risky:\n"
+"if this transaction was maliciously modified before you sign,\n"
+"you might end up paying a higher mining fee than displayed."
+msgstr ""
+
+#: electrum_zcash/wallet.py:1979 electrum_zcash/wallet.py:1984
+msgid "The fee for this transaction seems unusually high."
+msgstr "这项交易的费用看上去过高"
+
+#: electrum_zcash/gui/qt/installwizard.py:394
+msgid ""
+"The file '{}' contains an incompletely created wallet.\n"
+"Do you want to complete its creation now?"
+msgstr ""
+"文件'{}'包含一个未完整创建的钱包。\n"
+"你要现在完成创建吗？"
+
+#: electrum_zcash/gui/qt/installwizard.py:385
+#: electrum_zcash/gui/qt/installwizard.py:399
+msgid "The file was removed"
+msgstr "文件已被移除"
+
+#: electrum_zcash/plugins/hw_wallet/plugin.py:389
+msgid ""
+"The firmware of your hardware device is too old. If possible, you should "
+"upgrade it. You can ignore this error and try to continue, however things "
+"are likely to break."
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:2840
+msgid "The following addresses were added"
+msgstr "以下地址已添加"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:110
+msgid "The following alias providers are available:"
+msgstr "下列别名提供者可用："
+
+#: electrum_zcash/gui/qt/main_window.py:2845
+msgid "The following inputs could not be imported"
+msgstr "以下收入无法导入"
+
+#: electrum_zcash/wallet.py:1952
+msgid ""
+"The input amounts could not be verified as the previous transactions are "
+"missing.\n"
+"The amount of money being spent CANNOT be verified."
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:2362
+#, fuzzy
+msgid "The operation is undefined. Not just in Zcash Electrum, but in general."
+msgstr "该操作未定义。不仅在Dash Electrum里，其它场合也是如此。"
+
+#: electrum_zcash/network.py:209
+#, fuzzy
+msgid "The server returned an error when broadcasting the transaction."
+msgstr "广播交易时出错。"
+
+#: electrum_zcash/network.py:229
+msgid "The server returned an error."
+msgstr ""
+
+#: electrum_zcash/network.py:201
+#, fuzzy
+msgid ""
+"The server returned an unexpected transaction ID when broadcasting the "
+"transaction."
+msgstr "广播交易时出错。"
+
+#: electrum_zcash/network.py:918
+msgid ""
+"The transaction was rejected because it contains multiple OP_RETURN outputs."
+msgstr ""
+
+#: electrum_zcash/network.py:907
+#, fuzzy
+msgid "The transaction was rejected because it is too large (in bytes)."
+msgstr "交易规模太大。"
+
+#: electrum_zcash/gui/qt/installwizard.py:377
+#, fuzzy
+msgid ""
+"The wallet '{}' contains multiple accounts, which are no longer supported "
+"since Zcash Electrum 2.7.\n"
+"\n"
+"Do you want to split your wallet into multiple files?"
+msgstr ""
+"钱包'{}'包含多个帐户，自从2.7版本以后不再支持这些帐户。\n"
+"\n"
+"你想要把钱包分成多个文件吗?"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:773
+msgid "Then, enter your Google Authenticator code:"
+msgstr "然后，输入你的谷歌验证码："
+
+#: electrum_zcash/gui/qt/update_checker.py:86
+#, fuzzy
+msgid "There is a new update available"
+msgstr "  (无可用汇率)"
+
+#: electrum_zcash/gui/qt/exception_window.py:119
+msgid "There was a problem with the automatic reporting:"
+msgstr "自动报告存在问题："
+
+#: electrum_zcash/gui/qt/main_window.py:1287
+msgid ""
+"This address has already been used. For better privacy, do not reuse it for "
+"new payments."
+msgstr ""
+
+#: electrum_zcash/gui/kivy/uix/dialogs/request_dialog.py:114
+msgid "This address is being reused"
+msgstr ""
+
+#: electrum_zcash/gui/qt/network_dialog.py:287
+msgid ""
+"This blockchain is used to verify the transactions sent by your transaction "
+"server."
+msgstr "这个区块链用语验证你的交易服务器发送的交易。"
+
+#: electrum_zcash/gui/qt/installwizard.py:281
+msgid "This file does not exist."
+msgstr "此文件不存在。"
+
+#: electrum_zcash/gui/qt/installwizard.py:294
+msgid "This file is already open in memory."
+msgstr "这个文件已经在内存中打开。"
+
+#: electrum_zcash/gui/qt/installwizard.py:289
+msgid "This file is encrypted using a hardware device."
+msgstr "这个文件使用硬件设备加密。"
+
+#: electrum_zcash/gui/qt/installwizard.py:285
+msgid "This file is encrypted with a password."
+msgstr "这个文件使用密码加密。"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:755
+msgid ""
+"This function is only available after pairing your {} with a mobile device."
+msgstr "此功能仅在将您的{}与移动设备配对后才可使用。"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:758
+msgid "This function is only available for p2pkh keystores when using {}."
+msgstr "此功能仅适用于使用{}的p2pkh密钥库。"
+
+#: electrum_zcash/plugins/ledger/ledger.py:734
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:752
+msgid "This function is only available for standard wallets when using {}."
+msgstr "此功能仅适用于使用{}的标准钱包。"
+
+#: electrum_zcash/gui/qt/main_window.py:1075
+msgid ""
+"This information is seen by the recipient if you send them a signed payment "
+"request."
+msgstr "如果您向他们发送签名的付款请求，收件人将看到此信息。"
+
+#: electrum_zcash/gui/qt/main_window.py:2625 electrum_zcash/wallet.py:481
+msgid "This is a watching-only wallet"
+msgstr "这是只能观看的钱包"
+
+#: electrum_zcash/gui/qt/main_window.py:2372
+#: electrum_zcash/gui/qt/main_window.py:2452
+msgid "This is a watching-only wallet."
+msgstr "这是只能观看的钱包。"
+
+#: electrum_zcash/gui/kivy/main_window.py:1399
+msgid "This is a watching-only wallet. It does not contain private keys."
+msgstr "这是一个只能观察的钱包。它不包含私钥。"
+
+#: electrum_zcash/gui/qt/installwizard.py:55
+msgid "This is discouraged."
+msgstr "不鼓励这样做。"
+
+#: electrum_zcash/gui/qt/network_dialog.py:314
+msgid "This is the height of your local copy of the blockchain."
+msgstr "这是您区块链本地副本的高度。"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:235
+msgid "This may result in higher transactions fees."
+msgstr "这会造成更高的交易费。"
+
+#: electrum_zcash/gui/qt/main_window.py:547
+msgid "This means you will not be able to spend Zcash coins with it."
+msgstr ""
+
+#: electrum_zcash/gui/qt/settings_dialog.py:276
+msgid "This might improve your privacy somewhat."
+msgstr "这可能会改善你的隐私。"
+
+#: electrum_zcash/gui/qt/main_window.py:1177
+msgid "This payment request will be signed."
+msgstr "支付请求将被签名"
+
+#: electrum_zcash/plugins/revealer/__init__.py:6
+#, fuzzy
+msgid ""
+"This plug-in allows you to create a visually encrypted backup of your wallet "
+"seeds, or of custom alphanumeric secrets."
+msgstr ""
+"提词器是种子短语备份解决方案。它可以让你创建一个离线的，模拟的，多因子的钱包"
+"种子或者任何其他密钥的备份。"
+
+#: electrum_zcash/plugins/scan_over_gap/__init__.py:7
+msgid "This plugin does scan over gap limits to search lost coins."
+msgstr ""
+
+#: electrum_zcash/plugins/cosigner_pool/__init__.py:4
+msgid "This plugin facilitates the use of multi-signatures wallets."
+msgstr "此插件便于使用多签名钱包。"
+
+#: electrum_zcash/gui/qt/seed_dialog.py:50
+msgid ""
+"This seed will allow you to recover your wallet in case of computer failure."
+msgstr "这颗安全种子可以在你电脑故障后在其他设备恢复你的钱包。"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:124
+msgid "This setting affects the Send tab, and all balance related fields."
+msgstr "此设置会影响发送选项卡，以及所有与余额有关的字段。"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:254
+msgid "This transaction is not saved. Close anyway?"
+msgstr "交易未保存，仍然关闭？"
+
+#: electrum_zcash/gui/qt/history_list.py:327
+msgid ""
+"This transaction is only available on your local machine.\n"
+"The currently connected server does not know about it.\n"
+"You can either broadcast it now, or simply remove it."
+msgstr ""
+
+#: electrum_zcash/wallet.py:1973
+#, fuzzy
+msgid ""
+"This transaction requires a higher fee, or it will not be propagated by your "
+"current server."
+msgstr "本次交易需要较高的手续费，否则它不会被当前服务器传播"
+
+#: electrum_zcash/plugins/ledger/ledger.py:707
+#: electrum_zcash/plugins/trezor/trezor.py:314
+#: electrum_zcash/plugins/safe_t/safe_t.py:270
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:728
+#: electrum_zcash/plugins/keepkey/keepkey.py:300
+msgid "This type of script is not supported with {}."
+msgstr "这种类型的脚本不支持{}。"
+
+#: electrum_zcash/plugins/revealer/qt.py:265
+#, fuzzy
+msgid "This version supports a maximum of {} characters."
+msgstr "此版本最多支持216个字符。"
+
+#: electrum_zcash/gui/qt/main_window.py:2307
+#: electrum_zcash/plugins/revealer/qt.py:291
+msgid "This wallet has no seed"
+msgstr "这个钱包没有安全种子"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:749
+msgid ""
+"This wallet is already registered with TrustedCoin. To finalize wallet "
+"creation, please enter your Google Authenticator Code."
+msgstr ""
+"此钱包已经在TrustedCoin注册。要完成创建钱包，请输入您的Google身份验证代码。"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1116
+#: electrum_zcash/gui/qt/installwizard.py:558
+msgid ""
+"This wallet is unfinished multisig wallet with {} cosigners and {} required "
+"signatures."
+msgstr ""
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/status.kv:48
+msgid "This wallet is watching-only"
+msgstr "这是一个观察钱包"
+
+#: electrum_zcash/gui/qt/main_window.py:546
+msgid "This wallet is watching-only."
+msgstr "这个钱包是只读。"
+
+#: electrum_zcash/plugins/ledger/ledger.py:414
+msgid "This {} device can only send to base58 addresses."
+msgstr ""
+
+#: electrum_zcash/gui/qt/history_list.py:718
+msgid "To"
+msgstr "到"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:479
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:607
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:611
+msgid "To cancel, briefly touch the blinking light or wait for the timeout."
+msgstr "要取消，请短暂触摸闪烁的灯光或等待直到超时。"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:316
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:340
+msgid "To cancel, briefly touch the light or wait for the timeout."
+msgstr "要取消，只需简单触摸灯或等待超时。"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:478
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:605
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:610
+msgid "To continue, touch the Digital Bitbox's blinking light for 3 seconds."
+msgstr "要继续，请触摸Digital Bitbox的闪灯3秒钟。"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:315
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:339
+msgid "To continue, touch the Digital Bitbox's light for 3 seconds."
+msgstr "要继续，请触摸Digital Bitbox的指示灯3秒钟。"
+
+#: electrum_zcash/base_wizard.py:264
+msgid "To create a spending wallet, please enter a master private key (xprv)."
+msgstr ""
+
+#: electrum_zcash/base_wizard.py:263
+msgid ""
+"To create a watching-only wallet, please enter your master public key (xpub)."
+msgstr ""
+
+#: electrum_zcash/plugins/revealer/qt.py:113
+msgid "To encrypt your backup, first we need to load some noise."
+msgstr ""
+
+#: electrum_zcash/base_crash_reporter.py:54
+msgid ""
+"To help us diagnose and fix the problem, you can send us a bug report that "
+"contains useful debug information:"
+msgstr ""
+"为了帮助我们诊断和修复问题，您可以给我们发送一个包含有用调试信息的bug报告："
+
+#: electrum_zcash/gui/qt/installwizard.py:520
+msgid ""
+"To make sure that you have properly saved your seed, please retype it here."
+msgstr "为了确保你已经正确保存你的安全种子，请在此重新输入。"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:781
+#, fuzzy
+msgid ""
+"To somewhat protect your privacy, Zcash Electrum tries to create change with "
+"similar precision to other outputs."
+msgstr "为了保护您的隐私，我们会尝试以与其他输出相似的精度创建更改。"
+
+#: electrum_zcash/base_wizard.py:338
+msgid "To trigger a rescan, press 'Next'."
+msgstr "触发重新扫描，按'下一步'。"
+
+#: electrum_zcash/base_wizard.py:373
+msgid "To try to fix this, we will now re-pair with your device."
+msgstr "为了解决这个问题，我们现在将重新与您的设备配对。"
+
+#: electrum_zcash/gui/qt/password_dialog.py:224
+msgid "Toggle Encryption"
+msgstr "切换加密"
+
+#: electrum_zcash/plugins/trezor/clientbase.py:311
+#: electrum_zcash/plugins/safe_t/clientbase.py:89
+#: electrum_zcash/plugins/keepkey/clientbase.py:84
+msgid "Too long passphrase ({} > 50 chars)."
+msgstr "太长的密码（{}> 50个字符）。"
+
+#: electrum_zcash/network.py:240
+msgid "Tor Setup Docs"
+msgstr ""
+
+#: electrum_zcash/gui/kivy/uix/dialogs/zcash_kivy.py:140
+#: electrum_zcash/gui/qt/zcash_qt.py:133
+#, fuzzy
+msgid "Tor proxy detected"
+msgstr "没有检测到分叉"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/tx_dialog.py:149
+#: electrum_zcash/gui/qt/transaction_dialog.py:309
+#: electrum_zcash/gui/qt/transaction_dialog.py:676
+msgid "Transaction"
+msgstr "交易"
+
+#: electrum_zcash/gui/qt/main_window.py:2597
+#: electrum_zcash/gui/qt/history_list.py:979
+msgid "Transaction ID"
+msgstr "交易 ID"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:121
+#: electrum_zcash/gui/qt/transaction_dialog.py:536
+msgid "Transaction ID:"
+msgstr "交易 ID:"
+
+#: electrum_zcash/gui/qt/main_window.py:3010
+msgid "Transaction added to wallet history."
+msgstr "交易已添加到钱包历史记录。"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:533
+#, fuzzy
+msgid "Transaction already saved or not yet signed."
+msgstr "交易无法保存。"
+
+#: electrum_zcash/network.py:915
+msgid ""
+"Transaction could not be broadcast due to dust outputs.\n"
+"Some of the outputs are too small in value, probably lower than 1000 "
+"satoshis.\n"
+"Check the units, make sure you haven't confused e.g. mBTC and BTC."
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:3000
+msgid "Transaction could not be saved."
+msgstr "交易无法保存。"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:376
+msgid "Transaction exported successfully"
+msgstr "成功导出交易"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:319
+msgid "Transaction is too large in size."
+msgstr "交易规模太大。"
+
+#: electrum_zcash/util.py:135
+msgid "Transaction is unrelated to this wallet."
+msgstr "与这个钱包无关交易。"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:385
+#, fuzzy
+msgid "Transaction to merge signatures from"
+msgstr "交易规模太大。"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/tx_dialog.py:173
+#: electrum_zcash/gui/qt/transaction_dialog.py:470
+msgid "Transaction unrelated to your wallet"
+msgstr "与你钱包无关交易"
+
+#: electrum_zcash/network.py:906
+#, fuzzy
+msgid "Transaction uses non-standard version."
+msgstr "交易无法保存。"
+
+#: electrum_zcash/gui/qt/main_window.py:2580
+msgid "Transaction:"
+msgstr "交易:"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:424
+msgid "Transactions"
+msgstr "交易"
+
+#: electrum_zcash/plugins/cosigner_pool/__init__.py:6
+msgid "Transactions are encrypted and stored on a remote server."
+msgstr "交易加密并存储在一个远程服务器。"
+
+#: electrum_zcash/plugins/trezor/qt.py:51
+msgid "Trezor Matrix Recovery"
+msgstr "Trezor矩阵恢复"
+
+#: electrum_zcash/plugins/trezor/__init__.py:6
+#, fuzzy
+msgid "Trezor wallet"
+msgstr "分类账钱包"
+
+#: electrum_zcash/gui/qt/main_window.py:2204
+msgid "True"
+msgstr ""
+
+#: electrum_zcash/plugin.py:639
+msgid "Try to connect again?"
+msgstr "尝试再次连接？"
+
+#: electrum_zcash/gui/qt/main_window.py:812
+msgid "Try to explain not only what the bug is, but how it occurs."
+msgstr "请不仅解释错误是什么，并说明它如何发生。"
+
+#: electrum_zcash/wallet.py:1974
+msgid ""
+"Try to raise your transaction fee, or use a server with a lower relay fee."
+msgstr "试着提高你的交易费，或者使用一个较低中继费的服务器。"
+
+#: electrum_zcash/i18n.py:82
+msgid "Turkish"
+msgstr "土耳其语"
+
+#: electrum_zcash/gui/qt/address_list.py:128
+msgid "Tx"
+msgstr "交易"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:535
+#: electrum_zcash/gui/qt/address_list.py:123
+msgid "Type"
+msgstr "类型"
+
+#: electrum_zcash/i18n.py:83
+msgid "Ukrainian"
+msgstr "乌克兰语"
+
+#: electrum_zcash/plugins/email_requests/qt.py:259
+msgid ""
+"Unable to connect to mail server:\n"
+" {}"
+msgstr ""
+"无法连接到邮件服务器：\n"
+"{}"
+
+#: electrum_zcash/gui/qt/main_window.py:624
+msgid "Unable to create backup"
+msgstr "无法创建备份"
+
+#: electrum_zcash/gui/qt/main_window.py:2706
+msgid "Unable to create csv"
+msgstr "无法创建CSV"
+
+#: electrum_zcash/gui/qt/history_list.py:1065
+msgid "Unable to export history"
+msgstr "无法导出历史记录"
+
+#: electrum_zcash/gui/qt/main_window.py:2572
+msgid "Unable to read file or no transaction found"
+msgstr "无法读取文件或没有发现交易"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/crash_reporter.py:127
+msgid "Unable to send report"
+msgstr "无法发送报告"
+
+#: electrum_zcash/invoices.py:51 electrum_zcash/wallet.py:94
+#: electrum_zcash/wallet.py:531
+msgid "Unconfirmed"
+msgstr "未确认"
+
+#: electrum_zcash/wallet.py:95
+msgid "Unconfirmed parent"
+msgstr "未确认部分"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:205
+msgid "Unexpected error occurred."
+msgstr "发生了意外的错误。"
+
+#: electrum_zcash/crypto.py:187
+msgid "Unexpected password hash version"
+msgstr ""
+
+#: electrum_zcash/gui/qt/address_list.py:451
+msgid "Unfreeze"
+msgstr "解冻"
+
+#: electrum_zcash/gui/qt/utxo_list.py:461
+#, fuzzy
+msgid "Unfreeze Address"
+msgstr "解冻"
+
+#: electrum_zcash/gui/qt/utxo_list.py:485
+#, fuzzy
+msgid "Unfreeze Addresses"
+msgstr "地址"
+
+#: electrum_zcash/gui/qt/utxo_list.py:449
+#, fuzzy
+msgid "Unfreeze Coin"
+msgstr "解冻"
+
+#: electrum_zcash/gui/qt/utxo_list.py:477
+#, fuzzy
+msgid "Unfreeze Coins"
+msgstr "解冻"
+
+#: electrum_zcash/invoices.py:46 electrum_zcash/gui/qt/invoice_list.py:106
+#: electrum_zcash/gui/qt/transaction_dialog.py:433 electrum_zcash/util.py:726
+msgid "Unknown"
+msgstr "未知"
+
+#: electrum_zcash/network.py:1056
+#, fuzzy
+msgid "Unknown error"
+msgstr "未知"
+
+#: electrum_zcash/network.py:217
+#, fuzzy
+msgid "Unknown error when broadcasting the transaction."
+msgstr "广播交易时出错。"
+
+#: electrum_zcash/gui/qt/console.py:116
+#, fuzzy
+msgid "Unlock Console"
+msgstr "控制台 Con&sole"
+
+#: electrum_zcash/invoices.py:44
+msgid "Unpaid"
+msgstr ""
+
+#: electrum_zcash/gui/qt/history_list.py:822
+#, fuzzy
+msgid "Unrealized capital gains"
+msgstr "未实现的收益"
+
+#: electrum_zcash/wallet.py:547
+msgid "Unsigned"
+msgstr "无签名"
+
+#: electrum_zcash/crypto.py:198
+msgid "Unsupported password hash version"
+msgstr ""
+
+#: electrum_zcash/gui/kivy/uix/dialogs/addresses.py:247
+#: electrum_zcash/gui/qt/address_list.py:55
+msgid "Unused"
+msgstr "未使用"
+
+#: electrum_zcash/gui/qt/update_checker.py:32
+msgid "Update Check"
+msgstr ""
+
+#: electrum_zcash/gui/qt/update_checker.py:72
+msgid "Update check failed"
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:303
+#, fuzzy
+msgid "Update to Zcash Electrum {} is available"
+msgstr "Dash Electrum钱包"
+
+#: electrum_zcash/base_wizard.py:177
+msgid "Upgrading wallet format..."
+msgstr "升级钱包格式..."
+
+#: electrum_zcash/plugins/safe_t/safe_t.py:176
+#: electrum_zcash/plugins/keepkey/keepkey.py:218
+msgid "Upload a BIP39 mnemonic to generate the seed"
+msgstr "上传一个BIP39助记符来生成种子"
+
+#: electrum_zcash/plugins/safe_t/safe_t.py:177
+#: electrum_zcash/plugins/keepkey/keepkey.py:219
+msgid "Upload a master private key"
+msgstr "上传主私钥"
+
+#: electrum_zcash/gui/qt/address_list.py:347
+#, fuzzy
+msgid "Usage:"
+msgstr "消息"
+
+#: electrum_zcash/gui/qt/network_dialog.py:255
+msgid "Use Tor Proxy"
+msgstr "使用Tor代理"
+
+#: electrum_zcash/base_wizard.py:217
+msgid "Use a hardware device"
+msgstr "使用硬件设备"
+
+#: electrum_zcash/base_wizard.py:214
+msgid "Use a master key"
+msgstr "使用主键"
+
+#: electrum_zcash/gui/qt/network_dialog.py:116
+#: electrum_zcash/gui/qt/network_dialog.py:122
+msgid "Use as server"
+msgstr "用作服务器"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:211
+msgid "Use change addresses"
+msgstr "使用变更地址"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:230
+msgid "Use multiple change addresses"
+msgstr "使用多个变更地址"
+
+#: electrum_zcash/gui/qt/network_dialog.py:226
+msgid "Use proxy"
+msgstr "使用代理"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1269
+msgid "Use the camera button to scan a QR code."
+msgstr "用相机键扫描二维码。"
+
+#: electrum_zcash/gui/qt/password_dialog.py:260
+msgid "Use this dialog to add a password to your wallet."
+msgstr "用这个对话框在你的钱包中加入一个密码。"
+
+#: electrum_zcash/gui/qt/password_dialog.py:266
+msgid "Use this dialog to change your password."
+msgstr "用这个对话框更改你的密码。"
+
+#: electrum_zcash/gui/qt/password_dialog.py:293
+msgid "Use this dialog to toggle encryption."
+msgstr "使用此对话框切换加密。"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/addresses.py:247
+#: electrum_zcash/gui/qt/address_list.py:57
+msgid "Used"
+msgstr "已使用"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/proxy.kv:38
+msgid "Username"
+msgstr "用户名"
+
+#: electrum_zcash/gui/qt/main_window.py:790
+msgid "Uses icons from the Icons8 icon pack (icons8.com)."
+msgstr "使用Icons8图标包 (icons8.com)中的图标。"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:221
+msgid ""
+"Using change addresses makes it more difficult for other people to track "
+"your transactions."
+msgstr "更改使用地址以防止他人跟踪你的交易。"
+
+#: electrum_zcash/gui/qt/history_list.py:641
+msgid "Value"
+msgstr "值"
+
+#: electrum_zcash/gui/kivy/uix/spinbox.py:78
+msgid "Value too large"
+msgstr ""
+
+#: electrum_zcash/gui/kivy/uix/spinbox.py:75
+msgid "Value too small"
+msgstr ""
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/network.kv:59
+msgid "Verified block headers"
+msgstr "已确认区块头部"
+
+#: electrum_zcash/gui/qt/main_window.py:2439
+msgid "Verify"
+msgstr "验证"
+
+#: electrum_zcash/plugins/ledger/auth2fa.py:30
+msgid ""
+"Verify the address below.<br>Type the character from your security card "
+"corresponding to the <u><b>BOLD</b></u> character."
+msgstr ""
+"请验证以下地址。<br>从安全卡中输入与<u> <b>粗体</b> </u>字符相对应的字符。"
+
+#: electrum_zcash/plugin.py:637
+msgid ""
+"Verify the cable is connected and that no other application is using it."
+msgstr "验证电缆已连接，并且没有其他应用程序正在使用它。"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/about.kv:13
+#: electrum_zcash/gui/qt/main_window.py:784
+msgid "Version"
+msgstr "版本"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:153
+msgid "Video Device"
+msgstr "视频设备"
+
+#: electrum_zcash/i18n.py:84
+msgid "Vietnamese"
+msgstr "越南语"
+
+#: electrum_zcash/gui/qt/history_list.py:987
+#, fuzzy
+msgid "View Transaction"
+msgstr "原始交易记录"
+
+#: electrum_zcash/gui/qt/history_list.py:991
+#: electrum_zcash/gui/qt/history_list.py:995
+msgid "View invoice"
+msgstr "查看发票"
+
+#: electrum_zcash/gui/qt/contact_list.py:93
+#: electrum_zcash/gui/qt/history_list.py:997
+#: electrum_zcash/gui/qt/address_list.py:442
+msgid "View on block explorer"
+msgstr "在区块上查看交易"
+
+#: electrum_zcash/gui/qt/seed_dialog.py:53
+msgid "WARNING"
+msgstr "警告"
+
+#: electrum_zcash/gui/qt/main_window.py:2636
+msgid "WARNING: ALL your private keys are secret."
+msgstr "警告：你的所有私都钥是隐秘。"
+
+#: electrum_zcash/gui/qt/main_window.py:2629
+msgid "WARNING: This is a multi-signature wallet."
+msgstr "警告：这是一个多重签名钱包。"
+
+#: electrum_zcash/gui/qt/main_window.py:1488
+msgid ""
+"WARNING: the alias \"{}\" could not be validated via an additional security "
+"check, DNSSEC, and thus may not be correct."
+msgstr "警告：别名“{}”无法通过额外的DNSSEC安全检查进行验证，因此可能不正确。"
+
+#: electrum_zcash/gui/qt/installwizard.py:48
+msgid "WIF keys are typed in Zcash Electrum, based on script type."
+msgstr ""
+
+#: electrum_zcash/gui/qt/installwizard.py:218
+msgid "Wallet"
+msgstr "钱包"
+
+#: electrum_zcash/gui/qt/main_window.py:2196
+msgid "Wallet Information"
+msgstr "钱包信息"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/status.kv:27
+msgid "Wallet Name"
+msgstr "钱包名称"
+
+#: electrum_zcash/gui/qt/main_window.py:627
+msgid "Wallet backup created"
+msgstr "钱包备份已创建"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:142
+msgid "Wallet change address"
+msgstr "钱包变更地址"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1226
+#, fuzzy
+msgid "Wallet creation failed"
+msgstr "钱包备份已创建"
+
+#: electrum_zcash/wallet.py:219
+msgid ""
+"Wallet file corruption detected. Please restore your wallet from seed, and "
+"compare the addresses in both files"
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:2302
+#, fuzzy
+msgid "Wallet file not found: {}"
+msgstr "电子钱包已移除：{}"
+
+#: electrum_zcash/gui/qt/main_window.py:2211
+msgid "Wallet name"
+msgstr "钱包名称"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/password_dialog.py:375
+#, fuzzy
+msgid "Wallet not encrypted"
+msgstr "钱包类型"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:140
+msgid "Wallet receive address"
+msgstr "钱包接收地址"
+
+#: electrum_zcash/gui/kivy/main_window.py:1282
+#: electrum_zcash/gui/qt/main_window.py:2300
+msgid "Wallet removed: {}"
+msgstr "电子钱包已移除：{}"
+
+#: electrum_zcash/gui/qt/main_window.py:2213
+msgid "Wallet type"
+msgstr "钱包类型"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/status.kv:30
+msgid "Wallet type:"
+msgstr "钱包类型："
+
+#: electrum_zcash/gui/kivy/main.kv:476
+msgid "Wallets"
+msgstr "钱包"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/request_dialog.py:114
+#: electrum_zcash/gui/qt/installwizard.py:52
+#: electrum_zcash/gui/qt/transaction_dialog.py:254
+#: electrum_zcash/gui/qt/transaction_dialog.py:511
+#: electrum_zcash/gui/qt/util.py:235 electrum_zcash/gui/qt/seed_dialog.py:78
+#: electrum_zcash/wallet.py:1951 electrum_zcash/wallet.py:1955
+#: electrum_zcash/wallet.py:1979 electrum_zcash/wallet.py:1984
+#: electrum_zcash/plugins/revealer/qt.py:133
+#: electrum_zcash/plugins/revealer/qt.py:186
+#: electrum_zcash/plugins/revealer/qt.py:219
+msgid "Warning"
+msgstr "警告"
+
+#: electrum_zcash/gui/qt/console.py:107
+msgid "Warning!"
+msgstr "警告！"
+
+#: electrum_zcash/gui/qt/main_window.py:1225
+msgid ""
+"Warning: The next address will not be recovered automatically if you restore "
+"your wallet from seed; you may need to add it manually.\n"
+"\n"
+"This occurs because you have too many unused addresses in your wallet. To "
+"avoid this situation, use the existing addresses first.\n"
+"\n"
+"Create anyway?"
+msgstr ""
+"警告: 下一个地址并不会自动恢复如果你想从种子恢复你的钱包；你需要手动添加。\n"
+"\n"
+"这是因为你钱包里有太多未设置的地址。为了避免这种情况，请首先使用存在的地"
+"址。\n"
+"\n"
+"依旧创建吗？"
+
+#: electrum_zcash/network.py:238
+msgid "Warning: Tor proxy is not detected, to enable it read the docs:"
+msgstr ""
+
+#: electrum_zcash/plugins/virtualkeyboard/__init__.py:4
+msgid "Warning: do not use this if it makes you pick a weaker password."
+msgstr "警告：如果它使您选择较弱的密码，请不要使用它。"
+
+#: electrum_zcash/gui/qt/installwizard.py:889
+msgid ""
+"Warning: to be able to restore a multisig wallet, you should include the "
+"master public key for each cosigner in all of your backups."
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:555
+#, fuzzy
+msgid "Watch-only wallet"
+msgstr "这是只能观看的钱包"
+
+#: electrum_zcash/gui/qt/seed_dialog.py:82
+#, fuzzy
+msgid ""
+"We do not guarantee that BIP39 imports will always be supported in Zcash "
+"Electrum."
+msgstr "我们不能保证Dash Electrum永远支持BIP39载入。"
+
+#: electrum_zcash/base_wizard.py:371
+msgid "We encountered an error while connecting to your device:"
+msgstr "我们在连接到您的设备时遇到错误："
+
+#: electrum_zcash/base_wizard.py:152
+msgid "What kind of wallet do you want to create?"
+msgstr "你想创建什么样的钱包？"
+
+#: electrum_zcash/base_wizard.py:342
+msgid ""
+"While this is less than ideal, it might help if you run Electrum as "
+"Administrator."
+msgstr ""
+
+#: electrum_zcash/plugins/trezor/qt.py:743
+#: electrum_zcash/plugins/safe_t/qt.py:477
+#: electrum_zcash/plugins/keepkey/qt.py:547
+msgid "Wipe Device"
+msgstr "重置设备"
+
+#: electrum_zcash/plugins/trezor/qt.py:746
+#: electrum_zcash/plugins/safe_t/qt.py:480
+#: electrum_zcash/plugins/keepkey/qt.py:550
+msgid ""
+"Wipe the device, removing all data from it.  The firmware is left unchanged."
+msgstr "重置设备，衣橱上面所有的数据。固件保留未改变的状态。"
+
+#: electrum_zcash/simple_config.py:428
+msgid "Within {} blocks"
+msgstr "{} 次确认预计"
+
+#: electrum_zcash/gui/qt/main_window.py:294
+msgid ""
+"Would you like to be notified when there is a newer version of Zcash "
+"Electrum available?"
+msgstr ""
+
+#: electrum_zcash/plugins/trezor/clientbase.py:25
+#: electrum_zcash/plugins/safe_t/clientbase.py:23
+#: electrum_zcash/plugins/keepkey/clientbase.py:22
+msgid "Write down the seed word shown on your {}"
+msgstr "写下你的种子单词并展示在你的{}"
+
+#: electrum_zcash/gui/qt/settings_dialog.py:194
+msgid "Write logs to file"
+msgstr ""
+
+#: electrum_zcash/gui/kivy/uix/dialogs/password_dialog.py:301
+msgid "Wrong PIN"
+msgstr "错误的PIN"
+
+#: electrum_zcash/base_wizard.py:604 electrum_zcash/base_wizard.py:612
+msgid "Wrong key type"
+msgstr "错误键类型"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/password_dialog.py:270
+#, fuzzy
+msgid "Wrong password"
+msgstr "输入密码:"
+
+#: electrum_zcash/gui/qt/main_window.py:2408
+msgid "Wrong signature"
+msgstr "签名错误"
+
+#: electrum_zcash/gui/kivy/uix/dialogs/question.py:55
+#: electrum_zcash/plugins/trezor/qt.py:494
+#: electrum_zcash/plugins/safe_t/qt.py:228
+#: electrum_zcash/plugins/keepkey/qt.py:350
+msgid "Yes"
+msgstr "是"
+
+#: electrum_zcash/gui/qt/update_checker.py:91
+msgid "You are already on the latest version of Zcash Electrum."
+msgstr ""
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/network.kv:64
+#: electrum_zcash/gui/qt/network_dialog.py:375
+msgid "You are following branch"
+msgstr "你在关注分支"
+
+#: electrum_zcash/gui/qt/main_window.py:568
+msgid "You are in testnet mode."
+msgstr ""
+
+#: electrum_zcash/crypto.py:189
+msgid ""
+"You are most likely using an outdated version of Zcash Electrum. Please "
+"update."
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:2608
+#: electrum_zcash/plugins/labels/labels.py:170
+#: electrum_zcash/plugins/labels/labels.py:174
+#, fuzzy
+msgid "You are offline."
+msgstr "你在关注分支"
+
+#: electrum_zcash/gui/qt/main_window.py:1217
+msgid ""
+"You are using a non-deterministic wallet, which cannot create new addresses."
+msgstr "你正在使用一个不能创建新地址的非确定性钱包。"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:783
+msgid "You can disable this setting in '{}'."
+msgstr "你能在 '{}' 取消设置。"
+
+#: electrum_zcash/gui/qt/update_checker.py:88
+msgid "You can download the new version from {}."
+msgstr ""
+
+#: electrum_zcash/base_wizard.py:415
+msgid "You can override the suggested derivation path."
+msgstr "您可以忽略建议的派生路径，指定您自己的路径。"
+
+#: electrum_zcash/gui/qt/main_window.py:1079
+msgid ""
+"You can reuse a Zcash address any number of times but it is not good for "
+"your privacy."
+msgstr ""
+
+#: electrum_zcash/plugins/trezor/qt.py:680
+#: electrum_zcash/plugins/safe_t/qt.py:414
+msgid ""
+"You can set the homescreen on your device to personalize it.  You must "
+"choose a {} x {} monochrome black and white image."
+msgstr ""
+"您可以在设备上设置主屏幕以对其进行个性化设置。您必须选择{} x {}单色黑白图像。"
+
+#: electrum_zcash/gui/qt/main_window.py:1665
+msgid "You can't broadcast a transaction without a live network connection."
+msgstr "没有实时网络连接，你无法广播交易。"
+
+#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:184
+msgid "You cannot access your coins or a backup without the password."
+msgstr "你不能访问你的币，或者一个没有设置密码的备份。"
+
+#: electrum_zcash/gui/qt/main_window.py:786
+msgid ""
+"You do not need to perform regular backups, because your wallet can be "
+"recovered from a secret phrase that you can memorize or write on paper."
+msgstr "您不需要执行常规备份，因为您的钱包可以从您记住或写在纸上的密语中恢复。"
+
+#: electrum_zcash/gui/qt/installwizard.py:53
+msgid ""
+"You have multiple consecutive whitespaces or leading/trailing whitespaces in "
+"your passphrase."
+msgstr "您的密码短语中有多个连续的空格或前导/尾随空格。"
+
+#: electrum_zcash/gui/qt/main_window.py:1306
+msgid ""
+"You may enter a Zcash address, a label from your list of contacts (a list of "
+"completions will be proposed), or an alias (email-like address that forwards "
+"to a Zcash address)"
+msgstr ""
+
+#: electrum_zcash/base_wizard.py:497
+msgid "You may extend your seed with custom words."
+msgstr "你可以用自定义单词扩展你的种子。"
+
+#: electrum_zcash/gui/qt/main_window.py:1926
+msgid "You may load a CSV file using the file icon."
+msgstr "你可以使用文件图标加载一个CSV文件。"
+
+#: electrum_zcash/network.py:1035
+msgid ""
+"You might have a local transaction in your wallet that this transaction "
+"builds on top. You need to either broadcast or remove the local tx."
+msgstr ""
+
+#: electrum_zcash/base_wizard.py:314
+msgid "You might have an incompatible library."
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:619
+msgid "You need to configure a backup directory in your preferences"
+msgstr ""
+
+#: electrum_zcash/plugins/trezor/qt.py:26
+#: electrum_zcash/plugins/safe_t/qt.py:26
+#: electrum_zcash/plugins/keepkey/qt.py:26
+#, fuzzy
+msgid ""
+"You need to create a separate Zcash Electrum wallet for each passphrase you "
+"use as they each generate different addresses.  Changing your passphrase "
+"does not lose other wallets, each is still accessible behind its own "
+"passphrase."
+msgstr ""
+"您需要为每个使用的密码创建一个单独的Dash Electrum电子钱包，因为它们每个都生成"
+"不同的地址。更改您的密码不会丢失其他钱包，每个钱包仍然可以在各自的密码保护下"
+"访问。"
+
+#: electrum_zcash/plugins/trezor/qt.py:31
+#: electrum_zcash/plugins/safe_t/qt.py:31
+#: electrum_zcash/plugins/keepkey/qt.py:31
+msgid ""
+"You should enable PIN protection.  Your PIN is the only protection for your "
+"Zcash coins if your device is lost or stolen."
+msgstr ""
+
+#: electrum_zcash/plugins/trezor/trezor.py:250
+#: electrum_zcash/plugins/safe_t/safe_t.py:212
+msgid ""
+"You will be asked to enter 24 words regardless of your seed's actual "
+"length.  If you enter a word incorrectly or misspell it, you cannot change "
+"it or go back - you will need to start again from the beginning.\n"
+"\n"
+"So please enter the words carefully!"
+msgstr ""
+"无论你的种子的实际长度如何，你都会被要求输入24个字。如果您输入的单词不正确或"
+"拼写错误，则无法更改或返回 - 您需要从头开始重新输入。\n"
+" \n"
+"请仔细输入单词！"
+
+#: electrum_zcash/plugins/ledger/auth2fa.py:24
+msgid ""
+"Your Ledger Wallet wants to tell you a one-time PIN code.<br><br>For best "
+"security you should unplug your device, open a text editor on another "
+"computer, put your cursor into it, and plug your device into that computer. "
+"It will output a summary of the transaction being signed and a one-time PIN."
+"<br><br>Verify the transaction summary and type the PIN code here."
+"<br><br>Before pressing enter, plug the device back into this computer.<br>"
+msgstr ""
+"你的Ledger硬件钱包会输出一次性PIN码。<br><br>为了获得最佳安全性，您应该拔下硬"
+"件钱包，在另一台计算机上打开文本编辑器，将光标放入其中，然后将硬件钱包插入该"
+"计算机。它会输出正在签署的交易的摘要和一次性PIN码。<br><br>验证交易摘要并在此"
+"处输入PIN码。<br><br>在按下回车键之前，将硬件钱包插回此电脑。<br>"
+
+#: electrum_zcash/plugins/ledger/ledger.py:72
+msgid "Your Ledger is locked. Please unlock it."
+msgstr "你的分账册已锁定。请解锁。"
+
+#: electrum_zcash/gui/qt/password_dialog.py:263
+#, fuzzy
+msgid ""
+"Your Zcash coins are password protected. However, your wallet file is not "
+"encrypted."
+msgstr "你的钱包被密码保护并被加密。"
+
+#: electrum_zcash/gui/qt/installwizard.py:382
+msgid "Your accounts have been moved to"
+msgstr "您的账户已被移至"
+
+#: electrum_zcash/plugins/trezor/qt.py:535
+#: electrum_zcash/plugins/safe_t/qt.py:269
+#: electrum_zcash/plugins/keepkey/qt.py:393
+#, fuzzy
+msgid ""
+"Your current Zcash Electrum wallet can only be used with an empty "
+"passphrase.  You must create a separate wallet with the install wizard for "
+"other passphrases as each one generates a new set of addresses."
+msgstr ""
+"您目前的Dash Electrum钱包只能使用空密码。您必须为其他密码使用安装向导单独创建"
+"一个钱包，因为每个钱包都会生成一组新的地址。"
+
+#: electrum_zcash/plugins/safe_t/safe_t.py:309
+#: electrum_zcash/plugins/keepkey/keepkey.py:339
+msgid "Your device firmware is too old"
+msgstr "设备固件版本太旧"
+
+#: electrum_zcash/plugins/ledger/ledger.py:575
+msgid "Your device might not have support for this functionality."
+msgstr "您的设备可能不支持此功能。"
+
+#: electrum_zcash/plugins/labels/qt.py:69
+msgid "Your labels have been synchronised."
+msgstr "您的标签已同步。"
+
+#: electrum_zcash/gui/qt/seed_dialog.py:162
+msgid "Your seed extension is"
+msgstr "你的种子扩充是"
+
+#: electrum_zcash/base_wizard.py:498 electrum_zcash/base_wizard.py:790
+msgid "Your seed extension must be saved together with your seed."
+msgstr "你的种子扩展必须与你的种子一起保存。"
+
+#: electrum_zcash/gui/qt/installwizard.py:518
+msgid "Your seed is important!"
+msgstr "你的安全种子是非常重要的！"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/network.kv:64
+#: electrum_zcash/gui/qt/network_dialog.py:375
+msgid "Your server is on branch"
+msgstr "你的服务器在分支上"
+
+#: electrum_zcash/network.py:978
+msgid ""
+"Your transaction is paying a fee that is so low that the bitcoin node cannot "
+"fit it into its mempool. The mempool is already full of hundreds of "
+"megabytes of transactions that all pay higher fees. Try to increase the fee."
+msgstr ""
+
+#: electrum_zcash/network.py:987
+msgid ""
+"Your transaction is trying to replace another one in the mempool but it does "
+"not meet the rules to do so. Try to increase the fee."
+msgstr ""
+
+#: electrum_zcash/plugins/cosigner_pool/qt.py:183
+msgid "Your transaction was sent to the cosigning pool."
+msgstr "你的交易已发送到联署池。"
+
+#: electrum_zcash/gui/qt/installwizard.py:45
+msgid "Your wallet file does not contain secrets, mostly just metadata. "
+msgstr "你的钱包文件不包含秘密，大部分只是元数据。 "
+
+#: electrum_zcash/gui/qt/password_dialog.py:289
+msgid "Your wallet file is NOT encrypted."
+msgstr "您的钱包文件没加密。"
+
+#: electrum_zcash/gui/qt/password_dialog.py:291
+msgid "Your wallet file is encrypted."
+msgstr "您的钱包文件已加密。"
+
+#: electrum_zcash/gui/qt/installwizard.py:527
+#: electrum_zcash/gui/qt/seed_dialog.py:263
+msgid "Your wallet generation seed is:"
+msgstr "你的钱包生成种子是："
+
+#: electrum_zcash/gui/qt/history_list.py:1067
+msgid "Your wallet history has been successfully exported."
+msgstr "你成功导出钱包历史记录。"
+
+#: electrum_zcash/gui/qt/password_dialog.py:259
+msgid "Your wallet is not protected."
+msgstr "你的钱包没有被保护。"
+
+#: electrum_zcash/gui/qt/password_dialog.py:265
+msgid "Your wallet is password protected and encrypted."
+msgstr "你的钱包被密码保护并被加密。"
+
+#: electrum_zcash/gui/qt/util.py:1069
+#, python-brace-format
+msgid "Your {0} were exported to '{1}'"
+msgstr "您的{0}已导出到“{1}”"
+
+#: electrum_zcash/gui/qt/util.py:1049
+msgid "Your {} were successfully imported"
+msgstr "你的{} 已经导入成功"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/receive.kv:94
+#, fuzzy
+msgid "Zcash Address"
+msgstr "地址"
+
+#: electrum_zcash/gui/qt/main_window.py:1453
+#, fuzzy
+msgid "Zcash Address is None"
+msgstr "被冻结"
+
+#: electrum_zcash/gui/qt/main_window.py:2928
+#, fuzzy
+msgid "Zcash Electrum Plugins"
+msgstr "Dash Electrum 插件"
+
+#: electrum_zcash/plugin.py:578
+msgid ""
+"Zcash Electrum cannot pair with your {}.\n"
+"\n"
+"Before you request Zcash coins to be sent to addresses in this wallet, "
+"ensure you can pair with your device, or that you have its seed (and "
+"passphrase, if any).  Otherwise all coins you receive will be unspendable."
+msgstr ""
+
+#: electrum_zcash/gui/qt/installwizard.py:834
+#, fuzzy
+msgid ""
+"Zcash Electrum communicates with remote servers to get information about "
+"your transactions and addresses. The servers all fulfill the same purpose "
+"only differing in hardware. In most cases you simply want to let Zcash "
+"Electrum pick one at random.  However if you prefer feel free to select a "
+"server manually."
+msgstr ""
+"Dash Electrum 与远程服务器连接以获取您的交易记录和地址信息。这些服务器节点都"
+"能够实现连接目的只是使用硬件不同。在大多数情况下，你只需要让 Dash Electrum 随"
+"便挑一个节点，如果你有一个偏好设置，随时都可以手动选择服务器。"
+
+#: electrum_zcash/gui/qt/network_dialog.py:286
+#, fuzzy
+msgid ""
+"Zcash Electrum connects to several nodes in order to download block headers "
+"and find out the longest blockchain."
+msgstr "Dash Electrum 会连接数个节点以下载区块头并找出最长的区块链。"
+
+#: electrum_zcash/gui/qt/main_window.py:733
+#, fuzzy
+msgid "Zcash Electrum preferences"
+msgstr "Dash Electrum 偏好设置"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/server.kv:9
+#, fuzzy
+msgid ""
+"Zcash Electrum requests your transaction history from a single server. The "
+"returned history is checked against blockchain headers sent by other nodes, "
+"using Simple Payment Verification (SPV)."
+msgstr ""
+"Dash Electrum 需要您作为一个用户的的历史记录。历史记录将会由区块链管理者通过"
+"运用SPV协议来对照其他节点传来的信息。"
+
+#: electrum_zcash/gui/qt/network_dialog.py:308
+#, fuzzy
+msgid ""
+"Zcash Electrum sends your wallet addresses to a single server, in order to "
+"receive your transaction history."
+msgstr "Dash Electrum 将你的钱包地址发送到一台服务器，以获得您的交易记录。"
+
+#: electrum_zcash/gui/qt/installwizard.py:247
+#, fuzzy
+msgid "Zcash Electrum wallet"
+msgstr "Dash Electrum钱包"
+
+#: electrum_zcash/gui/qt/main_window.py:624
+#, fuzzy
+msgid ""
+"Zcash Electrum was unable to copy your wallet file to the specified location."
+msgstr "Dash Electrum 不会复制你的钱包文件到其他地方。"
+
+#: electrum_zcash/gui/qt/transaction_dialog.py:90
+#: electrum_zcash/plugins/cosigner_pool/qt.py:254
+#, fuzzy
+msgid "Zcash Electrum was unable to deserialize the transaction:"
+msgstr "Dash Electrum 无法解析这个交易记录："
+
+#: electrum_zcash/gui/qt/main_window.py:2571
+#, fuzzy
+msgid "Zcash Electrum was unable to open your transaction file"
+msgstr "Dash Electrum 无法打开您的交易文件"
+
+#: electrum_zcash/gui/qt/main_window.py:2530
+#, fuzzy
+msgid "Zcash Electrum was unable to parse your transaction"
+msgstr "Dash Electrum 无法解析您的交易记录"
+
+#: electrum_zcash/gui/qt/main_window.py:2703
+#, fuzzy
+msgid "Zcash Electrum was unable to produce a private key-export."
+msgstr "Dash Electrum 无法生成私匙导出。"
+
+#: electrum_zcash/gui/qt/history_list.py:1064
+#, fuzzy
+msgid "Zcash Electrum was unable to produce a transaction export."
+msgstr "Dash Electrum 无法生成交易记录导出。"
+
+#: electrum_zcash/gui/qt/main_window.py:3022
+#, fuzzy
+msgid "Zcash Electrum will now exit."
+msgstr "Dash Electrum钱包"
+
+#: electrum_zcash/gui/qt/history_list.py:810
+#, fuzzy
+msgid "Zcash Fiat price"
+msgstr "采集费用"
+
+#: electrum_zcash/gui/qt/history_list.py:806
+#, fuzzy
+msgid "Zcash balance"
+msgstr "当前余额"
+
+#: electrum_zcash/gui/qt/history_list.py:827
+msgid "Zcash incoming"
+msgstr ""
+
+#: electrum_zcash/gui/qt/history_list.py:831
+msgid "Zcash outgoing"
+msgstr ""
+
+#: electrum_zcash/gui/qt/confirm_tx_dialog.py:141
+msgid ""
+"Zcash transactions are in general not free. A transaction fee is paid by the "
+"sender of the funds."
+msgstr ""
+
+#: electrum_zcash/gui/qt/settings_dialog.py:92
+msgid "Zeros after decimal point"
+msgstr "小数点后的个数"
+
+#: electrum_zcash/gui/text.py:236
+msgid "[Clear]"
+msgstr "[清除]"
+
+#: electrum_zcash/gui/text.py:235
+msgid "[Send]"
+msgstr "[Send]"
+
+#: electrum_zcash/gui/stdio.py:81
+msgid "[b] - print server banner"
+msgstr "[b]  - 打印服务器条幅"
+
+#: electrum_zcash/gui/stdio.py:80
+msgid "[c] - display contacts"
+msgstr "[c]  - 显示联系人"
+
+#: electrum_zcash/gui/stdio.py:74
+msgid "[h] - displays this help text"
+msgstr "[h]  - 显示此帮助文本"
+
+#: electrum_zcash/gui/stdio.py:75
+msgid "[i] - display transaction history"
+msgstr "[i]  - 显示交易记录"
+
+#: electrum_zcash/gui/stdio.py:76
+msgid "[o] - enter payment order"
+msgstr "[o]  - 输入支付订单"
+
+#: electrum_zcash/gui/stdio.py:77
+msgid "[p] - print stored payment order"
+msgstr "[p]  - 打印存储的支付订单"
+
+#: electrum_zcash/gui/stdio.py:82
+msgid "[q] - quit"
+msgstr "[q]  - 退出"
+
+#: electrum_zcash/gui/stdio.py:79
+msgid "[r] - show own receipt addresses"
+msgstr "[r]  - 显示自己的收据地址"
+
+#: electrum_zcash/gui/stdio.py:78
+msgid "[s] - send stored payment order"
+msgstr "[s]  - 发送存储的支付订单"
+
+#: electrum_zcash/wallet.py:2084
+#, fuzzy
+msgid "address already in wallet"
+msgstr "地址不在钱包里。"
+
+#: electrum_zcash/gui/qt/main_window.py:1594
+msgid "are frozen"
+msgstr "被冻结"
+
+#: electrum_zcash/wallet.py:1975
+msgid "below relay fee"
+msgstr ""
+
+#: electrum_zcash/gui/qt/network_dialog.py:364
+#: electrum_zcash/gui/qt/network_dialog.py:376
+msgid "blocks"
+msgstr "区块"
+
+#: electrum_zcash/gui/qt/address_list.py:198
+msgid "change"
+msgstr "修改"
+
+#: electrum_zcash/gui/qt/main_window.py:2746
+#: electrum_zcash/gui/qt/main_window.py:2749
+msgid "contacts"
+msgstr "联系人"
+
+#: electrum_zcash/gui/qt/main_window.py:2239
+msgid "cosigner"
+msgstr "联合签名者"
+
+#: electrum_zcash/wallet.py:1986
+#, fuzzy
+msgid "high fee rate"
+msgstr "高收费"
+
+#: electrum_zcash/wallet.py:1981
+#, fuzzy
+msgid "high fee ratio"
+msgstr "高收费"
+
+#: electrum_zcash/plugin.py:672 electrum_zcash/base_wizard.py:354
+msgid "initialized"
+msgstr "已初始化"
+
+#: electrum_zcash/wallet.py:2081
+#, fuzzy
+msgid "invalid address"
+msgstr "地址无效"
+
+#: electrum_zcash/wallet.py:2163
+#, fuzzy
+msgid "invalid private key"
+msgstr "隐藏私钥"
+
+#: electrum_zcash/gui/qt/main_window.py:2734
+#: electrum_zcash/gui/qt/main_window.py:2737
+msgid "invoices"
+msgstr "收据"
+
+#: electrum_zcash/gui/qt/util.py:458
+msgid "json"
+msgstr "json"
+
+#: electrum_zcash/gui/qt/main_window.py:2241
+#, fuzzy
+msgid "keystore"
+msgstr "密钥库"
+
+#: electrum_zcash/gui/qt/main_window.py:2728
+#: electrum_zcash/gui/qt/main_window.py:2731
+msgid "labels"
+msgstr "标签"
+
+#: electrum_zcash/plugins/revealer/qt.py:134
+msgid ""
+"more information at <a href=\"https://revealer.cc/faq\">https://revealer.cc/"
+"faq</a>"
+msgstr ""
+
+#: electrum_zcash/wallet.py:2166
+msgid "not implemented type"
+msgstr ""
+
+#: electrum_zcash/plugins/revealer/qt.py:124
+msgid "or type an existing revealer code below and click 'next':"
+msgstr ""
+
+#: electrum_zcash/gui/qt/main_window.py:1763
+msgid "please wait..."
+msgstr "请稍候..."
+
+#: electrum_zcash/plugins/revealer/qt.py:728
+msgid "print the calibration pdf and follow the instructions "
+msgstr "打印校准pdf并按照说明进行操作"
+
+#: electrum_zcash/gui/qt/main_window.py:982
+msgid "proxy enabled"
+msgstr "启用代理"
+
+#: electrum_zcash/gui/qt/address_list.py:198
+msgid "receiving"
+msgstr "正在接收"
+
+#: electrum_zcash/gui/qt/main_window.py:2740
+#: electrum_zcash/gui/qt/main_window.py:2743
+#, fuzzy
+msgid "requests"
+msgstr "请求"
+
+#: electrum_zcash/plugins/revealer/qt.py:65
+#, fuzzy
+msgid "secret backup utility"
+msgstr "密钥备份工具"
+
+#: electrum_zcash/plugins/revealer/qt.py:392
+msgid "seed"
+msgstr "种子"
+
+#: electrum_zcash/plugins/revealer/qt.py:255
+#, fuzzy
+msgid "type a custom alphanumerical secret below:"
+msgstr "或键入以下任何一个密钥："
+
+#: electrum_zcash/gui/kivy/uix/dialogs/tx_dialog.py:189
+#: electrum_zcash/gui/kivy/uix/dialogs/tx_dialog.py:190
+#: electrum_zcash/gui/qt/main_window.py:2264
+#: electrum_zcash/gui/qt/transaction_dialog.py:489
+#: electrum_zcash/gui/qt/utxo_list.py:148 electrum_zcash/wallet.py:1080
+msgid "unknown"
+msgstr "未知"
+
+#: electrum_zcash/commands.py:1126
+msgid "unknown parser {!r} (choices: {})"
+msgstr "未知解析器{!r}(选项：{})"
+
+#: electrum_zcash/gui/qt/main_window.py:534
+msgid "watching only"
+msgstr "只看"
+
+#: electrum_zcash/gui/qt/main_window.py:2201
+#, fuzzy
+msgid "watching-only"
+msgstr "只看"
+
+#: electrum_zcash/plugin.py:672 electrum_zcash/base_wizard.py:354
+msgid "wiped"
+msgstr "已擦除"
+
+#: electrum_zcash/plugins/revealer/qt.py:187
+#, fuzzy
+msgid ""
+"your seed extension will <b>not</b> be included in the encrypted backup."
+msgstr "您的种子扩展不会包含在加密备份中。"
+
+#: electrum_zcash/plugins/trezor/qt.py:597
+#: electrum_zcash/plugins/safe_t/qt.py:331
+#: electrum_zcash/plugins/keepkey/qt.py:421
+#, fuzzy
+msgid "{:2d} minutes"
+msgstr " %2d 分钟"
+
+#: electrum_zcash/plugins/trezor/qt.py:323
+#: electrum_zcash/plugins/safe_t/qt.py:119
+#, fuzzy
+msgid "{:d} words"
+msgstr "{} 个词语"
+
+#: electrum_zcash/plugins/trezor/qt.py:461
+#: electrum_zcash/plugins/safe_t/qt.py:195
+#: electrum_zcash/plugins/keepkey/qt.py:321
+msgid "{} Settings"
+msgstr "{} 设置"
+
+#: electrum_zcash/wallet.py:527
+msgid "{} confirmations"
+msgstr "{} 确认"
+
+#: electrum_zcash/gui/kivy/uix/ui_screens/network.kv:14
+msgid "{} connections."
+msgstr "{} 连接。"
+
+#: electrum_zcash/gui/qt/main_window.py:1243
+#, fuzzy
+msgid "{} copied to clipboard"
+msgstr "复制文本到剪贴板"
+
+#: electrum_zcash/plugins/revealer/qt.py:179
+#, fuzzy
+msgid "{} encrypted for Revealer {}_{} saved as PNG and PDF at: "
+msgstr "{}为提词器{}_{}加密保存为PNG和PDF格式："
+
+#: electrum_zcash/gui/kivy/uix/dialogs/tx_dialog.py:166
+msgid "{} from tip"
+msgstr "从提示{}处"
+
+#: electrum_zcash/gui/qt/main_window.py:841
+#, fuzzy
+msgid "{} new transactions: Total amount received in the new transactions {}"
+msgstr "收到了{} 笔新的交易，共收到新交易 {}"
+
+#: electrum_zcash/gui/qt/utxo_list.py:379
+msgid "{} outputs available ({} total)"
+msgstr ""
+
+#: electrum_zcash/plugins/labels/qt.py:41
+msgid "{} plugin does not support this type of wallet."
+msgstr ""
+
+#: electrum_zcash/plugins/keepkey/qt.py:245
+msgid "{} words"
+msgstr "{} 个词语"
+
+#, fuzzy
+#~ msgid "Add / Import"
+#~ msgstr "导入"
+
+#, fuzzy
+#~ msgid "Alias"
+#~ msgstr "OpenAlias"
+
+#, fuzzy
+#~ msgid "Already have that input."
+#~ msgstr "我已经有一个种子"
+
+#, fuzzy
+#~ msgid "Available amount"
+#~ msgstr "无效的金额"
+
+#, fuzzy
+#~ msgid "BLS Private key:"
+#~ msgstr "私钥"
+
+#, fuzzy
+#~ msgid "BLS Public key:"
+#~ msgstr "公钥"
+
+#, fuzzy
+#~ msgid "Ban"
+#~ msgstr "横幅"
+
+#~ msgid "Choose Seed type"
+#~ msgstr "选择种子类型"
+
+#, fuzzy
+#~ msgid "Clear Log"
+#~ msgstr "清除"
+
+#, fuzzy
+#~ msgid "Connected Peers"
+#~ msgstr "已连接节点"
+
+#, fuzzy
+#~ msgid "Count of transactions: {}"
+#~ msgstr "导入原始交易"
+
+#, fuzzy
+#~ msgid "Create New Denoms"
+#~ msgstr "创建新种子"
+
+#, fuzzy
+#~ msgid "DIP3 Masternodes is currently disabled."
+#~ msgstr "Ledger硬件设备的初始化当前被禁用。"
+
+#, fuzzy
+#~ msgid "Dash Network"
+#~ msgstr "网络"
+
+#, fuzzy
+#~ msgid "Delete {} invoices?"
+#~ msgstr "删除发票？"
+
+#, fuzzy
+#~ msgid "Delete {} requests?"
+#~ msgstr "删除请求"
+
+#, fuzzy
+#~ msgid "Denominated Balance"
+#~ msgstr "面额"
+
+#, fuzzy
+#~ msgid "Disconnect"
+#~ msgstr "已断开"
+
+#, fuzzy
+#~ msgid ""
+#~ "Do you want to create transactions?\n"
+#~ "\n"
+#~ "{}"
+#~ msgstr "确定要删除这项交易吗？"
+
+#, fuzzy
+#~ msgid "Do you want to remove the masternode configuration for %s?"
+#~ msgstr "你想从你的钱包中删除{}吗？"
+
+#, fuzzy
+#~ msgid "Do you want to use other coins now?"
+#~ msgstr "你希望现在打开吗？"
+
+#, fuzzy
+#~ msgid "Enable PrivateSend"
+#~ msgstr "启用PIN码保护"
+
+#, fuzzy
+#~ msgid "Encrypt PrivateSend Keystore"
+#~ msgstr "输入私钥"
+
+#, fuzzy
+#~ msgid "Enter your PIN code to sign new collateral transactions"
+#~ msgstr "输入您的PIN码来标记交易"
+
+#, fuzzy
+#~ msgid "Enter your PIN code to sign new denoms transactions"
+#~ msgstr "输入您的PIN码来标记交易"
+
+#, fuzzy
+#~ msgid "Enter your PIN code to start mixing"
+#~ msgstr "请输入您的PIN码以继续。"
+
+#, fuzzy
+#~ msgid "Error:"
+#~ msgstr "错误"
+
+#~ msgid "Expenditures"
+#~ msgstr "支出"
+
+#, fuzzy
+#~ msgid "Export Private Keys"
+#~ msgstr "导出私钥"
+
+#, fuzzy
+#~ msgid "Failed to update PS Keystore password"
+#~ msgstr "无法更新密码"
+
+#, fuzzy
+#~ msgid "Filter PS Type:"
+#~ msgstr "过滤:"
+
+#, fuzzy
+#~ msgid "Group PrivateSend transactions"
+#~ msgstr "载入交易"
+
+#~ msgid "Income"
+#~ msgstr "收入"
+
+#~ msgid "Initial balance"
+#~ msgstr "初始金额"
+
+#, fuzzy
+#~ msgid "Initializing ..."
+#~ msgstr "已初始化"
+
+#, fuzzy
+#~ msgid "Keys"
+#~ msgstr "密钥库"
+
+#, fuzzy
+#~ msgid "Keystore:"
+#~ msgstr "密钥库"
+
+#, fuzzy
+#~ msgid "Network is not available"
+#~ msgstr "  (无可用汇率)"
+
+#, fuzzy
+#~ msgid "No errors detected."
+#~ msgstr "没有检测到分叉"
+
+#, fuzzy
+#~ msgid "Non-standard public key detected."
+#~ msgstr "没有检测到硬件设备。"
+
+#, fuzzy
+#~ msgid "Not Enough Funds"
+#~ msgstr "余额不足"
+
+#, fuzzy
+#~ msgid "Not compatible with existing transactions."
+#~ msgstr "交易播报"
+
+#, fuzzy
+#~ msgid "Notify on PrivateSend transactions"
+#~ msgstr "载入交易"
+
+#, fuzzy
+#~ msgid "Operation type"
+#~ msgstr "打开校准PDF"
+
+#, fuzzy
+#~ msgid "Operator privete key"
+#~ msgstr "导出私钥"
+
+#, fuzzy
+#~ msgid "Owner Address:"
+#~ msgstr "地址"
+
+#, fuzzy
+#~ msgid "Owner and Operator private keys"
+#~ msgstr "输入私钥"
+
+#, fuzzy
+#~ msgid "PS Keystore"
+#~ msgstr "密钥库"
+
+#, fuzzy
+#~ msgid "PS Type"
+#~ msgstr "种子类型"
+
+#, fuzzy
+#~ msgid "PS Type:"
+#~ msgstr "种子类型"
+
+#, fuzzy
+#~ msgid "Payout Address:"
+#~ msgstr "地址"
+
+#, fuzzy
+#~ msgid "PrivateSend"
+#~ msgstr "私钥"
+
+#, fuzzy
+#~ msgid "PrivateSend Balance"
+#~ msgstr "私钥"
+
+#, fuzzy
+#~ msgid "PrivateSend Kestore"
+#~ msgstr "私钥"
+
+#, fuzzy
+#~ msgid "PrivateSend Kestore Created"
+#~ msgstr "私钥已导出。"
+
+#, fuzzy
+#~ msgid "PrivateSend Kestore Seed"
+#~ msgstr "私钥已导出。"
+
+#, fuzzy
+#~ msgid "PrivateSend Keystore Wizard"
+#~ msgstr "私钥已导出。"
+
+#, fuzzy
+#~ msgid "PrivateSend sessions"
+#~ msgstr "私钥"
+
+#~ msgid "Received"
+#~ msgstr "已收到"
+
+#, fuzzy
+#~ msgid "Received KiB"
+#~ msgstr "已收到"
+
+#, fuzzy
+#~ msgid "Regular Transaction"
+#~ msgstr "原始交易记录"
+
+#, fuzzy
+#~ msgid "Removed"
+#~ msgstr "删除"
+
+#, fuzzy
+#~ msgid "Rename Alias"
+#~ msgstr "OpenAlias"
+
+#, fuzzy
+#~ msgid "Seed Extension"
+#~ msgstr "种子扩展"
+
+#, fuzzy
+#~ msgid "Select Addresses"
+#~ msgstr "地址"
+
+#, fuzzy
+#~ msgid "Select operation type"
+#~ msgstr "选择恢复类型："
+
+#, fuzzy
+#~ msgid "Send options"
+#~ msgstr "选项"
+
+#~ msgid "Sent"
+#~ msgstr "已发送"
+
+#, fuzzy
+#~ msgid "Sent KiB"
+#~ msgstr "已发送"
+
+#, fuzzy
+#~ msgid "Service"
+#~ msgstr "服务器"
+
+#, fuzzy
+#~ msgid "Service:"
+#~ msgstr "服务器"
+
+#, fuzzy
+#~ msgid "Session not complete!"
+#~ msgstr "会话超时"
+
+#, fuzzy
+#~ msgid "Set Password"
+#~ msgstr "新密码："
+
+#, fuzzy
+#~ msgid "Set ownership type"
+#~ msgstr "脚本类型"
+
+#, fuzzy
+#~ msgid "Show Seed"
+#~ msgstr "展示种子"
+
+#, fuzzy
+#~ msgid "Show transaction type in wallet history"
+#~ msgstr "交易已添加到钱包历史记录。"
+
+#~ msgid "Start"
+#~ msgstr "开始"
+
+#, fuzzy
+#~ msgid "State"
+#~ msgstr "静态"
+
+#, fuzzy
+#~ msgid "Static Peers:"
+#~ msgstr "静态"
+
+#~ msgid "The type of addresses used by your wallet will depend on your seed."
+#~ msgstr "您的钱包使用的地址类型将取决于您的种子。"
+
+#, fuzzy
+#~ msgid "This is a watching-only wallet. Mixing can not be run."
+#~ msgstr "这是只能观看的钱包。"
+
+#, fuzzy
+#~ msgid "This is not a Masternode."
+#~ msgstr "此文件不存在。"
+
+#, fuzzy
+#~ msgid "This wallet is the operator on the new Masternode"
+#~ msgstr "这个钱包没有安全种子"
+
+#, fuzzy
+#~ msgid "Transaction could not be broadcast due to dust outputs."
+#~ msgstr "交易无法保存。"
+
+#, fuzzy
+#~ msgid "Transaction created successfully."
+#~ msgstr "成功导出交易"
+
+#, fuzzy
+#~ msgid "Transaction fees are too high."
+#~ msgstr "交易规模太大。"
+
+#, fuzzy
+#~ msgid "Transaction not valid."
+#~ msgstr "交易无法保存。"
+
+#, fuzzy
+#~ msgid "Transactions type: {}"
+#~ msgstr "交易"
+
+#, fuzzy
+#~ msgid "Type:"
+#~ msgstr "类型"
+
+#, fuzzy
+#~ msgid "Update Service"
+#~ msgstr "重置设备"
+
+#, fuzzy
+#~ msgid "Use Static Peers"
+#~ msgstr "用作服务器"
+
+#, fuzzy
+#~ msgid "Use this dialog to add a password to it."
+#~ msgstr "用这个对话框在你的钱包中加入一个密码。"
+
+#, fuzzy
+#~ msgid "Use this dialog to change password on it."
+#~ msgstr "用这个对话框更改你的密码。"
+
+#, fuzzy
+#~ msgid "Voting Address:"
+#~ msgstr "地址"
+
+#, fuzzy
+#~ msgid "Wallet MNs"
+#~ msgstr "钱包"
+
+#, fuzzy
+#~ msgid "Wallet Masternode: %s"
+#~ msgstr "电子钱包已移除：{}"
+
+#, fuzzy
+#~ msgid "Your PrivateSend Keystore is not protected."
+#~ msgstr "你的钱包没有被保护。"
+
+#, fuzzy
+#~ msgid "Your PrivateSend Keystore is password protected."
+#~ msgstr "你的钱包被密码保护并被加密。"
+
+#, fuzzy
+#~ msgid "Your entries added successfully."
+#~ msgstr "申请成功保存"
+
+#, fuzzy
+#~ msgid "Your password was updated"
+#~ msgstr "您的PIN码已更新"
+
+#~ msgid "Address:"
+#~ msgstr "地址"
+
+#~ msgid "Addresses generated:"
+#~ msgstr "地址已生成："
+
+#~ msgid "Amount received"
+#~ msgstr "收到的金额:"
+
+#~ msgid "Changing PIN code."
+#~ msgstr "更改PIN"
+
+#~ msgid "Choose PIN code"
+#~ msgstr "选择PIN码"
+
+#~ msgid "Click Pair button to begin pairing a mobile phone."
+#~ msgstr "点击配对按钮开始配对手机。"
+
+#~ msgid "Confirmed"
+#~ msgstr "已确认"
+
+#~ msgid "Connecting..."
+#~ msgstr "连接中..."
+
+#~ msgid "Could not decode QR code"
+#~ msgstr "不能解码二维码"
+
+#~ msgid "Dash Electrum App"
+#~ msgstr "Dash Electrum应用"
+
+#~ msgid "Default Servers"
+#~ msgstr "默认服务器"
+
+#~ msgid "Display the details of your transaction before signing it."
+#~ msgstr "请在提交之前确认交易细节。"
+
+#~ msgid "Do you want to launch the wizard again?"
+#~ msgstr "你想再次启动向导吗？"
+
+#~ msgid "Edit fees manually"
+#~ msgstr "手工编辑费用"
+
+#~ msgid "Enter PIN code"
+#~ msgstr "输入 PIN 码"
+
+#~ msgid "Enter a filename for the copy of your wallet"
+#~ msgstr "给你的钱包副本输入文件名"
+
+#~ msgid "Enter your PIN code in order to decrypt your private key"
+#~ msgstr "请输入您的PIN码以解密您的私钥"
+
+#~ msgid "Enter your PIN code in order to decrypt your seed"
+#~ msgstr "请输入您的PIN码以解锁您的种苗"
+
+#~ msgid "Enter your PIN code in order to sign this transaction"
+#~ msgstr "输入您的PIN码来标记交易"
+
+#~ msgid "Enter your PIN code to confirm deletion of {}"
+#~ msgstr "请输入您的PIN码以确认删除%s"
+
+#~ msgid "Enter your current PIN:"
+#~ msgstr "请输入您当前的PIN码："
+
+#~ msgid "Enter your email address:"
+#~ msgstr "输入你的电子邮箱地址："
+
+#~ msgid "Export private key"
+#~ msgstr "导出私钥"
+
+#~ msgid "Fee estimation"
+#~ msgstr "费用估计"
+
+#~ msgid "Fees"
+#~ msgstr "费用"
+
+#~ msgid "Hide private key"
+#~ msgstr "隐藏私钥"
+
+#~ msgid "Hide seed"
+#~ msgstr "隐藏种子"
+
+#, fuzzy
+#~ msgid "Hideez wallet"
+#~ msgstr "分类账钱包"
+
+#~ msgid "Identity"
+#~ msgstr "身份"
+
+#~ msgid "Master Public Keys"
+#~ msgstr "主要公匙"
+
+#~ msgid "Memo"
+#~ msgstr "备注"
+
+#~ msgid "Mobile - Not paired"
+#~ msgstr "手机-没配对"
+
+#~ msgid "Mobile - {}"
+#~ msgstr "手机 - {}"
+
+#~ msgid "New"
+#~ msgstr "新建"
+
+#~ msgid "No Amount"
+#~ msgstr "没有金额"
+
+#~ msgid "No inputs found. (Note that inputs need to be confirmed)"
+#~ msgstr "没有输入。（注意输入需要确认）"
+
+#~ msgid "No message or amount"
+#~ msgstr "没有信息或者数量"
+
+#~ msgid "No saved invoices."
+#~ msgstr "没有已保存的收据。"
+
+#~ msgid "No saved requests."
+#~ msgstr "没有保存的请求。"
+
+#~ msgid "Offline signing with {} is not supported for legacy inputs."
+#~ msgstr "传统输入不支持用{}进行离线签名。"
+
+#~ msgid "PIN codes do not match"
+#~ msgstr "PIN码不匹配"
+
+#~ msgid "Pair"
+#~ msgstr "配对"
+
+#~ msgid "Paste"
+#~ msgstr "粘贴"
+
+#~ msgid "Pay Now"
+#~ msgstr "立即付款"
+
+#~ msgid "Pending"
+#~ msgstr "等待处理"
+
+#~ msgid "Please sign this transaction in order to save it"
+#~ msgstr "要保存此交易请先对交易签名"
+
+#~ msgid "Preview"
+#~ msgstr "预览"
+
+#~ msgid "Private Key"
+#~ msgstr "私钥"
+
+#~ msgid "Proceed?"
+#~ msgstr "要继续吗？"
+
+#, fuzzy
+#~ msgid "Provides support for Hideez hardware wallet"
+#~ msgstr "为KeepKey硬件钱包提供支持"
+
+#~ msgid "Pruned transaction outputs"
+#~ msgstr "修剪交易输出"
+
+#~ msgid "Re-Pair"
+#~ msgstr "重新配对"
+
+#~ msgid "Request amount"
+#~ msgstr "请求的金额"
+
+#~ msgid "Request expires"
+#~ msgstr "请求已过期"
+
+#~ msgid "Request saved successfully"
+#~ msgstr "申请成功保存"
+
+#~ msgid "Request was saved."
+#~ msgstr "请求已保存。"
+
+#~ msgid "SSL certificate"
+#~ msgstr "SSL 证书"
+
+#~ msgid "SSL certificate used to sign payment requests."
+#~ msgstr "SSL证书用于签署付款请求。"
+
+#~ msgid "Save as BIP70 file"
+#~ msgstr "保存为 BIP70 文件"
+
+#~ msgid ""
+#~ "Scan this QR code with your Ledger Wallet phone app to pair it with this "
+#~ "Ledger device.<br>To complete pairing you will need your security card to "
+#~ "answer a challenge."
+#~ msgstr ""
+#~ "用你的Ledger钱包手机应用扫描此二维码，以配对Ledger钱包。<br>为完成配对，你"
+#~ "需要用安全卡来应答安全问题。"
+
+#~ msgid "Server peers"
+#~ msgstr "服务器伙伴"
+
+#~ msgid "Show fee edit box in send tab."
+#~ msgstr "在发送栏显示费用编辑框。"
+
+#~ msgid "Show seed"
+#~ msgstr "展示种子"
+
+#~ msgid "Signed invoices are saved automatically when you scan them."
+#~ msgstr "签名的发票将在你扫描时自动保存。"
+
+#~ msgid ""
+#~ "Text copied to clipboard.\n"
+#~ "Tap again to display it as QR code."
+#~ msgstr ""
+#~ "文字复制到剪贴板.\n"
+#~ "再次点击将它显示为二维码。"
+
+#~ msgid "Transaction accepted by mobile phone. Waiting for confirmation."
+#~ msgstr "手机接受的交易。等待确认。"
+
+#~ msgid "Unmatured"
+#~ msgstr "未成熟"
+
+#~ msgid "Use"
+#~ msgstr "使用"
+
+#~ msgid "Use setconfig to set ssl_chain and ssl_privkey."
+#~ msgstr "用setconfig设置set ssl_chain和ssl_privkey。"
+
+#~ msgid "Waiting for authentication on your mobile phone"
+#~ msgstr "等待手机上的身份验证"
+
+#~ msgid ""
+#~ "You are using Dash Electrum in offline mode; restart Dash Electrum if you "
+#~ "want to get connected"
+#~ msgstr ""
+#~ "你正在离线模式下使用 Dash Electrum 。若想连接你需要重启 Dash Electrum 。"
+
+#~ msgid ""
+#~ "You may also save unsigned requests or contact addresses using the save "
+#~ "button."
+#~ msgstr "您也可以使用保存按钮保存未签名的请求或联系人地址。"
+
+#, fuzzy
+#~ msgid ""
+#~ "You need to create a separate Dash-Electrum wallet for each passphrase "
+#~ "you use as they each generate different addresses.  Changing your "
+#~ "passphrase does not lose other wallets, each is still accessible behind "
+#~ "its own passphrase."
+#~ msgstr ""
+#~ "您需要为每个使用的密码创建一个单独的Dash Electrum电子钱包，因为它们每个都"
+#~ "生成不同的地址。更改您的密码不会丢失其他钱包，每个钱包仍然可以在各自的密码"
+#~ "保护下访问。"
+
+#~ msgid " Balance"
+#~ msgstr "我的余额"
+
+#~ msgid "%d words"
+#~ msgstr "%d 个词语"
+
+#~ msgid "Appearance"
+#~ msgstr "界面外观"
+
+#~ msgid "Create"
+#~ msgstr "创建"
+
+#~ msgid "Create a digital Revealer"
+#~ msgstr "创建一个数字提词器"
+
+#~ msgid "Dash Electrum is generating your addresses, please wait..."
+#~ msgstr "Dash Electrum 正在生成地址，请稍等。"
+
+#~ msgid "Enter your physical revealer code:"
+#~ msgstr "输入你的物理提词器代码："
+
+#~ msgid "Generate custom secret encrypted backup"
+#~ msgstr "生成自定义密钥加密的备份"
+
+#~ msgid "Generate encrypted seed backup"
+#~ msgstr "生成加密的种子备份"
+
+#~ msgid "Multiple secrets encrypted for the same Revealer can be attacked."
+#~ msgstr "多个为同一Revealer加密的密钥可能受到攻击。"
+
+#~ msgid ""
+#~ "Once activated you can access the plug-in through the icon at the seed "
+#~ "dialog."
+#~ msgstr "一旦激活，您可以通过种子对话框中的图标访问插件。"
+
+#~ msgid "Please use the existing requests first."
+#~ msgstr "请先使用现有的请求。"
+
+#~ msgid "Printing a revealer and encrypted seed"
+#~ msgstr "打印一个提词器和加密种子"
+
+#~ msgid "Revealer"
+#~ msgstr "提词器"
+
+#~ msgid "Server lagging"
+#~ msgstr "服务器滞后"
+
+#~ msgid "TREZOR wallet"
+#~ msgstr "TREZOR钱包"
+
+#~ msgid ""
+#~ "The plug-in also allows you to generate a digital Revealer file and print "
+#~ "it yourself on a transparent overhead foil."
+#~ msgstr ""
+#~ "该插件还允许您生成数字提词器文件，你可以自行打印在透明的顶层贴膜上。"
+
+#~ msgid ""
+#~ "This plug-in allows you to generate a pdf file of your secret phrase "
+#~ "encrypted visually for your physical Revealer. You can print it "
+#~ "trustlessly - it can only be decrypted optically with your Revealer."
+#~ msgstr ""
+#~ "这个插件允许你生成一个用你的密钥助记词加密的pdf文件，对你的物理提词器进行"
+#~ "视觉加密存储。你可以无需信任地打印它 - 它只能通过你的提词器进行光学解密。"
+
+#~ msgid ""
+#~ "Using a Revealer is better than writing your seed phrases on paper: a "
+#~ "revealer is invulnerable to physical access and allows creation of "
+#~ "trustless redundancy."
+#~ msgstr ""
+#~ "使用提词器比在纸上写下你的种子短语要好：一个提词器令物理访问不会有安全隐"
+#~ "患，并允许创建不依赖信任关系的冗余。"
+
+#~ msgid "Warning: "
+#~ msgstr "警告："
+
+#~ msgid "calibration"
+#~ msgstr "校准"
+
+#~ msgid "custom_secret"
+#~ msgstr "custom_secret"
+
+#~ msgid "on the same printer is not trustless towards the printer."
+#~ msgstr "对打印机而言，在同一台打印机上打印是可靠的。"
