@@ -29,13 +29,16 @@ import time
 from pyzbar.pyzbar import decode
 from PIL import Image
 
+try:
+    from cv2 import VideoCapture
+    opencv = True
+except ImportError:
+    opencv = None
+    raise RuntimeError("OpenCV is required for capturing video.")
+
 def scan_barcode(device='', timeout=-1, display=True, threaded=False, try_cnt=10):
     if not device:
         device = 0  # Default to first camera
-    try:
-        from cv2 import VideoCapture
-    except ImportError:
-        raise RuntimeError("OpenCV is required for capturing video.")
     
     # Open the video capture device
     cap = VideoCapture(device)
