@@ -508,6 +508,8 @@ def time_difference(distance_in_time, include_seconds):
 mainnet_block_explorers = {
     'explorer.btcz.rocks': ('https://explorer.btcz.rocks/',
                         {'tx': 'tx/', 'addr': 'address/'}),
+    'explorer.btcz.zelcore.io': ('https://explorer.btcz.zelcore.io/',
+                        {'tx': 'tx/', 'addr': 'address/'}),
     'system default': ('blockchain:/',
                         {'tx': 'tx/', 'addr': 'address/'}),
 }
