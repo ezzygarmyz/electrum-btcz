@@ -234,9 +234,13 @@ class DaemonThread(threading.Thread, PrintError):
 
     def on_stop(self):
         if 'ANDROID_DATA' in os.environ:
-            import jnius
-            jnius.detach()
-            self.print_error("jnius detach")
+            try:
+                import jnius
+                jnius.detach()
+                self.print_error("jnius detached")
+            except Exception as e:
+                self.print_error(f"Failed to detach jnius: {e}")
+
         self.print_error("stopped")
 
 
@@ -303,14 +307,33 @@ def android_headers_file_name():
 
 
 def android_ext_dir():
-    import jnius
-    env = jnius.autoclass('android.os.Environment')
-    return env.getExternalStorageDirectory().getPath()
+    try:
+        # Chaquopy / Android API
+        from org.beeware.android import MainActivity
+        activity = MainActivity.singletonThis
+        ext_dir = activity.getExternalFilesDir(None)
+        if ext_dir:
+            return ext_dir.getAbsolutePath()
+    except Exception:
+        # Fallback to jnius (Kivy/pyjnius)
+        import jnius
+        env = jnius.autoclass('android.os.Environment')
+        return str(env.getExternalStorageDirectory().getPath())
+
 
 def android_data_dir():
-    import jnius
-    PythonActivity = jnius.autoclass('org.kivy.android.PythonActivity')
-    return PythonActivity.mActivity.getFilesDir().getPath() + '/data'
+    try:
+        # Chaquopy
+        from org.beeware.android import MainActivity
+        from java.io import File
+        activity = MainActivity.singletonThis
+        files_dir = activity.getFilesDir()
+        return File(files_dir, "data").getAbsolutePath()
+    except Exception:
+        # Kivy / jnius
+        import jnius
+        PythonActivity = jnius.autoclass('org.kivy.android.PythonActivity')
+        return str(PythonActivity.mActivity.getFilesDir().getPath()) + '/data'
 
 def android_headers_dir():
     d = android_ext_dir() + '/cash.z.electrum.electrum_btcz'
