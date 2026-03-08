@@ -36,13 +36,13 @@ hiddenimports += [
 ]
 
 datas = [
-    ('lib/servers.json', 'electrum_zcash'),
-    ('lib/checkpoints.json', 'electrum_zcash'),
-    ('lib/servers_testnet.json', 'electrum_zcash'),
-    ('lib/servers_regtest.json', 'electrum_zcash'),
-    ('lib/currencies.json', 'electrum_zcash'),
-    ('lib/wordlist', 'electrum_zcash/wordlist'),
-    ('lib/locale', 'electrum_zcash/locale')
+    ('lib/servers.json', 'electrum_btcz'),
+    ('lib/checkpoints.json', 'electrum_btcz'),
+    ('lib/servers_testnet.json', 'electrum_btcz'),
+    ('lib/servers_regtest.json', 'electrum_btcz'),
+    ('lib/currencies.json', 'electrum_btcz'),
+    ('lib/wordlist', 'electrum_btcz/wordlist'),
+    ('lib/locale', 'electrum_btcz/locale')
 ]
 datas += collect_data_files('trezorlib')
 datas += collect_data_files('btchip')
@@ -110,14 +110,14 @@ for d in a.datas:
         a.datas.remove(d)
         break
 
-# Add TOC to electrum_zcash, electrum_zcash_gui, electrum_zcash_plugins
+# Add TOC to electrum_btcz, electrum_btcz_gui, electrum_btcz_plugins
 for p in sorted(a.pure):
     if p[0].startswith('lib') and p[2] == 'PYMODULE':
-        a.pure += [('electrum_zcash%s' % p[0][3:], p[1], p[2])]
+        a.pure += [('electrum_btcz%s' % p[0][3:], p[1], p[2])]
     if p[0].startswith('gui') and p[2] == 'PYMODULE':
-        a.pure += [('electrum_zcash_gui%s' % p[0][3:], p[1], p[2])]
+        a.pure += [('electrum_btcz_gui%s' % p[0][3:], p[1], p[2])]
     if p[0].startswith('plugins') and p[2] == 'PYMODULE':
-        a.pure += [('electrum_zcash_plugins%s' % p[0][7:], p[1], p[2])]
+        a.pure += [('electrum_btcz_plugins%s' % p[0][7:], p[1], p[2])]
 
 pyz = PYZ(a.pure)
 

@@ -1,13 +1,13 @@
 from binascii import hexlify, unhexlify
 
-from electrum_zcash.util import bfh, bh2u, versiontuple
-from electrum_zcash.bitcoin import (b58_address_to_hash160, xpub_from_pubkey,
+from electrum_btcz.util import bfh, bh2u, versiontuple
+from electrum_btcz.bitcoin import (b58_address_to_hash160, xpub_from_pubkey,
                                    TYPE_ADDRESS, TYPE_SCRIPT)
-from electrum_zcash import constants
-from electrum_zcash.i18n import _
-from electrum_zcash.plugins import BasePlugin, Device
-from electrum_zcash.transaction import deserialize, Transaction
-from electrum_zcash.keystore import Hardware_KeyStore, is_xpubkey, parse_xpubkey
+from electrum_btcz import constants
+from electrum_btcz.i18n import _
+from electrum_btcz.plugins import BasePlugin, Device
+from electrum_btcz.transaction import deserialize, Transaction
+from electrum_btcz.keystore import Hardware_KeyStore, is_xpubkey, parse_xpubkey
 
 from ..hw_wallet import HW_PluginBase
 

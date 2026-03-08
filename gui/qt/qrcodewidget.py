@@ -8,8 +8,8 @@ from PyQt5.QtWidgets import (
 import os
 import qrcode
 
-import electrum_zcash
-from electrum_zcash.i18n import _
+import electrum_btcz
+from electrum_btcz.i18n import _
 from .util import WindowModalDialog
 
 
@@ -47,40 +47,42 @@ class QRCodeWidget(QWidget):
         black = QColor(0, 0, 0, 255)
         white = QColor(255, 255, 255, 255)
 
+        qp = QtGui.QPainter()
+        qp.begin(self)
+        r = qp.viewport()
+
         if not self.qr:
-            qp = QtGui.QPainter()
-            qp.begin(self)
             qp.setBrush(white)
             qp.setPen(white)
-            r = qp.viewport()
             qp.drawRect(0, 0, r.width(), r.height())
             qp.end()
             return
 
         matrix = self.qr.get_matrix()
         k = len(matrix)
-        qp = QtGui.QPainter()
-        qp.begin(self)
-        r = qp.viewport()
 
         margin = 10
         framesize = min(r.width(), r.height())
-        boxsize = int( (framesize - 2*margin)/k )
-        size = k*boxsize
-        left = (r.width() - size)/2
-        top = (r.height() - size)/2
+        boxsize = int((framesize - 2 * margin) / k)
+        size = k * boxsize
+        left = int((r.width() - size) / 2)
+        top = int((r.height() - size) / 2)
 
-        # Make a white margin around the QR in case of dark theme use
         qp.setBrush(white)
         qp.setPen(white)
-        qp.drawRect(left-margin, top-margin, size+(margin*2), size+(margin*2))
+        qp.drawRect(left - margin, top - margin, size + (margin * 2), size + (margin * 2))
+
         qp.setBrush(black)
         qp.setPen(black)
-
-        for r in range(k):
-            for c in range(k):
-                if matrix[r][c]:
-                    qp.drawRect(left+c*boxsize, top+r*boxsize, boxsize - 1, boxsize - 1)
+        for row in range(k):
+            for col in range(k):
+                if matrix[row][col]:
+                    qp.drawRect(
+                        left + col * boxsize,
+                        top + row * boxsize,
+                        boxsize - 1,
+                        boxsize - 1
+                    )
         qp.end()
 
 
@@ -102,7 +104,7 @@ class QRDialog(WindowModalDialog):
         hbox = QHBoxLayout()
         hbox.addStretch(1)
 
-        config = electrum_zcash.get_config()
+        config = electrum_btcz.get_config()
         if config:
             filename = os.path.join(config.path, "qrcode.png")
 

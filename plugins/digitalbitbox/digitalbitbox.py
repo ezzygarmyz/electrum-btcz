@@ -4,16 +4,16 @@
 #
 
 try:
-    import electrum_zcash
-    from electrum_zcash.bitcoin import TYPE_ADDRESS, push_script, var_int, msg_magic, Hash, verify_message, pubkey_from_signature, point_to_ser, public_key_to_p2pkh, EncodeAES, DecodeAES, MyVerifyingKey
-    from electrum_zcash.bitcoin import serialize_xpub, deserialize_xpub
-    from electrum_zcash import constants
-    from electrum_zcash.transaction import Transaction
-    from electrum_zcash.i18n import _
-    from electrum_zcash.keystore import Hardware_KeyStore
+    import electrum_btcz
+    from electrum_btcz.bitcoin import TYPE_ADDRESS, push_script, var_int, msg_magic, Hash, verify_message, pubkey_from_signature, point_to_ser, public_key_to_p2pkh, EncodeAES, DecodeAES, MyVerifyingKey
+    from electrum_btcz.bitcoin import serialize_xpub, deserialize_xpub
+    from electrum_btcz import constants
+    from electrum_btcz.transaction import Transaction
+    from electrum_btcz.i18n import _
+    from electrum_btcz.keystore import Hardware_KeyStore
     from ..hw_wallet import HW_PluginBase
-    from electrum_zcash.util import print_error, to_string, UserCancelled
-    from electrum_zcash.base_wizard import ScriptTypeNotSupported, HWD_SETUP_NEW_WALLET
+    from electrum_btcz.util import print_error, to_string, UserCancelled
+    from electrum_btcz.base_wizard import ScriptTypeNotSupported, HWD_SETUP_NEW_WALLET
 
     import time
     import hid

@@ -7,7 +7,7 @@ from btchip.bitcoinVarint import readVarint, writeVarint
 from btchip.btchipHelpers import parse_bip32_path, writeUint32BE, writeHexAmountBE, btc_to_satoshi
 from btchip.btchipException import BTChipException
 
-from electrum_zcash.transaction import (OVERWINTERED_VERSION_GROUP_ID,
+from electrum_btcz.transaction import (OVERWINTERED_VERSION_GROUP_ID,
                                         SAPLING_VERSION_GROUP_ID)
 
 

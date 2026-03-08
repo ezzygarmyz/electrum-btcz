@@ -39,7 +39,7 @@ Description: Easy to use Zcash client - Python module
  failure. Also, Electrum-Zcash does not require waiting time because it does
  not download the Zcash blockchain.
  .
- This package provides the "electrum_zcash" Python 3 module which can be used
+ This package provides the "electrum_btcz" Python 3 module which can be used
  to access a Zcash wallet from Python programs.
 
 Package: electrum-btcz

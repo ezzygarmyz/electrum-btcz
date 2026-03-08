@@ -72,24 +72,24 @@ if is_local or is_android:
         spec.loader.exec_module(module)
         return module
 
-    electrum_btcz = load_module('electrum_zcash', os.path.join(script_dir, 'lib', '__init__.py'))
-    electrum_btcz_gui = load_module('electrum_zcash_gui', os.path.join(script_dir, 'gui', '__init__.py'))
-    electrum_btcz_plugins = load_module('electrum_zcash_plugins', os.path.join(script_dir, 'plugins', '__init__.py'))
+    electrum_btcz = load_module('electrum_btcz', os.path.join(script_dir, 'lib', '__init__.py'))
+    electrum_btcz_gui = load_module('electrum_btcz_gui', os.path.join(script_dir, 'gui', '__init__.py'))
+    electrum_btcz_plugins = load_module('electrum_btcz_plugins', os.path.join(script_dir, 'plugins', '__init__.py'))
 
 
 
-from electrum_zcash import bitcoin, util
-from electrum_zcash import constants
-from electrum_zcash import SimpleConfig, Network
-from electrum_zcash.wallet import Wallet, Imported_Wallet
-from electrum_zcash.storage import WalletStorage, get_derivation_used_for_hw_device_encryption
-from electrum_zcash.util import print_msg, print_stderr, json_encode, json_decode, UserCancelled
-from electrum_zcash.util import set_verbosity, InvalidPassword
-from electrum_zcash.commands import get_parser, known_commands, Commands, config_variables
-from electrum_zcash import daemon
-from electrum_zcash import keystore
-from electrum_zcash.mnemonic import Mnemonic
-import electrum_zcash_plugins
+from electrum_btcz import bitcoin, util
+from electrum_btcz import constants
+from electrum_btcz import SimpleConfig, Network
+from electrum_btcz.wallet import Wallet, Imported_Wallet
+from electrum_btcz.storage import WalletStorage, get_derivation_used_for_hw_device_encryption
+from electrum_btcz.util import print_msg, print_stderr, json_encode, json_decode, UserCancelled
+from electrum_btcz.util import set_verbosity, InvalidPassword
+from electrum_btcz.commands import get_parser, known_commands, Commands, config_variables
+from electrum_btcz import daemon
+from electrum_btcz import keystore
+from electrum_btcz.mnemonic import Mnemonic
+import electrum_btcz_plugins
 
 # get password routine
 def prompt_password(prompt, confirm=True):
@@ -334,7 +334,7 @@ def run_offline_command(config, config_options, plugins):
     return result
 
 def init_plugins(config, gui_name):
-    from electrum_zcash.plugins import Plugins
+    from electrum_btcz.plugins import Plugins
     return Plugins(config, is_local or is_android, gui_name)
 
 
@@ -442,7 +442,7 @@ if __name__ == '__main__':
                 d = daemon.Daemon(config, fd, False)
                 d.start()
                 if config.get('websocket_server'):
-                    from electrum_zcash import websockets
+                    from electrum_btcz import websockets
                     websockets.WebSocketServer(config, d.network).start()
                 if config.get('requests_dir'):
                     path = os.path.join(config.get('requests_dir'), 'index.html')

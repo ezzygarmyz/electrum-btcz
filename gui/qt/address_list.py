@@ -24,10 +24,10 @@
 # SOFTWARE.
 import webbrowser
 
-from electrum_zcash.i18n import _
-from electrum_zcash.util import block_explorer_URL
-from electrum_zcash.plugins import run_hook
-from electrum_zcash.bitcoin import is_address
+from electrum_btcz.i18n import _
+from electrum_btcz.util import block_explorer_URL
+from electrum_btcz.plugins import run_hook
+from electrum_btcz.bitcoin import is_address
 
 from .util import *
 
@@ -138,7 +138,7 @@ class AddressList(MyTreeWidget):
                 self.setCurrentItem(address_item)
 
     def create_menu(self, position):
-        from electrum_zcash.wallet import Multisig_Wallet
+        from electrum_btcz.wallet import Multisig_Wallet
         is_multisig = isinstance(self.wallet, Multisig_Wallet)
         can_delete = self.wallet.can_delete_address()
         selected = self.selectedItems()

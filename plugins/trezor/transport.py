@@ -1,4 +1,4 @@
-from electrum_zcash.util import PrintError
+from electrum_btcz.util import PrintError
 
 
 class TrezorTransport(PrintError):

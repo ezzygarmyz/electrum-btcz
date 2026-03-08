@@ -28,8 +28,8 @@ from PyQt5.QtWidgets import QLineEdit
 import re
 from decimal import Decimal
 
-from electrum_zcash import bitcoin
-from electrum_zcash.util import bfh
+from electrum_btcz import bitcoin
+from electrum_btcz.util import bfh
 
 from .qrtextedit import ScanQRTextEdit
 from .completion_text_edit import CompletionTextEdit
@@ -90,7 +90,7 @@ class PayToEdit(CompletionTextEdit, ScanQRTextEdit):
             return bitcoin.TYPE_SCRIPT, script
 
     def parse_script(self, x):
-        from electrum_zcash.transaction import opcodes, push_script
+        from electrum_btcz.transaction import opcodes, push_script
         script = ''
         for word in x.split():
             if word[0:3] == 'OP_':
@@ -195,9 +195,12 @@ class PayToEdit(CompletionTextEdit, ScanQRTextEdit):
         lineEditHeight = QLineEdit().sizeHint().height()
         lineHeight = self.fontMetrics().height()
         h = lineEditHeight + lineHeight * (docHeight - 1)
+
         if self.heightMin <= h <= self.heightMax:
+            h = int(h)
             self.setMinimumHeight(h)
             self.setMaximumHeight(h)
+
         self.verticalScrollBar().hide()
 
     def qr_input(self):

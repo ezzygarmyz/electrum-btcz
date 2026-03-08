@@ -30,10 +30,10 @@ from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 import PyQt5.QtCore as QtCore
 
-from electrum_zcash.i18n import _
-from electrum_zcash import constants
-from electrum_zcash.util import print_error
-from electrum_zcash.network import serialize_server, deserialize_server
+from electrum_btcz.i18n import _
+from electrum_btcz import constants
+from electrum_btcz.util import print_error
+from electrum_btcz.network import serialize_server, deserialize_server
 
 from .util import *
 

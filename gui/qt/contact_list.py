@@ -24,10 +24,10 @@
 # SOFTWARE.
 import webbrowser
 
-from electrum_zcash.i18n import _
-from electrum_zcash.bitcoin import is_address
-from electrum_zcash.util import block_explorer_URL
-from electrum_zcash.plugins import run_hook
+from electrum_btcz.i18n import _
+from electrum_btcz.bitcoin import is_address
+from electrum_btcz.util import block_explorer_URL
+from electrum_btcz.plugins import run_hook
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import (

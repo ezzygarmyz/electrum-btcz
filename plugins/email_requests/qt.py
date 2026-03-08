@@ -42,11 +42,11 @@ from PyQt5.QtCore import *
 from PyQt5.QtWidgets import (QVBoxLayout, QLabel, QGridLayout, QLineEdit,
                              QInputDialog)
 
-from electrum_zcash.plugins import BasePlugin, hook
-from electrum_zcash.paymentrequest import PaymentRequest
-from electrum_zcash.i18n import _
-from electrum_zcash.util import PrintError
-from electrum_zcash_gui.qt.util import (EnterButton, Buttons, CloseButton, OkButton,
+from electrum_btcz.plugins import BasePlugin, hook
+from electrum_btcz.paymentrequest import PaymentRequest
+from electrum_btcz.i18n import _
+from electrum_btcz.util import PrintError
+from electrum_btcz_gui.qt.util import (EnterButton, Buttons, CloseButton, OkButton,
                                        WindowModalDialog, get_parent_main_window)
 
 
@@ -166,7 +166,7 @@ class Plugin(BasePlugin):
         menu.addAction(_("Send via e-mail"), lambda: self.send(window, addr))
 
     def send(self, window, addr):
-        from electrum_zcash import paymentrequest
+        from electrum_btcz import paymentrequest
         r = window.wallet.receive_requests.get(addr)
         message = r.get('memo', '')
         if r.get('signature'):

@@ -3,17 +3,17 @@ import hashlib
 import sys
 import traceback
 
-from electrum_zcash import bitcoin
-from electrum_zcash import constants
-from electrum_zcash.bitcoin import (TYPE_ADDRESS, int_to_hex, var_int,
+from electrum_btcz import bitcoin
+from electrum_btcz import constants
+from electrum_btcz.bitcoin import (TYPE_ADDRESS, int_to_hex, var_int,
                                    b58_address_to_hash160,
                                    hash160_to_b58_address)
-from electrum_zcash.i18n import _
-from electrum_zcash.plugins import BasePlugin
-from electrum_zcash.keystore import Hardware_KeyStore
-from electrum_zcash.transaction import Transaction
+from electrum_btcz.i18n import _
+from electrum_btcz.plugins import BasePlugin
+from electrum_btcz.keystore import Hardware_KeyStore
+from electrum_btcz.transaction import Transaction
 from ..hw_wallet import HW_PluginBase
-from electrum_zcash.util import print_error, is_verbose, bfh, bh2u, versiontuple
+from electrum_btcz.util import print_error, is_verbose, bfh, bh2u, versiontuple
 
 
 def setAlternateCoinVersions(self, regular, p2sh):

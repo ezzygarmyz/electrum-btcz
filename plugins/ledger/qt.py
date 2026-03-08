@@ -1,9 +1,9 @@
 #from btchip.btchipPersoWizard import StartBTChipPersoDialog
 
-from electrum_zcash.i18n import _
-from electrum_zcash.plugins import hook
-from electrum_zcash.wallet import Standard_Wallet
-from electrum_zcash_gui.qt.util import *
+from electrum_btcz.i18n import _
+from electrum_btcz.plugins import hook
+from electrum_btcz.wallet import Standard_Wallet
+from electrum_btcz_gui.qt.util import *
 
 from .ledger import LedgerPlugin
 from ..hw_wallet.qt import QtHandlerBase, QtPluginBase

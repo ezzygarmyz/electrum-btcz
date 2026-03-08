@@ -24,8 +24,8 @@
 # CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-from electrum_zcash.plugins import BasePlugin, hook
-from electrum_zcash.i18n import _
+from electrum_btcz.plugins import BasePlugin, hook
+from electrum_btcz.i18n import _
 
 
 class HW_PluginBase(BasePlugin):

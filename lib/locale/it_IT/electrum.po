@@ -23,230 +23,230 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: electrum_zcash/exchange_rate.py:425
+#: electrum_btcz/exchange_rate.py:425
 msgid "  (No FX rate available)"
 msgstr "  (Nessun rate FX disponibile)"
 
-#: electrum_zcash/gui/qt/history_list.py:331
+#: electrum_btcz/gui/qt/history_list.py:331
 msgid " confirmation"
 msgstr "conferme"
 
-#: electrum_zcash/gui/qt/main_window.py:753
+#: electrum_btcz/gui/qt/main_window.py:753
 msgid "&About"
 msgstr "&Informazioni"
 
-#: electrum_zcash/gui/qt/main_window.py:228
-#: electrum_zcash/gui/qt/main_window.py:687
+#: electrum_btcz/gui/qt/main_window.py:228
+#: electrum_btcz/gui/qt/main_window.py:687
 msgid "&Addresses"
 msgstr "&Indirizzi"
 
-#: electrum_zcash/gui/qt/main_window.py:758
+#: electrum_btcz/gui/qt/main_window.py:758
 msgid "&Automated Crash Reports"
 msgstr "&Report dei Crash Automatizzato"
 
-#: electrum_zcash/gui/qt/main_window.py:763
+#: electrum_btcz/gui/qt/main_window.py:763
 msgid "&Bitcoin Paper"
 msgstr ""
 
-#: electrum_zcash/gui/qt/main_window.py:754
+#: electrum_btcz/gui/qt/main_window.py:754
 msgid "&Check for updates"
 msgstr "&Controlla gli aggiornamenti"
 
-#: electrum_zcash/gui/qt/main_window.py:689
+#: electrum_btcz/gui/qt/main_window.py:689
 msgid "&Coins"
 msgstr "&Monete"
 
-#: electrum_zcash/gui/qt/main_window.py:757
+#: electrum_btcz/gui/qt/main_window.py:757
 msgid "&Documentation"
 msgstr "&Documentazione"
 
-#: electrum_zcash/gui/qt/main_window.py:766
+#: electrum_btcz/gui/qt/main_window.py:766
 msgid "&Donate to server"
 msgstr "&Dona al server"
 
-#: electrum_zcash/gui/qt/main_window.py:739
+#: electrum_btcz/gui/qt/main_window.py:739
 msgid "&Encrypt/decrypt message"
 msgstr "&Cifra/decifra messaggio"
 
-#: electrum_zcash/gui/qt/main_window.py:683
-#: electrum_zcash/gui/qt/main_window.py:693
-#: electrum_zcash/gui/qt/main_window.py:698
+#: electrum_btcz/gui/qt/main_window.py:683
+#: electrum_btcz/gui/qt/main_window.py:693
+#: electrum_btcz/gui/qt/main_window.py:698
 msgid "&Export"
 msgstr "&Esporta"
 
-#: electrum_zcash/gui/qt/main_window.py:666
+#: electrum_btcz/gui/qt/main_window.py:666
 msgid "&File"
 msgstr "&File"
 
-#: electrum_zcash/gui/qt/main_window.py:688
-#: electrum_zcash/gui/qt/main_window.py:690
-#: electrum_zcash/gui/qt/main_window.py:695
+#: electrum_btcz/gui/qt/main_window.py:688
+#: electrum_btcz/gui/qt/main_window.py:690
+#: electrum_btcz/gui/qt/main_window.py:695
 msgid "&Filter"
 msgstr "&Filtro"
 
-#: electrum_zcash/gui/qt/main_window.py:748
+#: electrum_btcz/gui/qt/main_window.py:748
 msgid "&From QR code"
 msgstr "&Da codice QR"
 
-#: electrum_zcash/gui/qt/main_window.py:745
+#: electrum_btcz/gui/qt/main_window.py:745
 msgid "&From file"
 msgstr "&Da file"
 
-#: electrum_zcash/gui/qt/main_window.py:746
+#: electrum_btcz/gui/qt/main_window.py:746
 msgid "&From text"
 msgstr "&Da testo"
 
-#: electrum_zcash/gui/qt/main_window.py:747
+#: electrum_btcz/gui/qt/main_window.py:747
 msgid "&From the blockchain"
 msgstr "%Dalla blockchain"
 
-#: electrum_zcash/gui/qt/main_window.py:752
+#: electrum_btcz/gui/qt/main_window.py:752
 msgid "&Help"
 msgstr "&Aiuto"
 
-#: electrum_zcash/gui/qt/main_window.py:694
+#: electrum_btcz/gui/qt/main_window.py:694
 msgid "&History"
 msgstr "&Cronologia"
 
-#: electrum_zcash/gui/qt/main_window.py:682
-#: electrum_zcash/gui/qt/main_window.py:692
+#: electrum_btcz/gui/qt/main_window.py:682
+#: electrum_btcz/gui/qt/main_window.py:692
 msgid "&Import"
 msgstr "&Importa"
 
-#: electrum_zcash/gui/qt/main_window.py:676
+#: electrum_btcz/gui/qt/main_window.py:676
 msgid "&Information"
 msgstr "&Informazioni"
 
-#: electrum_zcash/gui/qt/main_window.py:691
+#: electrum_btcz/gui/qt/main_window.py:691
 msgid "&Labels"
 msgstr "&Etichette"
 
-#: electrum_zcash/gui/qt/main_window.py:744
+#: electrum_btcz/gui/qt/main_window.py:744
 msgid "&Load transaction"
 msgstr "&Carica transazione"
 
-#: electrum_zcash/gui/qt/main_window.py:735
+#: electrum_btcz/gui/qt/main_window.py:735
 msgid "&Network"
 msgstr "&Rete"
 
-#: electrum_zcash/gui/qt/main_window.py:700
+#: electrum_btcz/gui/qt/main_window.py:700
 msgid "&New"
 msgstr "&Nuovo"
 
-#: electrum_zcash/gui/qt/main_window.py:669
+#: electrum_btcz/gui/qt/main_window.py:669
 msgid "&New/Restore"
 msgstr "&Nuovo/ripristina"
 
-#: electrum_zcash/gui/qt/main_window.py:755
+#: electrum_btcz/gui/qt/main_window.py:755
 msgid "&Official website"
 msgstr "Sito ufficiale"
 
-#: electrum_zcash/gui/qt/main_window.py:668
+#: electrum_btcz/gui/qt/main_window.py:668
 msgid "&Open"
 msgstr "&Apri"
 
-#: electrum_zcash/gui/qt/main_window.py:678
+#: electrum_btcz/gui/qt/main_window.py:678
 msgid "&Password"
 msgstr "&Password"
 
-#: electrum_zcash/gui/qt/main_window.py:742
+#: electrum_btcz/gui/qt/main_window.py:742
 msgid "&Pay to many"
 msgstr "&Pagamento a molti"
 
-#: electrum_zcash/gui/qt/main_window.py:697
+#: electrum_btcz/gui/qt/main_window.py:697
 msgid "&Plot"
 msgstr "&Traccia"
 
-#: electrum_zcash/gui/qt/main_window.py:736
+#: electrum_btcz/gui/qt/main_window.py:736
 msgid "&Plugins"
 msgstr "&Plugins"
 
-#: electrum_zcash/gui/qt/main_window.py:680
+#: electrum_btcz/gui/qt/main_window.py:680
 msgid "&Private keys"
 msgstr "&Chiavi private"
 
-#: electrum_zcash/gui/qt/main_window.py:673
+#: electrum_btcz/gui/qt/main_window.py:673
 msgid "&Quit"
 msgstr "&Esci"
 
-#: electrum_zcash/gui/qt/main_window.py:667
+#: electrum_btcz/gui/qt/main_window.py:667
 msgid "&Recently open"
 msgstr "&Aperti di recente"
 
-#: electrum_zcash/gui/qt/main_window.py:764
+#: electrum_btcz/gui/qt/main_window.py:764
 msgid "&Report Bug"
 msgstr "&Segnala un bug"
 
-#: electrum_zcash/gui/qt/main_window.py:670
+#: electrum_btcz/gui/qt/main_window.py:670
 #, fuzzy
 msgid "&Save backup"
 msgstr "&Salva copia"
 
-#: electrum_zcash/gui/qt/main_window.py:679
+#: electrum_btcz/gui/qt/main_window.py:679
 msgid "&Seed"
 msgstr "&Seme"
 
-#: electrum_zcash/gui/qt/main_window.py:738
+#: electrum_btcz/gui/qt/main_window.py:738
 msgid "&Sign/verify message"
 msgstr "&Firma/verifica messaggio"
 
-#: electrum_zcash/gui/qt/main_window.py:696
+#: electrum_btcz/gui/qt/main_window.py:696
 msgid "&Summary"
 msgstr "&Riepilogo"
 
-#: electrum_zcash/gui/qt/main_window.py:681
+#: electrum_btcz/gui/qt/main_window.py:681
 msgid "&Sweep"
 msgstr "&Spazzola"
 
-#: electrum_zcash/gui/qt/main_window.py:724
+#: electrum_btcz/gui/qt/main_window.py:724
 msgid "&Tools"
 msgstr "&Strumenti"
 
-#: electrum_zcash/gui/qt/main_window.py:718
+#: electrum_btcz/gui/qt/main_window.py:718
 msgid "&View"
 msgstr "&Visualizza"
 
-#: electrum_zcash/gui/qt/main_window.py:675
+#: electrum_btcz/gui/qt/main_window.py:675
 msgid "&Wallet"
 msgstr "&Portafogli"
 
-#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:606
+#: electrum_btcz/plugins/digitalbitbox/digitalbitbox.py:606
 msgid "(Touch {} of {})"
 msgstr "(Tocca {} di {})"
 
-#: electrum_zcash/plugins/virtualkeyboard/qt.py:15
+#: electrum_btcz/plugins/virtualkeyboard/qt.py:15
 msgid "+"
 msgstr "*"
 
-#: electrum_zcash/invoices.py:59
+#: electrum_btcz/invoices.py:59
 msgid "1 day"
 msgstr "1 giorno"
 
-#: electrum_zcash/invoices.py:58
+#: electrum_btcz/invoices.py:58
 msgid "1 hour"
 msgstr "1 ora"
 
-#: electrum_zcash/invoices.py:60
+#: electrum_btcz/invoices.py:60
 msgid "1 week"
 msgstr "1 settimana"
 
-#: electrum_zcash/plugins/revealer/qt.py:458
+#: electrum_btcz/plugins/revealer/qt.py:458
 msgid "1. Place this paper on a flat and well iluminated surface."
 msgstr "1. Posiziona il foglio su una superficie piatta e ben illuminata."
 
-#: electrum_zcash/invoices.py:57
+#: electrum_btcz/invoices.py:57
 #, fuzzy
 msgid "10 minutes"
 msgstr "{:2d} minuti"
 
-#: electrum_zcash/plugins/revealer/qt.py:459
+#: electrum_btcz/plugins/revealer/qt.py:459
 msgid ""
 "2. Align your Revealer borderlines to the dashed lines on the top and left."
 msgstr ""
 "2. Allinea i bordi del tuo oracolo alle linee tratteggiate in alto e a "
 "sinistra."
 
-#: electrum_zcash/plugins/revealer/qt.py:460
+#: electrum_btcz/plugins/revealer/qt.py:460
 msgid ""
 "3. Press slightly the Revealer against the paper and read the numbers that "
 "best match on the opposite sides. "
@@ -254,29 +254,29 @@ msgstr ""
 "3. Premi leggermente l'oracolo sul foglio e leggi i numeri che corrispondono "
 "meglio ai lati opposti. "
 
-#: electrum_zcash/plugins/revealer/qt.py:462
+#: electrum_btcz/plugins/revealer/qt.py:462
 msgid "4. Type the numbers in the software"
 msgstr "4. Digita i numeri nel software"
 
-#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:185
+#: electrum_btcz/plugins/digitalbitbox/digitalbitbox.py:185
 msgid "A backup is saved automatically when generating a new wallet."
 msgstr ""
 "Un backup viene salvato automaticamente quando si genera una nuovo "
 "portafogli."
 
-#: electrum_zcash/gui/qt/main_window.py:626
+#: electrum_btcz/gui/qt/main_window.py:626
 msgid "A copy of your wallet file was created in"
 msgstr "È stata creata una copia del tuo portafogli in"
 
-#: electrum_zcash/gui/qt/installwizard.py:49
+#: electrum_btcz/gui/qt/installwizard.py:49
 msgid "A few examples"
 msgstr "Alcuni esempi"
 
-#: electrum_zcash/plugin.py:518
+#: electrum_btcz/plugin.py:518
 msgid "A library is probably missing."
 msgstr "Probabilmente manca una libreria."
 
-#: electrum_zcash/gui/qt/confirm_tx_dialog.py:143
+#: electrum_btcz/gui/qt/confirm_tx_dialog.py:143
 msgid ""
 "A suggested fee is automatically added to this field. You may override it. "
 "The suggested fee increases with the size of the transaction."
@@ -285,114 +285,114 @@ msgstr ""
 "suggerimento. È possibile ignorarla. La commissione suggerita aumenta con la "
 "dimensione della transazione."
 
-#: electrum_zcash/gui/kivy/main.kv:473
+#: electrum_btcz/gui/kivy/main.kv:473
 msgid "About"
 msgstr "Informazioni"
 
-#: electrum_zcash/gui/kivy/uix/ui_screens/about.kv:4
+#: electrum_btcz/gui/kivy/uix/ui_screens/about.kv:4
 #, fuzzy
 msgid "About Zcash Electrum"
 msgstr "Informazioni su Dash Electrum"
 
-#: electrum_zcash/plugins/keepkey/qt.py:75
+#: electrum_btcz/plugins/keepkey/qt.py:75
 msgid "Accept Word"
 msgstr "Accetta parola"
 
-#: electrum_zcash/gui/qt/history_list.py:642
-#: electrum_zcash/gui/qt/history_list.py:818
+#: electrum_btcz/gui/qt/history_list.py:642
+#: electrum_btcz/gui/qt/history_list.py:818
 msgid "Acquisition price"
 msgstr "Prezzo di acquisizione"
 
-#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1273
-#: electrum_zcash/gui/qt/installwizard.py:495
+#: electrum_btcz/gui/kivy/uix/dialogs/installwizard.py:1273
+#: electrum_btcz/gui/qt/installwizard.py:495
 msgid "Add Cosigner"
 msgstr "&Aggiungi cofirmatario"
 
-#: electrum_zcash/base_wizard.py:219
+#: electrum_btcz/base_wizard.py:219
 msgid "Add a cosigner to your multi-sig wallet"
 msgstr "Aggiungi un cofirmatario al tuo portafogli multifirma"
 
-#: electrum_zcash/plugins/virtualkeyboard/__init__.py:4
+#: electrum_btcz/plugins/virtualkeyboard/__init__.py:4
 msgid "Add an optional virtual keyboard to the password dialog."
 msgstr ""
 "Aggiungi una tastiera virtuale opzionale alla finestra di dialogo della "
 "password."
 
-#: electrum_zcash/base_wizard.py:207
+#: electrum_btcz/base_wizard.py:207
 msgid "Add cosigner"
 msgstr "Aggiungi cofirmatario"
 
-#: electrum_zcash/plugins/scan_over_gap/scan_over_gap.py:98
+#: electrum_btcz/plugins/scan_over_gap/scan_over_gap.py:98
 #, fuzzy
 msgid "Add found coins to wallet"
 msgstr "Nessun indirizzo nel portafoglio."
 
-#: electrum_zcash/gui/qt/transaction_dialog.py:237
+#: electrum_btcz/gui/qt/transaction_dialog.py:237
 msgid "Adding info to tx, from wallet and network..."
 msgstr ""
 
-#: electrum_zcash/gui/qt/confirm_tx_dialog.py:148
+#: electrum_btcz/gui/qt/confirm_tx_dialog.py:148
 msgid "Additional fees"
 msgstr "&Commissioni aggiuntive"
 
-#: electrum_zcash/gui/qt/transaction_dialog.py:841
+#: electrum_btcz/gui/qt/transaction_dialog.py:841
 #, fuzzy
 msgid "Additional {} satoshis are going to be added."
 msgstr "{} duff addizionali verranno aggiunti."
 
-#: electrum_zcash/gui/qt/address_dialog.py:51
-#: electrum_zcash/gui/qt/address_dialog.py:63
-#: electrum_zcash/gui/qt/main_window.py:1129
-#: electrum_zcash/gui/qt/main_window.py:1208
-#: electrum_zcash/gui/qt/main_window.py:1971
-#: electrum_zcash/gui/qt/main_window.py:2186
-#: electrum_zcash/gui/qt/main_window.py:2348
-#: electrum_zcash/gui/qt/main_window.py:2424
-#: electrum_zcash/gui/qt/contact_list.py:48
-#: electrum_zcash/gui/qt/address_list.py:124 electrum_zcash/gui/qt/util.py:442
-#: electrum_zcash/gui/qt/utxo_list.py:60
+#: electrum_btcz/gui/qt/address_dialog.py:51
+#: electrum_btcz/gui/qt/address_dialog.py:63
+#: electrum_btcz/gui/qt/main_window.py:1129
+#: electrum_btcz/gui/qt/main_window.py:1208
+#: electrum_btcz/gui/qt/main_window.py:1971
+#: electrum_btcz/gui/qt/main_window.py:2186
+#: electrum_btcz/gui/qt/main_window.py:2348
+#: electrum_btcz/gui/qt/main_window.py:2424
+#: electrum_btcz/gui/qt/contact_list.py:48
+#: electrum_btcz/gui/qt/address_list.py:124 electrum_btcz/gui/qt/util.py:442
+#: electrum_btcz/gui/qt/utxo_list.py:60
 msgid "Address"
 msgstr "Indirizzo"
 
-#: electrum_zcash/gui/kivy/uix/dialogs/addresses.py:209
+#: electrum_btcz/gui/kivy/uix/dialogs/addresses.py:209
 #, fuzzy
 msgid "Address Details"
 msgstr "Indirizzi"
 
-#: electrum_zcash/gui/kivy/main.kv:138
+#: electrum_btcz/gui/kivy/main.kv:138
 msgid "Address copied to clipboard"
 msgstr "Indirizzo copiato negli appunti"
 
-#: electrum_zcash/gui/qt/utxo_list.py:158
-#: electrum_zcash/gui/qt/utxo_list.py:459
+#: electrum_btcz/gui/qt/utxo_list.py:158
+#: electrum_btcz/gui/qt/utxo_list.py:459
 msgid "Address is frozen"
 msgstr "L'indirizzo è congelato"
 
-#: electrum_zcash/gui/qt/main_window.py:2375 electrum_zcash/wallet.py:485
-#: electrum_zcash/wallet.py:1701 electrum_zcash/plugins/hw_wallet/plugin.py:132
+#: electrum_btcz/gui/qt/main_window.py:2375 electrum_btcz/wallet.py:485
+#: electrum_btcz/wallet.py:1701 electrum_btcz/plugins/hw_wallet/plugin.py:132
 msgid "Address not in wallet."
 msgstr "Nessun indirizzo nel portafoglio."
 
-#: electrum_zcash/gui/text.py:104 electrum_zcash/gui/kivy/main.kv:482
-#: electrum_zcash/plugins/scan_over_gap/scan_over_gap.py:109
+#: electrum_btcz/gui/text.py:104 electrum_btcz/gui/kivy/main.kv:482
+#: electrum_btcz/plugins/scan_over_gap/scan_over_gap.py:109
 msgid "Addresses"
 msgstr "Indirizzi"
 
-#: electrum_zcash/gui/qt/confirm_tx_dialog.py:167
-#: electrum_zcash/plugins/trezor/qt.py:764
-#: electrum_zcash/plugins/safe_t/qt.py:498
-#: electrum_zcash/plugins/keepkey/qt.py:568
+#: electrum_btcz/gui/qt/confirm_tx_dialog.py:167
+#: electrum_btcz/plugins/trezor/qt.py:764
+#: electrum_btcz/plugins/safe_t/qt.py:498
+#: electrum_btcz/plugins/keepkey/qt.py:568
 msgid "Advanced"
 msgstr "Progredito"
 
-#: electrum_zcash/gui/qt/settings_dialog.py:203
+#: electrum_btcz/gui/qt/settings_dialog.py:203
 #, fuzzy
 msgid "Advanced preview"
 msgstr "Progredito"
 
-#: electrum_zcash/plugins/trezor/qt.py:528
-#: electrum_zcash/plugins/safe_t/qt.py:262
-#: electrum_zcash/plugins/keepkey/qt.py:386
+#: electrum_btcz/plugins/trezor/qt.py:528
+#: electrum_btcz/plugins/safe_t/qt.py:262
+#: electrum_btcz/plugins/keepkey/qt.py:386
 #, fuzzy
 msgid ""
 "After disabling passphrases, you can only pair this Zcash Electrum wallet if "
@@ -407,97 +407,97 @@ msgstr ""
 "qualunque momento riattivando le frasi segrete e inserendo la sua frase "
 "segreta."
 
-#: electrum_zcash/gui/qt/history_list.py:705
-#: electrum_zcash/gui/qt/history_list.py:729
-#: electrum_zcash/gui/qt/address_list.py:54
-#: electrum_zcash/gui/qt/address_list.py:68
+#: electrum_btcz/gui/qt/history_list.py:705
+#: electrum_btcz/gui/qt/history_list.py:729
+#: electrum_btcz/gui/qt/address_list.py:54
+#: electrum_btcz/gui/qt/address_list.py:68
 msgid "All"
 msgstr "Tutti"
 
-#: electrum_zcash/gui/qt/update_checker.py:90
+#: electrum_btcz/gui/qt/update_checker.py:90
 msgid "Already up to date"
 msgstr "Già aggiornato"
 
-#: electrum_zcash/gui/qt/transaction_dialog.py:784
+#: electrum_btcz/gui/qt/transaction_dialog.py:784
 msgid "Also, dust is not kept as change, but added to the fee."
 msgstr ""
 "Inoltre, la polvere non verrà tenuta come resto, ma aggiunta alla "
 "commissione."
 
-#: electrum_zcash/gui/qt/installwizard.py:238
+#: electrum_btcz/gui/qt/installwizard.py:238
 msgid "Alternatively"
 msgstr ""
 
-#: electrum_zcash/plugins/revealer/qt.py:181
+#: electrum_btcz/plugins/revealer/qt.py:181
 msgid "Always check your backups."
 msgstr "Verifica sempre i tuoi backup."
 
-#: electrum_zcash/gui/stdio.py:147 electrum_zcash/gui/text.py:147
-#: electrum_zcash/gui/text.py:233
-#: electrum_zcash/gui/kivy/uix/ui_screens/receive.kv:112
-#: electrum_zcash/gui/kivy/uix/ui_screens/receive.kv:113
-#: electrum_zcash/gui/kivy/uix/ui_screens/send.kv:112
-#: electrum_zcash/gui/kivy/uix/ui_screens/send.kv:113
-#: electrum_zcash/gui/qt/invoice_list.py:60
-#: electrum_zcash/gui/qt/main_window.py:1328
-#: electrum_zcash/gui/qt/main_window.py:1968
-#: electrum_zcash/gui/qt/history_list.py:648
-#: electrum_zcash/gui/qt/request_list.py:61
-#: electrum_zcash/gui/qt/utxo_list.py:62
+#: electrum_btcz/gui/stdio.py:147 electrum_btcz/gui/text.py:147
+#: electrum_btcz/gui/text.py:233
+#: electrum_btcz/gui/kivy/uix/ui_screens/receive.kv:112
+#: electrum_btcz/gui/kivy/uix/ui_screens/receive.kv:113
+#: electrum_btcz/gui/kivy/uix/ui_screens/send.kv:112
+#: electrum_btcz/gui/kivy/uix/ui_screens/send.kv:113
+#: electrum_btcz/gui/qt/invoice_list.py:60
+#: electrum_btcz/gui/qt/main_window.py:1328
+#: electrum_btcz/gui/qt/main_window.py:1968
+#: electrum_btcz/gui/qt/history_list.py:648
+#: electrum_btcz/gui/qt/request_list.py:61
+#: electrum_btcz/gui/qt/utxo_list.py:62
 msgid "Amount"
 msgstr "Quantità"
 
-#: electrum_zcash/plugins/hw_wallet/plugin.py:350
+#: electrum_btcz/plugins/hw_wallet/plugin.py:350
 msgid "Amount for OP_RETURN output must be zero."
 msgstr "La quantità per l'output di OP_RETURN deve essere zero."
 
-#: electrum_zcash/gui/qt/transaction_dialog.py:475
+#: electrum_btcz/gui/qt/transaction_dialog.py:475
 msgid "Amount received:"
 msgstr "Quantità ricevuta:"
 
-#: electrum_zcash/gui/qt/transaction_dialog.py:477
+#: electrum_btcz/gui/qt/transaction_dialog.py:477
 msgid "Amount sent:"
 msgstr "Quantità inviata"
 
-#: electrum_zcash/gui/qt/confirm_tx_dialog.py:138
+#: electrum_btcz/gui/qt/confirm_tx_dialog.py:138
 msgid "Amount to be sent"
 msgstr "Quantità da inviare"
 
-#: electrum_zcash/gui/qt/main_window.py:1324
+#: electrum_btcz/gui/qt/main_window.py:1324
 msgid "Amount to be sent."
 msgstr "Quantità da inviare."
 
-#: electrum_zcash/gui/qt/exception_window.py:55
+#: electrum_btcz/gui/qt/exception_window.py:55
 msgid "An Error Occurred"
 msgstr "Si è verificato un errore"
 
-#: electrum_zcash/plugins/cosigner_pool/qt.py:224
-#: electrum_zcash/plugins/cosigner_pool/qt.py:229
-#: electrum_zcash/plugins/cosigner_pool/qt.py:235
+#: electrum_btcz/plugins/cosigner_pool/qt.py:224
+#: electrum_btcz/plugins/cosigner_pool/qt.py:229
+#: electrum_btcz/plugins/cosigner_pool/qt.py:235
 msgid "An encrypted transaction was retrieved from cosigning pool."
 msgstr "È stata recuperata una transazione cifrata dal gruppo di cofirmatari."
 
-#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:181
+#: electrum_btcz/plugins/digitalbitbox/digitalbitbox.py:181
 msgid "An uninitialized Digital Bitbox is detected."
 msgstr "È stato rilevato un Digital Bitbox non inizializzato."
 
-#: electrum_zcash/plugin.py:671 electrum_zcash/base_wizard.py:355
+#: electrum_btcz/plugin.py:671 electrum_btcz/base_wizard.py:355
 msgid "An unnamed {}"
 msgstr "{} senza nome"
 
-#: electrum_zcash/plugins/trezor/qt.py:645
-#: electrum_zcash/plugins/safe_t/qt.py:379
-#: electrum_zcash/plugins/keepkey/qt.py:472
+#: electrum_btcz/plugins/trezor/qt.py:645
+#: electrum_btcz/plugins/safe_t/qt.py:379
+#: electrum_btcz/plugins/keepkey/qt.py:472
 msgid "Apply"
 msgstr "Applica"
 
-#: electrum_zcash/i18n.py:51
+#: electrum_btcz/i18n.py:51
 msgid "Arabic"
 msgstr "Arabo"
 
-#: electrum_zcash/plugins/trezor/qt.py:588
-#: electrum_zcash/plugins/safe_t/qt.py:322
-#: electrum_zcash/plugins/keepkey/qt.py:412
+#: electrum_btcz/plugins/trezor/qt.py:588
+#: electrum_btcz/plugins/safe_t/qt.py:322
+#: electrum_btcz/plugins/keepkey/qt.py:412
 #, fuzzy
 msgid ""
 "Are you SURE you want to wipe the device?\n"
@@ -506,81 +506,81 @@ msgstr ""
 "Sei SICURO di voler ripristinare il dispositivo?\n"
 "Il tuo portafoglio ha ancora delle monete Dash al suo interno!"
 
-#: electrum_zcash/gui/kivy/main_window.py:1268
+#: electrum_btcz/gui/kivy/main_window.py:1268
 #, fuzzy
 msgid "Are you sure you want to delete wallet {}?"
 msgstr "Sei sicuro di voler continuare?"
 
-#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:314
+#: electrum_btcz/plugins/digitalbitbox/digitalbitbox.py:314
 msgid "Are you sure you want to erase the Digital Bitbox?"
 msgstr "Sei sicuro di voler cancellare il Digital Bitbox?"
 
-#: electrum_zcash/plugins/trezor/qt.py:539
-#: electrum_zcash/plugins/safe_t/qt.py:273
-#: electrum_zcash/plugins/keepkey/qt.py:397
+#: electrum_btcz/plugins/trezor/qt.py:539
+#: electrum_btcz/plugins/safe_t/qt.py:273
+#: electrum_btcz/plugins/keepkey/qt.py:397
 msgid "Are you sure you want to proceed?"
 msgstr "Sei sicuro di voler continuare?"
 
-#: electrum_zcash/gui/kivy/uix/dialogs/tx_dialog.py:282
-#: electrum_zcash/gui/qt/history_list.py:1022
+#: electrum_btcz/gui/kivy/uix/dialogs/tx_dialog.py:282
+#: electrum_btcz/gui/qt/history_list.py:1022
 msgid ""
 "Are you sure you want to remove this transaction and {} child transactions?"
 msgstr ""
 "Sei sicuro di voler rimuovere questa transazione e le transazioni figlie {}?"
 
-#: electrum_zcash/gui/kivy/uix/dialogs/tx_dialog.py:280
-#: electrum_zcash/gui/qt/history_list.py:1020
+#: electrum_btcz/gui/kivy/uix/dialogs/tx_dialog.py:280
+#: electrum_btcz/gui/qt/history_list.py:1020
 msgid "Are you sure you want to remove this transaction?"
 msgstr "Sei sicuro di voler rimuovere questa transazione?"
 
-#: electrum_zcash/i18n.py:64
+#: electrum_btcz/i18n.py:64
 msgid "Armenian"
 msgstr "Armeno"
 
-#: electrum_zcash/gui/qt/transaction_dialog.py:464
+#: electrum_btcz/gui/qt/transaction_dialog.py:464
 msgid "At block height: {}"
 msgstr "All'altezza del blocco: {}"
 
-#: electrum_zcash/gui/qt/transaction_dialog.py:782
+#: electrum_btcz/gui/qt/transaction_dialog.py:782
 #, fuzzy
 msgid "At most 100 satoshis might be lost due to this rounding."
 msgstr ""
 "Al massimo 100 duff potrebbero essere persi a causa dell'arrotondamento."
 
-#: electrum_zcash/util.py:121
+#: electrum_btcz/util.py:121
 msgid "At most one output can be set to spend max"
 msgstr ""
 
-#: electrum_zcash/plugins/audio_modem/__init__.py:3
+#: electrum_btcz/plugins/audio_modem/__init__.py:3
 msgid "Audio MODEM"
 msgstr "Audio MODEM"
 
-#: electrum_zcash/plugins/audio_modem/qt.py:55
+#: electrum_btcz/plugins/audio_modem/qt.py:55
 msgid "Audio Modem Settings"
 msgstr "Impostazioni Audio Modem"
 
-#: electrum_zcash/gui/qt/installwizard.py:840
+#: electrum_btcz/gui/qt/installwizard.py:840
 msgid "Auto connect"
 msgstr "Connessione automatica"
 
-#: electrum_zcash/gui/kivy/uix/ui_screens/network.kv:44
+#: electrum_btcz/gui/kivy/uix/ui_screens/network.kv:44
 msgid "Auto-connect"
 msgstr "Connessione automatica"
 
-#: electrum_zcash/gui/qt/settings_dialog.py:180
+#: electrum_btcz/gui/qt/settings_dialog.py:180
 msgid "Automatically check for software updates"
 msgstr "Controlla automaticamente gli aggiornamenti software"
 
-#: electrum_zcash/gui/qt/bip39_recovery_dialog.py:23
+#: electrum_btcz/gui/qt/bip39_recovery_dialog.py:23
 #, fuzzy
 msgid "BIP39 Recovery"
 msgstr "Seed BIP39"
 
-#: electrum_zcash/gui/qt/seed_dialog.py:87
+#: electrum_btcz/gui/qt/seed_dialog.py:87
 msgid "BIP39 seed"
 msgstr "Seed BIP39"
 
-#: electrum_zcash/gui/qt/seed_dialog.py:79
+#: electrum_btcz/gui/qt/seed_dialog.py:79
 #, fuzzy
 msgid ""
 "BIP39 seeds can be imported in Zcash Electrum, so that users can access "
@@ -589,7 +589,7 @@ msgstr ""
 "I seed BIP39 possono essere importati in Dash Electrum, in modo che gli "
 "utenti possano accedere ai fondi bloccati in altri portafogli."
 
-#: electrum_zcash/gui/qt/seed_dialog.py:81
+#: electrum_btcz/gui/qt/seed_dialog.py:81
 msgid ""
 "BIP39 seeds do not include a version number, which compromises compatibility "
 "with future software."
@@ -597,62 +597,62 @@ msgstr ""
 "I seed BIP39 non includono un numero di versione, che compromette la "
 "compatibilità con software futuri."
 
-#: electrum_zcash/gui/qt/main_window.py:2003
+#: electrum_btcz/gui/qt/main_window.py:2003
 #, fuzzy
 msgid "BIP70 invoice saved as {}"
 msgstr "Fattura salvata come "
 
-#: electrum_zcash/gui/qt/installwizard.py:103
-#: electrum_zcash/gui/qt/installwizard.py:169
-#: electrum_zcash/gui/qt/installwizard.py:170
+#: electrum_btcz/gui/qt/installwizard.py:103
+#: electrum_btcz/gui/qt/installwizard.py:169
+#: electrum_btcz/gui/qt/installwizard.py:170
 msgid "Back"
 msgstr "Indietro"
 
-#: electrum_zcash/gui/kivy/main_window.py:1374
+#: electrum_btcz/gui/kivy/main_window.py:1374
 msgid "Backup NOT saved. Backup directory not configured."
 msgstr ""
 
-#: electrum_zcash/gui/qt/main_window.py:606
+#: electrum_btcz/gui/qt/main_window.py:606
 msgid "Backup directory"
 msgstr ""
 
-#: electrum_zcash/gui/qt/main_window.py:619
+#: electrum_btcz/gui/qt/main_window.py:619
 #, fuzzy
 msgid "Backup not configured"
 msgstr "Creato backup del portafogli"
 
-#: electrum_zcash/gui/kivy/main_window.py:1395
+#: electrum_btcz/gui/kivy/main_window.py:1395
 msgid "Backup saved:"
 msgstr ""
 
-#: electrum_zcash/gui/stdio.py:148 electrum_zcash/gui/stdio.py:159
-#: electrum_zcash/gui/text.py:147 electrum_zcash/gui/text.py:191
-#: electrum_zcash/gui/kivy/uix/ui_screens/status.kv:33
-#: electrum_zcash/gui/qt/main_window.py:966
-#: electrum_zcash/gui/qt/history_list.py:649
-#: electrum_zcash/gui/qt/address_list.py:126
-#: electrum_zcash/gui/qt/address_list.py:127
+#: electrum_btcz/gui/stdio.py:148 electrum_btcz/gui/stdio.py:159
+#: electrum_btcz/gui/text.py:147 electrum_btcz/gui/text.py:191
+#: electrum_btcz/gui/kivy/uix/ui_screens/status.kv:33
+#: electrum_btcz/gui/qt/main_window.py:966
+#: electrum_btcz/gui/qt/history_list.py:649
+#: electrum_btcz/gui/qt/address_list.py:126
+#: electrum_btcz/gui/qt/address_list.py:127
 msgid "Balance"
 msgstr "Saldo"
 
-#: electrum_zcash/gui/text.py:104
+#: electrum_btcz/gui/text.py:104
 msgid "Banner"
 msgstr "Banner"
 
-#: electrum_zcash/gui/qt/settings_dialog.py:125
+#: electrum_btcz/gui/qt/settings_dialog.py:125
 msgid "Base unit"
 msgstr "Unità base"
 
-#: electrum_zcash/gui/qt/settings_dialog.py:122
+#: electrum_btcz/gui/qt/settings_dialog.py:122
 msgid "Base unit of your wallet."
 msgstr "Unità base del tuo portafogli."
 
-#: electrum_zcash/gui/qt/invoice_list.py:136
+#: electrum_btcz/gui/qt/invoice_list.py:136
 #, fuzzy
 msgid "Batch pay invoices"
 msgstr "fatture"
 
-#: electrum_zcash/gui/qt/main_window.py:811
+#: electrum_btcz/gui/qt/main_window.py:811
 #, fuzzy
 msgid ""
 "Before reporting a bug, upgrade to the most recent version of Zcash Electrum "
@@ -662,207 +662,207 @@ msgstr ""
 "(l'ultima release o git HEAD) e ricordati di includere il numero di versione "
 "quando lo fai."
 
-#: electrum_zcash/gui/qt/history_list.py:799
+#: electrum_btcz/gui/qt/history_list.py:799
 msgid "Begin"
 msgstr ""
 
-#: electrum_zcash/plugins/audio_modem/qt.py:58
+#: electrum_btcz/plugins/audio_modem/qt.py:58
 msgid "Bit rate [kbps]: "
 msgstr "Bitrate [kbps]: "
 
-#: electrum_zcash/gui/qt/locktimeedit.py:36
+#: electrum_btcz/gui/qt/locktimeedit.py:36
 #, fuzzy
 msgid "Block height"
 msgstr "All'altezza del blocco: {}"
 
-#: electrum_zcash/gui/kivy/uix/ui_screens/network.kv:58
-#: electrum_zcash/gui/qt/network_dialog.py:315
+#: electrum_btcz/gui/kivy/uix/ui_screens/network.kv:58
+#: electrum_btcz/gui/qt/network_dialog.py:315
 msgid "Blockchain"
 msgstr "Blockchain"
 
-#: electrum_zcash/plugins/trezor/qt.py:622
-#: electrum_zcash/plugins/safe_t/qt.py:356
-#: electrum_zcash/plugins/keepkey/qt.py:448
+#: electrum_btcz/plugins/trezor/qt.py:622
+#: electrum_btcz/plugins/safe_t/qt.py:356
+#: electrum_btcz/plugins/keepkey/qt.py:448
 msgid "Bootloader Hash"
 msgstr "Hasc del bootloader"
 
-#: electrum_zcash/plugins/revealer/qt.py:744
+#: electrum_btcz/plugins/revealer/qt.py:744
 msgid "Bottom"
 msgstr "Basso"
 
-#: electrum_zcash/i18n.py:73
+#: electrum_btcz/i18n.py:73
 msgid "Brasilian"
 msgstr "Brasiliano"
 
-#: electrum_zcash/gui/kivy/uix/dialogs/tx_dialog.py:203
-#: electrum_zcash/gui/qt/transaction_dialog.py:159
+#: electrum_btcz/gui/kivy/uix/dialogs/tx_dialog.py:203
+#: electrum_btcz/gui/qt/transaction_dialog.py:159
 msgid "Broadcast"
 msgstr "Trasmissione"
 
-#: electrum_zcash/gui/qt/main_window.py:1739
+#: electrum_btcz/gui/qt/main_window.py:1739
 msgid "Broadcasting transaction..."
 msgstr "Trasmettendo la transazione..."
 
-#: electrum_zcash/i18n.py:52
+#: electrum_btcz/i18n.py:52
 msgid "Bulgarian"
 msgstr "Bulgaro"
 
-#: electrum_zcash/network.py:259
+#: electrum_btcz/network.py:259
 msgid "Bypass Tor proxy for Fiat rates loading"
 msgstr "Aggira il proxy Tor per il caricamento dei tassi fiat"
 
-#: electrum_zcash/gui/qt/util.py:455
+#: electrum_btcz/gui/qt/util.py:455
 msgid "CSV"
 msgstr "CSV"
 
-#: electrum_zcash/plugins/revealer/qt.py:452
+#: electrum_btcz/plugins/revealer/qt.py:452
 msgid "Calibration sheet"
 msgstr "Prospetto di calibrazione"
 
-#: electrum_zcash/plugins/revealer/qt.py:736
+#: electrum_btcz/plugins/revealer/qt.py:736
 msgid "Calibration values:"
 msgstr "Valori di calibrazione:"
 
-#: electrum_zcash/gui/qt/history_list.py:848
+#: electrum_btcz/gui/qt/history_list.py:848
 msgid "Can't plot history."
 msgstr "Impossibile produrre la cronologia."
 
-#: electrum_zcash/gui/kivy/main_window.py:1256
-#: electrum_zcash/gui/qt/installwizard.py:103
-#: electrum_zcash/gui/qt/installwizard.py:170
-#: electrum_zcash/gui/qt/installwizard.py:843 electrum_zcash/gui/qt/util.py:203
-#: electrum_zcash/plugins/trezor/qt.py:71
-#: electrum_zcash/plugins/keepkey/qt.py:83
+#: electrum_btcz/gui/kivy/main_window.py:1256
+#: electrum_btcz/gui/qt/installwizard.py:103
+#: electrum_btcz/gui/qt/installwizard.py:170
+#: electrum_btcz/gui/qt/installwizard.py:843 electrum_btcz/gui/qt/util.py:203
+#: electrum_btcz/plugins/trezor/qt.py:71
+#: electrum_btcz/plugins/keepkey/qt.py:83
 msgid "Cancel"
 msgstr "Annulla"
 
-#: electrum_zcash/plugins/ledger/ledger.py:311
-#: electrum_zcash/plugins/ledger/ledger.py:324
-#: electrum_zcash/plugins/ledger/ledger.py:541
+#: electrum_btcz/plugins/ledger/ledger.py:311
+#: electrum_btcz/plugins/ledger/ledger.py:324
+#: electrum_btcz/plugins/ledger/ledger.py:541
 msgid "Cancelled by user"
 msgstr "Annullato dall'utente"
 
-#: electrum_zcash/base_wizard.py:622
+#: electrum_btcz/base_wizard.py:622
 msgid "Cannot add this cosigner:"
 msgstr "Impossibile aggiungere questo cofirmatario:"
 
-#: electrum_zcash/gui/kivy/main_window.py:1187
+#: electrum_btcz/gui/kivy/main_window.py:1187
 msgid "Cannot broadcast transaction"
 msgstr "Non posso trasmettere la transazione"
 
-#: electrum_zcash/gui/qt/__init__.py:318
+#: electrum_btcz/gui/qt/__init__.py:318
 msgid "Cannot create window for wallet"
 msgstr "Impossibile creare una finestra per il portafogli"
 
-#: electrum_zcash/gui/qt/__init__.py:291 electrum_zcash/gui/qt/__init__.py:303
+#: electrum_btcz/gui/qt/__init__.py:291 electrum_btcz/gui/qt/__init__.py:303
 msgid "Cannot load wallet"
 msgstr "Impossibile caricare il portafogli"
 
-#: electrum_zcash/gui/qt/installwizard.py:271
-#: electrum_zcash/gui/qt/installwizard.py:274
-#: electrum_zcash/gui/qt/installwizard.py:297
+#: electrum_btcz/gui/qt/installwizard.py:271
+#: electrum_btcz/gui/qt/installwizard.py:274
+#: electrum_btcz/gui/qt/installwizard.py:297
 msgid "Cannot read file"
 msgstr "Impossibile leggere il file"
 
-#: electrum_zcash/gui/kivy/main_window.py:1381
+#: electrum_btcz/gui/kivy/main_window.py:1381
 msgid "Cannot save backup without STORAGE permission"
 msgstr ""
 
-#: electrum_zcash/gui/qt/main_window.py:2379
+#: electrum_btcz/gui/qt/main_window.py:2379
 msgid "Cannot sign messages with this type of address:"
 msgstr "Impossibile firmare messaggi con questo tipo di indirizzo:"
 
-#: electrum_zcash/qrscanner.py:75
+#: electrum_btcz/qrscanner.py:75
 msgid "Cannot start QR scanner: initialization failed."
 msgstr ""
 
-#: electrum_zcash/gui/qt/history_list.py:643
+#: electrum_btcz/gui/qt/history_list.py:643
 msgid "Capital Gains"
 msgstr "Guadagni in conto capitale"
 
-#: electrum_zcash/gui/qt/history_list.py:839
+#: electrum_btcz/gui/qt/history_list.py:839
 msgid "Cash flow"
 msgstr ""
 
-#: electrum_zcash/gui/qt/main_window.py:3020
+#: electrum_btcz/gui/qt/main_window.py:3020
 msgid "Certificate mismatch"
 msgstr ""
 
-#: electrum_zcash/gui/qt/network_dialog.py:374
+#: electrum_btcz/gui/qt/network_dialog.py:374
 #, python-brace-format
 msgid "Chain split detected at block {0}"
 msgstr "Divisione catena rilevata al blocco {0}"
 
-#: electrum_zcash/gui/qt/address_list.py:70
-#: electrum_zcash/plugins/scan_over_gap/scan_over_gap.py:73
+#: electrum_btcz/gui/qt/address_list.py:70
+#: electrum_btcz/plugins/scan_over_gap/scan_over_gap.py:73
 msgid "Change"
 msgstr "Cambia"
 
-#: electrum_zcash/gui/qt/transaction_dialog.py:142
+#: electrum_btcz/gui/qt/transaction_dialog.py:142
 #, fuzzy
 msgid "Change Address"
 msgstr "Indirizzo"
 
-#: electrum_zcash/plugins/trezor/qt.py:497
-#: electrum_zcash/plugins/safe_t/qt.py:231
-#: electrum_zcash/plugins/keepkey/qt.py:353
+#: electrum_btcz/plugins/trezor/qt.py:497
+#: electrum_btcz/plugins/safe_t/qt.py:231
+#: electrum_btcz/plugins/keepkey/qt.py:353
 msgid "Change PIN"
 msgstr "Cambia PIN"
 
-#: electrum_zcash/gui/qt/password_dialog.py:63
+#: electrum_btcz/gui/qt/password_dialog.py:63
 msgid "Change Password"
 msgstr "Cambia password"
 
-#: electrum_zcash/plugins/trezor/qt.py:669
-#: electrum_zcash/plugins/safe_t/qt.py:403
+#: electrum_btcz/plugins/trezor/qt.py:669
+#: electrum_btcz/plugins/safe_t/qt.py:403
 msgid "Change..."
 msgstr "Cambia..."
 
-#: electrum_zcash/plugins/trezor/clientbase.py:38
-#: electrum_zcash/plugins/safe_t/clientbase.py:30
-#: electrum_zcash/plugins/keepkey/clientbase.py:28
+#: electrum_btcz/plugins/trezor/clientbase.py:38
+#: electrum_btcz/plugins/safe_t/clientbase.py:30
+#: electrum_btcz/plugins/keepkey/clientbase.py:28
 msgid "Check your {} device to continue"
 msgstr "Controlla il tuo dispositivo {} per continuare"
 
-#: electrum_zcash/gui/qt/update_checker.py:93
+#: electrum_btcz/gui/qt/update_checker.py:93
 msgid "Checking for updates..."
 msgstr "Controllo aggiornamento in corso..."
 
-#: electrum_zcash/i18n.py:85
+#: electrum_btcz/i18n.py:85
 msgid "Chinese Simplified"
 msgstr "Cinese semplificato"
 
-#: electrum_zcash/i18n.py:86
+#: electrum_btcz/i18n.py:86
 msgid "Chinese Traditional"
 msgstr "Cinese tradizionale"
 
-#: electrum_zcash/plugins/trezor/qt.py:547
-#: electrum_zcash/plugins/safe_t/qt.py:281
+#: electrum_btcz/plugins/trezor/qt.py:547
+#: electrum_btcz/plugins/safe_t/qt.py:281
 msgid "Choose Homescreen"
 msgstr "Scegli schermata principale"
 
-#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:330
+#: electrum_btcz/plugins/digitalbitbox/digitalbitbox.py:330
 msgid "Choose a backup file:"
 msgstr "Scegli un file di backup:"
 
-#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1316
+#: electrum_btcz/gui/kivy/uix/dialogs/installwizard.py:1316
 #, fuzzy
 msgid "Choose a password"
 msgstr "Scegli il tuo server"
 
-#: electrum_zcash/gui/qt/installwizard.py:42
+#: electrum_btcz/gui/qt/installwizard.py:42
 msgid "Choose a password to encrypt your wallet keys."
 msgstr "Scelgi una password per cifrare le chiavi del tuo portafogli."
 
-#: electrum_zcash/gui/kivy/main_window.py:167
+#: electrum_btcz/gui/kivy/main_window.py:167
 msgid "Choose a server"
 msgstr "Scegli il tuo server"
 
-#: electrum_zcash/gui/qt/bip39_recovery_dialog.py:57
+#: electrum_btcz/gui/qt/bip39_recovery_dialog.py:57
 msgid "Choose an account to restore."
 msgstr ""
 
-#: electrum_zcash/gui/qt/settings_dialog.py:248
+#: electrum_btcz/gui/qt/settings_dialog.py:248
 msgid ""
 "Choose coin (UTXO) selection method.  The following are available:\n"
 "\n"
@@ -871,21 +871,21 @@ msgstr ""
 "disponibili: \n"
 "\n"
 
-#: electrum_zcash/gui/kivy/uix/ui_screens/server.kv:30
+#: electrum_btcz/gui/kivy/uix/ui_screens/server.kv:30
 msgid "Choose from peers"
 msgstr "Scegli tra peer"
 
-#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:245
+#: electrum_btcz/plugins/digitalbitbox/digitalbitbox.py:245
 msgid "Choose how to initialize your Digital Bitbox:"
 msgstr "Scegli come inizializzare il tuo Digital Bitbox:"
 
-#: electrum_zcash/plugins/trezor/trezor.py:213
+#: electrum_btcz/plugins/trezor/trezor.py:213
 #, fuzzy
 msgid "Choose how you want to initialize your {}."
 msgstr "Scegli come inizializzare il tuo Digital Bitbox:"
 
-#: electrum_zcash/plugins/safe_t/safe_t.py:164
-#: electrum_zcash/plugins/keepkey/keepkey.py:206
+#: electrum_btcz/plugins/safe_t/safe_t.py:164
+#: electrum_btcz/plugins/keepkey/keepkey.py:206
 msgid ""
 "Choose how you want to initialize your {}.\n"
 "\n"
@@ -905,22 +905,22 @@ msgstr ""
 "tastiera, e caricarli sul tuo {}, quindi hai bisogno di utilizzare un Pc "
 "sicuro e senza virus."
 
-#: electrum_zcash/plugins/trezor/clientbase.py:35
-#: electrum_zcash/plugins/safe_t/clientbase.py:29
+#: electrum_btcz/plugins/trezor/clientbase.py:35
+#: electrum_btcz/plugins/safe_t/clientbase.py:29
 msgid "Choose on your {} device where to enter your passphrase"
 msgstr "Scegli sul tuo {} il dispositivo dove inserire la password"
 
-#: electrum_zcash/gui/qt/installwizard.py:886
+#: electrum_btcz/gui/qt/installwizard.py:886
 msgid "Choose the number of signatures needed to unlock funds in your wallet:"
 msgstr ""
 "Scegli il numero di firme necessarie per sbloccare i fondi nel tuo "
 "portafogli:"
 
-#: electrum_zcash/base_wizard.py:413
+#: electrum_btcz/base_wizard.py:413
 msgid "Choose the type of addresses in your wallet."
 msgstr "Scegli il tipo di indirizzo nel tuo portafoglio."
 
-#: electrum_zcash/gui/qt/settings_dialog.py:287
+#: electrum_btcz/gui/qt/settings_dialog.py:287
 msgid ""
 "Choose which online block explorer to use for functions that open a web "
 "browser"
@@ -928,23 +928,23 @@ msgstr ""
 "Scegliere quale visualizzatore di blocchi online usare per le funzioni che "
 "aprono un browser web"
 
-#: electrum_zcash/gui/kivy/main_window.py:192
+#: electrum_btcz/gui/kivy/main_window.py:192
 msgid "Choose your chain"
 msgstr "Scegli la tua catena"
 
-#: electrum_zcash/gui/qt/installwizard.py:221
+#: electrum_btcz/gui/qt/installwizard.py:221
 msgid "Choose..."
 msgstr "Scegli..."
 
-#: electrum_zcash/gui/kivy/uix/ui_screens/receive.kv:142
-#: electrum_zcash/gui/qt/main_window.py:1089
-#: electrum_zcash/gui/qt/main_window.py:1345
+#: electrum_btcz/gui/kivy/uix/ui_screens/receive.kv:142
+#: electrum_btcz/gui/qt/main_window.py:1089
+#: electrum_btcz/gui/qt/main_window.py:1345
 msgid "Clear"
 msgstr "Cancella"
 
-#: electrum_zcash/plugins/trezor/qt.py:700
-#: electrum_zcash/plugins/safe_t/qt.py:434
-#: electrum_zcash/plugins/keepkey/qt.py:504
+#: electrum_btcz/plugins/trezor/qt.py:700
+#: electrum_btcz/plugins/safe_t/qt.py:434
+#: electrum_btcz/plugins/keepkey/qt.py:504
 msgid ""
 "Clear the session after the specified period of inactivity.  Once a session "
 "has timed out, your PIN and passphrase (if enabled) must be re-entered to "
@@ -954,266 +954,266 @@ msgstr ""
 "della sessione, il tuo PIN e frase segreta (se attivata) dovranno essere "
 "reinseriti per utilizzare il dispositivo."
 
-#: electrum_zcash/gui/qt/confirm_tx_dialog.py:181
+#: electrum_btcz/gui/qt/confirm_tx_dialog.py:181
 #, fuzzy
 msgid "Click Send to proceed"
 msgstr "Invia a speaker"
 
-#: electrum_zcash/gui/qt/console.py:110
+#: electrum_btcz/gui/qt/console.py:110
 msgid "Click here to hide this message."
 msgstr "Clicca qui per nascondere il messaggio."
 
-#: electrum_zcash/gui/kivy/uix/screens.py:439
+#: electrum_btcz/gui/kivy/uix/screens.py:439
 msgid "Clipboard is empty"
 msgstr "Gli appunti sono vuoti"
 
-#: electrum_zcash/gui/kivy/uix/ui_screens/about.kv:54
-#: electrum_zcash/gui/kivy/uix/dialogs/qr_dialog.py:83
-#: electrum_zcash/gui/qt/main_window.py:2443
-#: electrum_zcash/gui/qt/main_window.py:2512
-#: electrum_zcash/gui/qt/__init__.py:170
-#: electrum_zcash/gui/qt/update_checker.py:62
-#: electrum_zcash/gui/qt/transaction_dialog.py:165
-#: electrum_zcash/gui/qt/qrcodewidget.py:162 electrum_zcash/gui/qt/util.py:179
+#: electrum_btcz/gui/kivy/uix/ui_screens/about.kv:54
+#: electrum_btcz/gui/kivy/uix/dialogs/qr_dialog.py:83
+#: electrum_btcz/gui/qt/main_window.py:2443
+#: electrum_btcz/gui/qt/main_window.py:2512
+#: electrum_btcz/gui/qt/__init__.py:170
+#: electrum_btcz/gui/qt/update_checker.py:62
+#: electrum_btcz/gui/qt/transaction_dialog.py:165
+#: electrum_btcz/gui/qt/qrcodewidget.py:162 electrum_btcz/gui/qt/util.py:179
 msgid "Close"
 msgstr "Chiudi"
 
-#: electrum_zcash/gui/qt/zcash_qt.py:71
+#: electrum_btcz/gui/qt/zcash_qt.py:71
 msgid "Close wallet"
 msgstr "Chiudi portafogli"
 
-#: electrum_zcash/gui/qt/main_window.py:229
+#: electrum_btcz/gui/qt/main_window.py:229
 msgid "Co&ins"
 msgstr "Monete"
 
-#: electrum_zcash/gui/qt/utxo_list.py:381
+#: electrum_btcz/gui/qt/utxo_list.py:381
 msgid "Coin control active"
 msgstr ""
 
-#: electrum_zcash/gui/qt/utxo_list.py:447
+#: electrum_btcz/gui/qt/utxo_list.py:447
 msgid "Coin is frozen"
 msgstr "Le monete sono congelate"
 
-#: electrum_zcash/gui/qt/utxo_list.py:46
+#: electrum_btcz/gui/qt/utxo_list.py:46
 #, fuzzy
 msgid "Coin selected to be spent"
 msgstr "Seleziona moneta"
 
-#: electrum_zcash/gui/kivy/uix/dialogs/settings.py:158
-#: electrum_zcash/gui/qt/settings_dialog.py:250
+#: electrum_btcz/gui/kivy/uix/dialogs/settings.py:158
+#: electrum_btcz/gui/qt/settings_dialog.py:250
 msgid "Coin selection"
 msgstr "Seleziona moneta"
 
-#: electrum_zcash/gui/qt/transaction_dialog.py:545
+#: electrum_btcz/gui/qt/transaction_dialog.py:545
 msgid "Coin selection active ({} UTXOs selected)"
 msgstr ""
 
-#: electrum_zcash/gui/kivy/main.kv:485
+#: electrum_btcz/gui/kivy/main.kv:485
 #, fuzzy
 msgid "Coins"
 msgstr "&Monete"
 
-#: electrum_zcash/gui/qt/history_list.py:968
-#: electrum_zcash/gui/qt/history_list.py:972
+#: electrum_btcz/gui/qt/history_list.py:968
+#: electrum_btcz/gui/qt/history_list.py:972
 msgid "Collapse Tx Group"
 msgstr "Comprimi gruppo Tx"
 
-#: electrum_zcash/gui/qt/settings_dialog.py:164
+#: electrum_btcz/gui/qt/settings_dialog.py:164
 msgid "Color theme"
 msgstr "Colore tema"
 
-#: electrum_zcash/gui/qt/transaction_dialog.py:194
+#: electrum_btcz/gui/qt/transaction_dialog.py:194
 msgid "Combine"
 msgstr ""
 
-#: electrum_zcash/plugins/trezor/clientbase.py:23
+#: electrum_btcz/plugins/trezor/clientbase.py:23
 #, fuzzy
 msgid "Complete the initialization process on your {} device"
 msgstr "Conferma il risultato della transazione sul tuo dispositivo {}"
 
-#: electrum_zcash/invoices.py:50
+#: electrum_btcz/invoices.py:50
 msgid "Computing route..."
 msgstr ""
 
-#: electrum_zcash/gui/qt/main_window.py:231
+#: electrum_btcz/gui/qt/main_window.py:231
 msgid "Con&sole"
 msgstr "Con&sole"
 
-#: electrum_zcash/gui/qt/main_window.py:230
+#: electrum_btcz/gui/qt/main_window.py:230
 msgid "Con&tacts"
 msgstr "Con&tatti"
 
-#: electrum_zcash/plugins/trezor/qt.py:587
-#: electrum_zcash/plugins/safe_t/qt.py:321
-#: electrum_zcash/plugins/keepkey/qt.py:411
+#: electrum_btcz/plugins/trezor/qt.py:587
+#: electrum_btcz/plugins/safe_t/qt.py:321
+#: electrum_btcz/plugins/keepkey/qt.py:411
 msgid "Confirm Device Wipe"
 msgstr "Conferma lo spazzolamento del dispositivo"
 
-#: electrum_zcash/gui/qt/password_dialog.py:90
-#: electrum_zcash/plugins/trezor/qt.py:194
+#: electrum_btcz/gui/qt/password_dialog.py:90
+#: electrum_btcz/plugins/trezor/qt.py:194
 msgid "Confirm Passphrase:"
 msgstr "Conferma frase segreta:"
 
-#: electrum_zcash/gui/qt/password_dialog.py:105
+#: electrum_btcz/gui/qt/password_dialog.py:105
 msgid "Confirm Password:"
 msgstr "Conferma password:"
 
-#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1242
-#: electrum_zcash/gui/qt/installwizard.py:516
+#: electrum_btcz/gui/kivy/uix/dialogs/installwizard.py:1242
+#: electrum_btcz/gui/qt/installwizard.py:516
 msgid "Confirm Seed"
 msgstr "Conferma seed"
 
-#: electrum_zcash/base_wizard.py:788
+#: electrum_btcz/base_wizard.py:788
 msgid "Confirm Seed Extension"
 msgstr "Conferma l'estensione del seed"
 
-#: electrum_zcash/plugins/trezor/qt.py:525
-#: electrum_zcash/plugins/safe_t/qt.py:259
-#: electrum_zcash/plugins/keepkey/qt.py:383
+#: electrum_btcz/plugins/trezor/qt.py:525
+#: electrum_btcz/plugins/safe_t/qt.py:259
+#: electrum_btcz/plugins/keepkey/qt.py:383
 msgid "Confirm Toggle Passphrase Protection"
 msgstr ""
 "Conferma l'attivazione/disattivazione della protezione della frase segreta"
 
-#: electrum_zcash/gui/qt/confirm_tx_dialog.py:132
+#: electrum_btcz/gui/qt/confirm_tx_dialog.py:132
 #, fuzzy
 msgid "Confirm Transaction"
 msgstr "Transazione"
 
-#: electrum_zcash/plugins/ledger/ledger.py:446
+#: electrum_btcz/plugins/ledger/ledger.py:446
 msgid "Confirm Transaction on your Ledger device..."
 msgstr "Conferma transazione nel dispositivo Ledger..."
 
-#: electrum_zcash/gui/kivy/main_window.py:1257
+#: electrum_btcz/gui/kivy/main_window.py:1257
 #, fuzzy
 msgid "Confirm action"
 msgstr "conferme"
 
-#: electrum_zcash/plugins/safe_t/clientbase.py:22
-#: electrum_zcash/plugins/keepkey/clientbase.py:21
+#: electrum_btcz/plugins/safe_t/clientbase.py:22
+#: electrum_btcz/plugins/keepkey/clientbase.py:21
 msgid "Confirm internal entropy on your {} device to begin"
 msgstr "Conferma l'entropia interna sul tuo dispositivo {} per iniziare"
 
-#: electrum_zcash/gui/kivy/uix/dialogs/password_dialog.py:300
+#: electrum_btcz/gui/kivy/uix/dialogs/password_dialog.py:300
 msgid "Confirm new PIN"
 msgstr "Conferma nuovo PIN"
 
-#: electrum_zcash/gui/kivy/uix/dialogs/password_dialog.py:269
+#: electrum_btcz/gui/kivy/uix/dialogs/password_dialog.py:269
 #, fuzzy
 msgid "Confirm new password"
 msgstr "Conferma password:"
 
-#: electrum_zcash/plugins/trezor/clientbase.py:29
-#: electrum_zcash/plugins/safe_t/clientbase.py:25
-#: electrum_zcash/plugins/keepkey/clientbase.py:24
+#: electrum_btcz/plugins/trezor/clientbase.py:29
+#: electrum_btcz/plugins/safe_t/clientbase.py:25
+#: electrum_btcz/plugins/keepkey/clientbase.py:24
 msgid "Confirm on your {} device the message to sign"
 msgstr "Conferma sul tuo dispositivo {} il messaggio da firmare"
 
-#: electrum_zcash/plugins/trezor/clientbase.py:175
-#: electrum_zcash/plugins/safe_t/clientbase.py:205
-#: electrum_zcash/plugins/keepkey/clientbase.py:203
+#: electrum_btcz/plugins/trezor/clientbase.py:175
+#: electrum_btcz/plugins/safe_t/clientbase.py:205
+#: electrum_btcz/plugins/keepkey/clientbase.py:203
 msgid "Confirm on your {} device to change your PIN"
 msgstr "Conferma sul tuo dispositivo {} per cambiare il PIN"
 
-#: electrum_zcash/plugins/trezor/clientbase.py:167
-#: electrum_zcash/plugins/safe_t/clientbase.py:197
-#: electrum_zcash/plugins/keepkey/clientbase.py:195
+#: electrum_btcz/plugins/trezor/clientbase.py:167
+#: electrum_btcz/plugins/safe_t/clientbase.py:197
+#: electrum_btcz/plugins/keepkey/clientbase.py:195
 msgid "Confirm on your {} device to change your home screen"
 msgstr "Conferma sul tuo dispositivo {} per cambiare la schermata principale"
 
-#: electrum_zcash/plugins/trezor/clientbase.py:173
-#: electrum_zcash/plugins/safe_t/clientbase.py:203
-#: electrum_zcash/plugins/keepkey/clientbase.py:201
+#: electrum_btcz/plugins/trezor/clientbase.py:173
+#: electrum_btcz/plugins/safe_t/clientbase.py:203
+#: electrum_btcz/plugins/keepkey/clientbase.py:201
 msgid "Confirm on your {} device to disable PIN protection"
 msgstr ""
 "Conferma sul tuo dispositivo {} per disabilitare la protenzione del PIN"
 
-#: electrum_zcash/plugins/trezor/clientbase.py:153
-#: electrum_zcash/plugins/safe_t/clientbase.py:184
-#: electrum_zcash/plugins/keepkey/clientbase.py:182
+#: electrum_btcz/plugins/trezor/clientbase.py:153
+#: electrum_btcz/plugins/safe_t/clientbase.py:184
+#: electrum_btcz/plugins/keepkey/clientbase.py:182
 msgid "Confirm on your {} device to disable passphrases"
 msgstr "Conferma sul tuo dispositivo {} per disabilitare le frasi segrete"
 
-#: electrum_zcash/plugins/trezor/clientbase.py:155
-#: electrum_zcash/plugins/safe_t/clientbase.py:186
-#: electrum_zcash/plugins/keepkey/clientbase.py:184
+#: electrum_btcz/plugins/trezor/clientbase.py:155
+#: electrum_btcz/plugins/safe_t/clientbase.py:186
+#: electrum_btcz/plugins/keepkey/clientbase.py:184
 msgid "Confirm on your {} device to enable passphrases"
 msgstr "Conferma sul tuo dispositivo {} per abilitare le frasi segrete"
 
-#: electrum_zcash/plugins/trezor/clientbase.py:177
-#: electrum_zcash/plugins/safe_t/clientbase.py:207
-#: electrum_zcash/plugins/keepkey/clientbase.py:205
+#: electrum_btcz/plugins/trezor/clientbase.py:177
+#: electrum_btcz/plugins/safe_t/clientbase.py:207
+#: electrum_btcz/plugins/keepkey/clientbase.py:205
 msgid "Confirm on your {} device to set a PIN"
 msgstr "Conferma sul tuo dispositivo {} per impostare un PIN"
 
-#: electrum_zcash/plugins/trezor/clientbase.py:27
-#: electrum_zcash/plugins/safe_t/clientbase.py:24
-#: electrum_zcash/plugins/keepkey/clientbase.py:23
+#: electrum_btcz/plugins/trezor/clientbase.py:27
+#: electrum_btcz/plugins/safe_t/clientbase.py:24
+#: electrum_btcz/plugins/keepkey/clientbase.py:23
 msgid "Confirm on your {} that you want to wipe it clean"
 msgstr "Conferma sul tuo dispositivo {} che vuoi spazzolarlo del tutto"
 
-#: electrum_zcash/plugins/trezor/clientbase.py:162
-#: electrum_zcash/plugins/safe_t/clientbase.py:192
-#: electrum_zcash/plugins/keepkey/clientbase.py:190
+#: electrum_btcz/plugins/trezor/clientbase.py:162
+#: electrum_btcz/plugins/safe_t/clientbase.py:192
+#: electrum_btcz/plugins/keepkey/clientbase.py:190
 msgid "Confirm the new label on your {} device"
 msgstr "Conferma la nuova etichetta sul tuo dispositivo {}"
 
-#: electrum_zcash/plugins/trezor/clientbase.py:31
-#: electrum_zcash/plugins/safe_t/clientbase.py:26
-#: electrum_zcash/plugins/keepkey/clientbase.py:25
+#: electrum_btcz/plugins/trezor/clientbase.py:31
+#: electrum_btcz/plugins/safe_t/clientbase.py:26
+#: electrum_btcz/plugins/keepkey/clientbase.py:25
 msgid ""
 "Confirm the total amount spent and the transaction fee on your {} device"
 msgstr ""
 "Conferma l'importo totale speso e la commissione di transazione sul tuo "
 "dispositivo {}"
 
-#: electrum_zcash/plugins/trezor/clientbase.py:21
-#: electrum_zcash/plugins/safe_t/clientbase.py:21
-#: electrum_zcash/plugins/keepkey/clientbase.py:20
+#: electrum_btcz/plugins/trezor/clientbase.py:21
+#: electrum_btcz/plugins/safe_t/clientbase.py:21
+#: electrum_btcz/plugins/keepkey/clientbase.py:20
 msgid "Confirm the transaction output on your {} device"
 msgstr "Conferma il risultato della transazione sul tuo dispositivo {}"
 
-#: electrum_zcash/plugins/trezor/clientbase.py:33
-#: electrum_zcash/plugins/safe_t/clientbase.py:28
-#: electrum_zcash/plugins/keepkey/clientbase.py:27
+#: electrum_btcz/plugins/trezor/clientbase.py:33
+#: electrum_btcz/plugins/safe_t/clientbase.py:28
+#: electrum_btcz/plugins/keepkey/clientbase.py:27
 msgid "Confirm wallet address on your {} device"
 msgstr "Conferma l'indirizzo del portafogli sul tuo dispositivo {}"
 
-#: electrum_zcash/gui/qt/installwizard.py:619
+#: electrum_btcz/gui/qt/installwizard.py:619
 #, fuzzy
 msgid "Confirm wallet password"
 msgstr "Conferma password:"
 
-#: electrum_zcash/plugins/ledger/ledger.py:498
-#: electrum_zcash/plugins/ledger/ledger.py:529
+#: electrum_btcz/plugins/ledger/ledger.py:498
+#: electrum_btcz/plugins/ledger/ledger.py:529
 msgid "Confirmed. Signing Transaction..."
 msgstr "Confermato. Firma della transazione..."
 
-#: electrum_zcash/gui/qt/network_dialog.py:146
+#: electrum_btcz/gui/qt/network_dialog.py:146
 #, fuzzy
 msgid "Connected nodes"
 msgstr "Nodo connesso"
 
-#: electrum_zcash/gui/kivy/uix/ui_screens/network.kv:65
+#: electrum_btcz/gui/kivy/uix/ui_screens/network.kv:65
 msgid "Connected nodes are on the same chain"
 msgstr "I nodi connessi si trovano sulla stessa catena"
 
-#: electrum_zcash/gui/qt/network_dialog.py:367
+#: electrum_btcz/gui/qt/network_dialog.py:367
 #, fuzzy, python-brace-format
 msgid "Connected to {0} node."
 msgstr "Connesso a {0} nodi."
 
-#: electrum_zcash/gui/qt/network_dialog.py:367
+#: electrum_btcz/gui/qt/network_dialog.py:367
 #, python-brace-format
 msgid "Connected to {0} nodes."
 msgstr "Connesso a {0} nodi."
 
-#: electrum_zcash/gui/kivy/uix/ui_screens/network.kv:16
+#: electrum_btcz/gui/kivy/uix/ui_screens/network.kv:16
 #, fuzzy
 msgid "Connections with Zcash Electrum servers"
 msgstr "Connessione ai server Dash Electrum"
 
-#: electrum_zcash/network.py:202 electrum_zcash/network.py:210
-#: electrum_zcash/network.py:218
+#: electrum_btcz/network.py:202 electrum_btcz/network.py:210
+#: electrum_btcz/network.py:218
 #, fuzzy
 msgid ""
 "Consider trying to connect to a different server, or updating Zcash Electrum."
@@ -1221,50 +1221,50 @@ msgstr ""
 "Considera l'idea di provare a connetterti a un altro server o di aggiornare "
 "Dash Electrum."
 
-#: electrum_zcash/gui/text.py:104 electrum_zcash/gui/qt/main_window.py:699
+#: electrum_btcz/gui/text.py:104 electrum_btcz/gui/qt/main_window.py:699
 msgid "Contacts"
 msgstr "Contatti"
 
-#: electrum_zcash/gui/qt/installwizard.py:603
+#: electrum_btcz/gui/qt/installwizard.py:603
 msgid "Continue multisig wallet setup"
 msgstr ""
 
-#: electrum_zcash/gui/qt/zcash_qt.py:63
+#: electrum_btcz/gui/qt/zcash_qt.py:63
 msgid "Continue without Tor"
 msgstr "Continua senza Tor"
 
-#: electrum_zcash/gui/qt/history_list.py:929
-#: electrum_zcash/gui/qt/address_list.py:376 electrum_zcash/gui/qt/util.py:185
-#: electrum_zcash/gui/qt/util.py:749 electrum_zcash/gui/qt/utxo_list.py:388
+#: electrum_btcz/gui/qt/history_list.py:929
+#: electrum_btcz/gui/qt/address_list.py:376 electrum_btcz/gui/qt/util.py:185
+#: electrum_btcz/gui/qt/util.py:749 electrum_btcz/gui/qt/utxo_list.py:388
 msgid "Copy"
 msgstr "Copia"
 
-#: electrum_zcash/gui/qt/invoice_list.py:150
-#: electrum_zcash/gui/qt/request_list.py:203
+#: electrum_btcz/gui/qt/invoice_list.py:150
+#: electrum_btcz/gui/qt/request_list.py:203
 #, fuzzy
 msgid "Copy Address"
 msgstr "Indirizzo"
 
-#: electrum_zcash/gui/qt/qrcodewidget.py:149
+#: electrum_btcz/gui/qt/qrcodewidget.py:149
 #, fuzzy
 msgid "Copy Image"
 msgstr "Copia URI"
 
-#: electrum_zcash/gui/qt/request_list.py:202
+#: electrum_btcz/gui/qt/request_list.py:202
 #, fuzzy
 msgid "Copy Request"
 msgstr "Richiesta"
 
-#: electrum_zcash/gui/qt/qrcodewidget.py:154
+#: electrum_btcz/gui/qt/qrcodewidget.py:154
 #, fuzzy
 msgid "Copy Text"
 msgstr "Copia {}"
 
-#: electrum_zcash/gui/qt/util.py:190
+#: electrum_btcz/gui/qt/util.py:190
 msgid "Copy and Close"
 msgstr "Copia e chiudi"
 
-#: electrum_zcash/gui/kivy/uix/ui_screens/send.kv:96
+#: electrum_btcz/gui/kivy/uix/ui_screens/send.kv:96
 msgid ""
 "Copy and paste the recipient address using the Paste button, or use the "
 "camera to scan a QR code."
@@ -1272,303 +1272,303 @@ msgstr ""
 "Copia e incolla l'indirizzo del destinatario usando il pulsante Incolla, "
 "oppure la fotocamera per scansionare il codice QR."
 
-#: electrum_zcash/gui/qt/transaction_dialog.py:271
-#: electrum_zcash/gui/qt/util.py:832
+#: electrum_btcz/gui/qt/transaction_dialog.py:271
+#: electrum_btcz/gui/qt/util.py:832
 msgid "Copy to clipboard"
 msgstr "Copia negli appunti"
 
-#: electrum_zcash/gui/qt/contact_list.py:82
+#: electrum_btcz/gui/qt/contact_list.py:82
 msgid "Copy {}"
 msgstr "Copia {}"
 
-#: electrum_zcash/base_wizard.py:225
+#: electrum_btcz/base_wizard.py:225
 msgid "Cosign with hardware device"
 msgstr "Cofirma con il dispositivo hardware"
 
-#: electrum_zcash/plugins/cosigner_pool/__init__.py:2
+#: electrum_btcz/plugins/cosigner_pool/__init__.py:2
 msgid "Cosigner Pool"
 msgstr "Gruppo di cofirmatari"
 
-#: electrum_zcash/gui/kivy/uix/dialogs/installwizard.py:1123
-#: electrum_zcash/gui/qt/installwizard.py:595
+#: electrum_btcz/gui/kivy/uix/dialogs/installwizard.py:1123
+#: electrum_btcz/gui/qt/installwizard.py:595
 #, fuzzy
 msgid "Cosigner {}"
 msgstr "Gruppo di cofirmatari"
 
-#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:497
-#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:510
+#: electrum_btcz/plugins/digitalbitbox/digitalbitbox.py:497
+#: electrum_btcz/plugins/digitalbitbox/digitalbitbox.py:510
 msgid "Could not sign message"
 msgstr "Impossibile firmare il messaggio"
 
-#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:474
-#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:487
+#: electrum_btcz/plugins/digitalbitbox/digitalbitbox.py:474
+#: electrum_btcz/plugins/digitalbitbox/digitalbitbox.py:487
 msgid "Could not sign message."
 msgstr "Impossibile firmare il messaggio."
 
-#: electrum_zcash/plugins/scan_over_gap/scan_over_gap.py:94
+#: electrum_btcz/plugins/scan_over_gap/scan_over_gap.py:94
 #, fuzzy
 msgid "Count to scan:"
 msgstr "Quantità da inviare"
 
-#: electrum_zcash/gui/qt/exception_window.py:111
+#: electrum_btcz/gui/qt/exception_window.py:111
 msgid "Crash report"
 msgstr "Segnalazione crash"
 
-#: electrum_zcash/gui/qt/installwizard.py:239
+#: electrum_btcz/gui/qt/installwizard.py:239
 #, fuzzy
 msgid "Create New Wallet"
 msgstr "Crea nuovo portafoglio"
 
-#: electrum_zcash/plugins/revealer/qt.py:115
+#: electrum_btcz/plugins/revealer/qt.py:115
 msgid "Create a new Revealer"
 msgstr "Crea un nuovo rivelatore"
 
-#: electrum_zcash/base_wizard.py:212
+#: electrum_btcz/base_wizard.py:212
 msgid "Create a new seed"
 msgstr "Crea un nuovo seed"
 
-#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:225
+#: electrum_btcz/plugins/digitalbitbox/digitalbitbox.py:225
 msgid "Create a wallet using the current seed"
 msgstr "Crea un portafogli usando il seed attuale"
 
-#: electrum_zcash/base_wizard.py:261
+#: electrum_btcz/base_wizard.py:261
 msgid "Create keystore from a master key"
 msgstr "Crea keystore da una chiave principale"
 
-#: electrum_zcash/base_wizard.py:150
+#: electrum_btcz/base_wizard.py:150
 msgid "Create new wallet"
 msgstr "Crea nuovo portafoglio"
 
-#: electrum_zcash/gui/qt/transaction_dialog.py:676
+#: electrum_btcz/gui/qt/transaction_dialog.py:676
 #, fuzzy
 msgid "Create transaction"
 msgstr "Transazione in creazione..."
 
-#: electrum_zcash/gui/qt/main_window.py:1219
+#: electrum_btcz/gui/qt/main_window.py:1219
 msgid ""
 "Creating a new payment request will reuse one of your addresses and "
 "overwrite an existing request. Continue anyway?"
 msgstr ""
 
-#: electrum_zcash/gui/qt/util.py:243
+#: electrum_btcz/gui/qt/util.py:243
 msgid "Critical Error"
 msgstr "Errore critico"
 
-#: electrum_zcash/gui/qt/password_dialog.py:107
+#: electrum_btcz/gui/qt/password_dialog.py:107
 msgid "Current Password:"
 msgstr "Password attuale:"
 
-#: electrum_zcash/gui/qt/fee_slider.py:58
+#: electrum_btcz/gui/qt/fee_slider.py:58
 msgid "Current rate"
 msgstr "Tariffa attuale"
 
-#: electrum_zcash/gui/qt/update_checker.py:50
+#: electrum_btcz/gui/qt/update_checker.py:50
 msgid "Current version: {}"
 msgstr "Versione Corrente: {}"
 
-#: electrum_zcash/gui/qt/history_list.py:702
-#: electrum_zcash/gui/qt/history_list.py:729
+#: electrum_btcz/gui/qt/history_list.py:702
+#: electrum_btcz/gui/qt/history_list.py:729
 msgid "Custom"
 msgstr "Personalizza"
 
-#: electrum_zcash/gui/qt/settings_dialog.py:283
+#: electrum_btcz/gui/qt/settings_dialog.py:283
 #, fuzzy
 msgid "Custom URL"
 msgstr "Personalizza"
 
-#: electrum_zcash/plugins/revealer/qt.py:389
+#: electrum_btcz/plugins/revealer/qt.py:389
 msgid "Custom secret"
 msgstr "Segreto personalizzato"
 
-#: electrum_zcash/i18n.py:53
+#: electrum_btcz/i18n.py:53
 msgid "Czech"
 msgstr "Ceco"
 
-#: electrum_zcash/i18n.py:54
+#: electrum_btcz/i18n.py:54
 msgid "Danish"
 msgstr "Danese"
 
-#: electrum_zcash/gui/qt/settings_dialog.py:161
+#: electrum_btcz/gui/qt/settings_dialog.py:161
 msgid "Dark"
 msgstr "Scuro"
 
-#: electrum_zcash/gui/qt/__init__.py:171
+#: electrum_btcz/gui/qt/__init__.py:171
 msgid "Dark/Light"
 msgstr "Scuro/chiaro"
 
-#: electrum_zcash/gui/stdio.py:146 electrum_zcash/gui/text.py:146
-#: electrum_zcash/gui/kivy/uix/dialogs/tx_dialog.py:161
-#: electrum_zcash/gui/qt/invoice_list.py:58
-#: electrum_zcash/gui/qt/locktimeedit.py:36
-#: electrum_zcash/gui/qt/history_list.py:646
-#: electrum_zcash/gui/qt/history_list.py:802
-#: electrum_zcash/gui/qt/request_list.py:59
-#: electrum_zcash/gui/qt/utxo_list.py:59
+#: electrum_btcz/gui/stdio.py:146 electrum_btcz/gui/text.py:146
+#: electrum_btcz/gui/kivy/uix/dialogs/tx_dialog.py:161
+#: electrum_btcz/gui/qt/invoice_list.py:58
+#: electrum_btcz/gui/qt/locktimeedit.py:36
+#: electrum_btcz/gui/qt/history_list.py:646
+#: electrum_btcz/gui/qt/history_list.py:802
+#: electrum_btcz/gui/qt/request_list.py:59
+#: electrum_btcz/gui/qt/utxo_list.py:59
 msgid "Date"
 msgstr "Data"
 
-#: electrum_zcash/gui/qt/transaction_dialog.py:445
+#: electrum_btcz/gui/qt/transaction_dialog.py:445
 msgid "Date: {}"
 msgstr "Data: {}"
 
-#: electrum_zcash/gui/qt/settings_dialog.py:200
+#: electrum_btcz/gui/qt/settings_dialog.py:200
 msgid ""
 "Debug logs can be persisted to disk. These are useful for troubleshooting."
 msgstr ""
 "I registri di debug possono essere conservati su disco. Questi sono utili "
 "per la risoluzione dei problemi."
 
-#: electrum_zcash/base_wizard.py:346
+#: electrum_btcz/base_wizard.py:346
 msgid "Debug message"
 msgstr "Messaggio di debug"
 
-#: electrum_zcash/gui/qt/main_window.py:2508
+#: electrum_btcz/gui/qt/main_window.py:2508
 msgid "Decrypt"
 msgstr "Decifra"
 
-#: electrum_zcash/gui/kivy/main_window.py:1412
+#: electrum_btcz/gui/kivy/main_window.py:1412
 #, fuzzy
 msgid "Decrypt your private key?"
 msgstr "Chiave privata operatore"
 
-#: electrum_zcash/i18n.py:50
+#: electrum_btcz/i18n.py:50
 msgid "Default"
 msgstr "Predefinito"
 
-#: electrum_zcash/gui/kivy/uix/ui_screens/status.kv:62
-#: electrum_zcash/gui/qt/invoice_list.py:157
-#: electrum_zcash/gui/qt/main_window.py:671
-#: electrum_zcash/gui/qt/contact_list.py:90
-#: electrum_zcash/gui/qt/request_list.py:206
+#: electrum_btcz/gui/kivy/uix/ui_screens/status.kv:62
+#: electrum_btcz/gui/qt/invoice_list.py:157
+#: electrum_btcz/gui/qt/main_window.py:671
+#: electrum_btcz/gui/qt/contact_list.py:90
+#: electrum_btcz/gui/qt/request_list.py:206
 msgid "Delete"
 msgstr "Elimina"
 
-#: electrum_zcash/gui/kivy/uix/dialogs/invoice_dialog.py:137
+#: electrum_btcz/gui/kivy/uix/dialogs/invoice_dialog.py:137
 msgid "Delete invoice?"
 msgstr "Vuoi eliminare la fattura?"
 
-#: electrum_zcash/gui/qt/invoice_list.py:137
+#: electrum_btcz/gui/qt/invoice_list.py:137
 #, fuzzy
 msgid "Delete invoices"
 msgstr "Vuoi eliminare la fattura?"
 
-#: electrum_zcash/gui/kivy/uix/dialogs/request_dialog.py:135
+#: electrum_btcz/gui/kivy/uix/dialogs/request_dialog.py:135
 #, fuzzy
 msgid "Delete request?"
 msgstr "Elimina la richiesta"
 
-#: electrum_zcash/gui/qt/request_list.py:186
+#: electrum_btcz/gui/qt/request_list.py:186
 #, fuzzy
 msgid "Delete requests"
 msgstr "Elimina la richiesta"
 
-#: electrum_zcash/gui/qt/main_window.py:2288
+#: electrum_btcz/gui/qt/main_window.py:2288
 msgid "Delete wallet file?"
 msgstr "Vuoi eliminare il portafogli?"
 
-#: electrum_zcash/gui/kivy/main_window.py:1262
+#: electrum_btcz/gui/kivy/main_window.py:1262
 msgid "Delete wallet?"
 msgstr "Vuoi eliminare il portafogli?"
 
-#: electrum_zcash/gui/kivy/uix/dialogs/settings.py:144
+#: electrum_btcz/gui/kivy/uix/dialogs/settings.py:144
 msgid "Denomination"
 msgstr "Denominazione"
 
-#: electrum_zcash/gui/qt/address_dialog.py:92
-#: electrum_zcash/gui/qt/main_window.py:2263
+#: electrum_btcz/gui/qt/address_dialog.py:92
+#: electrum_btcz/gui/qt/main_window.py:2263
 #, fuzzy
 msgid "Derivation path"
 msgstr "Tipo di script e percorso di derivazione"
 
-#: electrum_zcash/gui/stdio.py:147 electrum_zcash/gui/text.py:146
-#: electrum_zcash/gui/text.py:232
-#: electrum_zcash/gui/kivy/uix/ui_screens/receive.kv:131
-#: electrum_zcash/gui/kivy/uix/ui_screens/send.kv:130
-#: electrum_zcash/gui/qt/invoice_list.py:59
-#: electrum_zcash/gui/qt/main_window.py:1041
-#: electrum_zcash/gui/qt/main_window.py:1318
-#: electrum_zcash/gui/qt/main_window.py:1977
-#: electrum_zcash/gui/qt/transaction_dialog.py:437
-#: electrum_zcash/gui/qt/history_list.py:647
-#: electrum_zcash/gui/qt/request_list.py:60
+#: electrum_btcz/gui/stdio.py:147 electrum_btcz/gui/text.py:146
+#: electrum_btcz/gui/text.py:232
+#: electrum_btcz/gui/kivy/uix/ui_screens/receive.kv:131
+#: electrum_btcz/gui/kivy/uix/ui_screens/send.kv:130
+#: electrum_btcz/gui/qt/invoice_list.py:59
+#: electrum_btcz/gui/qt/main_window.py:1041
+#: electrum_btcz/gui/qt/main_window.py:1318
+#: electrum_btcz/gui/qt/main_window.py:1977
+#: electrum_btcz/gui/qt/transaction_dialog.py:437
+#: electrum_btcz/gui/qt/history_list.py:647
+#: electrum_btcz/gui/qt/request_list.py:60
 msgid "Description"
 msgstr "Descrizione"
 
-#: electrum_zcash/gui/qt/main_window.py:1316
+#: electrum_btcz/gui/qt/main_window.py:1316
 msgid "Description of the transaction (not mandatory)."
 msgstr "Descrizione della transazione (facoltativa)."
 
-#: electrum_zcash/gui/qt/invoice_list.py:151
-#: electrum_zcash/gui/qt/address_list.py:420
-#: electrum_zcash/gui/qt/utxo_list.py:434
+#: electrum_btcz/gui/qt/invoice_list.py:151
+#: electrum_btcz/gui/qt/address_list.py:420
+#: electrum_btcz/gui/qt/utxo_list.py:434
 msgid "Details"
 msgstr "Dettagli"
 
-#: electrum_zcash/gui/qt/installwizard.py:743
+#: electrum_btcz/gui/qt/installwizard.py:743
 msgid "Detect Existing Accounts"
 msgstr ""
 
-#: electrum_zcash/gui/qt/zcash_qt.py:67
+#: electrum_btcz/gui/qt/zcash_qt.py:67
 msgid "Detect Tor again"
 msgstr "Rileva Tor di nuovo"
 
-#: electrum_zcash/network.py:258
+#: electrum_btcz/network.py:258
 msgid "Detect Tor proxy on wallet startup"
 msgstr "Rileva il proxy Tor all'avvio del portafoglio"
 
-#: electrum_zcash/gui/kivy/uix/ui_screens/about.kv:35
+#: electrum_btcz/gui/kivy/uix/ui_screens/about.kv:35
 msgid "Developers"
 msgstr "Sviluppatori"
 
-#: electrum_zcash/plugins/trezor/qt.py:621
-#: electrum_zcash/plugins/safe_t/qt.py:355
-#: electrum_zcash/plugins/keepkey/qt.py:447
+#: electrum_btcz/plugins/trezor/qt.py:621
+#: electrum_btcz/plugins/safe_t/qt.py:355
+#: electrum_btcz/plugins/keepkey/qt.py:447
 msgid "Device ID"
 msgstr "ID dispositivo"
 
-#: electrum_zcash/plugins/trezor/qt.py:617
-#: electrum_zcash/plugins/trezor/qt.py:641
-#: electrum_zcash/plugins/safe_t/qt.py:351
-#: electrum_zcash/plugins/safe_t/qt.py:375
-#: electrum_zcash/plugins/keepkey/qt.py:443
-#: electrum_zcash/plugins/keepkey/qt.py:468
+#: electrum_btcz/plugins/trezor/qt.py:617
+#: electrum_btcz/plugins/trezor/qt.py:641
+#: electrum_btcz/plugins/safe_t/qt.py:351
+#: electrum_btcz/plugins/safe_t/qt.py:375
+#: electrum_btcz/plugins/keepkey/qt.py:443
+#: electrum_btcz/plugins/keepkey/qt.py:468
 msgid "Device Label"
 msgstr "Etichetta dispositivo"
 
-#: electrum_zcash/plugins/digitalbitbox/digitalbitbox.py:128
+#: electrum_btcz/plugins/digitalbitbox/digitalbitbox.py:128
 msgid ""
 "Device communication error. Please unplug and replug your Digital Bitbox."
 msgstr ""
 "Errore di comunicazione con il dispositivo. Scollega e ricollega il Digital "
 "Bitbox."
 
-#: electrum_zcash/plugins/ledger/ledger.py:233
+#: electrum_btcz/plugins/ledger/ledger.py:233
 #, fuzzy
 msgid "Device not in Zcash mode"
 msgstr "Il dispositivo non è in modalità Dash"
 
-#: electrum_zcash/plugins/digitalbitbox/__init__.py:5
+#: electrum_btcz/plugins/digitalbitbox/__init__.py:5
 msgid "Digital Bitbox wallet"
 msgstr "Portafogli Digital Bitbox"
 
-#: electrum_zcash/plugins/revealer/qt.py:194
+#: electrum_btcz/plugins/revealer/qt.py:194
 msgid "Digital Revealer ({}_{}) saved as PNG and PDF at:"
 msgstr "Oracolo digitale ({}_{}) salvato come PNG e PDF su:"
 
-#: electrum_zcash/plugins/trezor/qt.py:722
-#: electrum_zcash/plugins/safe_t/qt.py:456
-#: electrum_zcash/plugins/keepkey/qt.py:526
+#: electrum_btcz/plugins/trezor/qt.py:722
+#: electrum_btcz/plugins/safe_t/qt.py:456
+#: electrum_btcz/plugins/keepkey/qt.py:526
 msgid "Disable PIN"
 msgstr "Disabilita PIN"
 
-#: electrum_zcash/plugins/trezor/qt.py:495
-#: electrum_zcash/plugins/safe_t/qt.py:229
-#: electrum_zcash/plugins/keepkey/qt.py:351
+#: electrum_btcz/plugins/trezor/qt.py:495
+#: electrum_btcz/plugins/safe_t/qt.py:229
+#: electrum_btcz/plugins/keepkey/qt.py:351
 msgid "Disable Passphrases"
 msgstr "Disattiva le frasi segrete"
 
-#: electrum_zcash/plugins/trezor/qt.py:496
-#: electrum_zcash/plugins/safe_t/qt.py:230
+#: electrum_btcz/plugins/trezor/qt.py:496
+#: electrum_btcz/plugins/safe_t/qt.py:230
 #: electrum_zcash/plugins/keepkey/qt.py:352
 msgid "Disabled"
 msgstr "Disabilitato/a"

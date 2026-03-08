@@ -3,17 +3,17 @@ from kivy.factory import Factory
 from kivy.properties import ObjectProperty
 from kivy.lang import Builder
 
-from electrum_zcash.util import base_units
-from electrum_zcash.i18n import languages
-from electrum_zcash_gui.kivy.i18n import _
-from electrum_zcash.plugins import run_hook
-from electrum_zcash import coinchooser
+from electrum_btcz.util import base_units
+from electrum_btcz.i18n import languages
+from electrum_btcz_gui.kivy.i18n import _
+from electrum_btcz.plugins import run_hook
+from electrum_btcz import coinchooser
 
 from .choice_dialog import ChoiceDialog
 
 Builder.load_string('''
 #:import partial functools.partial
-#:import _ electrum_zcash_gui.kivy.i18n._
+#:import _ electrum_btcz_gui.kivy.i18n._
 
 <SettingsDialog@Popup>
     id: settings

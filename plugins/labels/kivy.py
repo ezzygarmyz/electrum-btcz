@@ -1,5 +1,5 @@
 from .labels import LabelsPlugin
-from electrum_zcash.plugins import hook
+from electrum_btcz.plugins import hook
 
 class Plugin(LabelsPlugin):
 

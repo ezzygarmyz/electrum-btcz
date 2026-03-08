@@ -4,14 +4,14 @@ import threading
 from PyQt5.Qt import Qt
 from PyQt5.Qt import QGridLayout, QInputDialog, QPushButton
 from PyQt5.Qt import QVBoxLayout, QLabel
-from electrum_zcash_gui.qt.util import *
+from electrum_btcz_gui.qt.util import *
 from .plugin import TIM_NEW, TIM_RECOVER, TIM_MNEMONIC
 from ..hw_wallet.qt import QtHandlerBase, QtPluginBase
 
-from electrum_zcash.i18n import _
-from electrum_zcash.plugins import hook, DeviceMgr
-from electrum_zcash.util import PrintError, UserCancelled, bh2u
-from electrum_zcash.wallet import Wallet, Standard_Wallet
+from electrum_btcz.i18n import _
+from electrum_btcz.plugins import hook, DeviceMgr
+from electrum_btcz.util import PrintError, UserCancelled, bh2u
+from electrum_btcz.wallet import Wallet, Standard_Wallet
 
 PASSPHRASE_HELP_SHORT =_(
     "Passphrases allow you to access new wallets, each "
@@ -242,7 +242,7 @@ class QtPlugin(QtPluginBase):
             else:
                 msg = _("Enter the master private key beginning with xprv:")
                 def set_enabled():
-                    from electrum_zcash.keystore import is_xprv
+                    from electrum_btcz.keystore import is_xprv
                     wizard.next_button.setEnabled(is_xprv(clean_text(text)))
                 text.textChanged.connect(set_enabled)
                 next_enabled = False
