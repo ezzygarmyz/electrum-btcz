@@ -1,0 +1,51 @@
+
+import requests
+import json
+
+RPC_USER = "rpcuser"
+RPC_PASS = "rpcpassword"
+RPC_PORT = 1979
+RPC_URL = f"http://127.0.0.1:{RPC_PORT}"
+
+OFFSET = 30000  # checkpoint behind tip (20k–40k)
+WINDOW = 25     # number of headers stored backwards
+
+
+def rpc(method, params=[]):
+    payload = {
+        "jsonrpc": "2.0",
+        "id": "checkpoint",
+        "method": method,
+        "params": params
+    }
+    r = requests.post(RPC_URL, json=payload, auth=(RPC_USER, RPC_PASS))
+    return r.json()["result"]
+
+
+tips = rpc("getchaintips")
+active_tip = next(t for t in tips if t["status"] == "active")
+tip_height = active_tip["height"]
+
+checkpoint_height = tip_height - OFFSET
+if checkpoint_height <= 0:
+    raise Exception("Chain too short for checkpoint rule")
+
+checkpoint_hash = rpc("getblockhash", [checkpoint_height])
+checkpoint_header = rpc("getblockheader", [checkpoint_hash])
+
+chainwork = int(checkpoint_header["chainwork"], 16)
+
+headers = []
+for h in range(checkpoint_height, checkpoint_height - WINDOW, -1):
+    bh = rpc("getblockhash", [h])
+    header_hex = rpc("getblockheader", [bh, False])
+    headers.append([h, header_hex])
+
+checkpoint = [checkpoint_hash, chainwork, headers]
+
+with open("checkpoints.json", "w") as f:
+    json.dump([checkpoint], f, indent=4)
+
+print("Checkpoint generated:")
+print("Tip height:", tip_height)
+print("Checkpoint height:", checkpoint_height)
